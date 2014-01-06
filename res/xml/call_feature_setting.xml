@@ -94,7 +94,15 @@
       android:persistent="false"
       android:defaultValue="true" />
 
-   <CheckBoxPreference
+  <ListPreference
+      android:key="flip_action"
+      android:title="@string/flip_action_title"
+      android:dialogTitle="@string/flip_action_dialog_title"
+      android:entries="@array/flip_action_setting_entries"
+      android:entryValues="@array/flip_action_setting_values"
+      android:persistent="false" />
+
+  <CheckBoxPreference
       android:key="button_call_end_sound"
       android:title="@string/call_end_sound_title"
       android:summary="@string/call_end_sound_summary"
