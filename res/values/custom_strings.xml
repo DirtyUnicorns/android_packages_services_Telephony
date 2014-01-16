@@ -19,7 +19,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="non_intrusive_incall_title">Non intrusive</string>
     <string name="non_intrusive_incall_summary">Use non intrusive dialog for incoming calls</string>
-
     <string name="call_end_sound_title">Call end tone</string>
     <string name="call_end_sound_summary">Play tone on end call</string>
 
@@ -39,6 +38,9 @@
     <string name="summary_do_nothing">do nothing</string>
     <string name="summary_mute_ringer">mute the ringer</string>
     <string name="summary_dismiss_call">dismiss the call</string>
-
     <string name="personal_category">Personal settings</string>
+
+    <!-- Integrated phone directory -->
+    <string name="enable_suggestions_title">Enable suggestions</string>
+    <string name="enable_suggestions_summary">Suggest phone number of nearby places when searching in the dialer</string>
 </resources>
