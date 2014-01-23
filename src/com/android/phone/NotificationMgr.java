@@ -586,8 +586,8 @@ public class NotificationMgr {
 
         Notification.Builder builder = new Notification.Builder(mContext);
         if (Settings.System.getInt(mContext.getContentResolver(),
-                    Settings.System.KEY_MISSED_CALL_BREATH, 0) == 1) {
-            builder.setSmallIcon(R.drawable.stat_notify_missed_call_breath)
+               Settings.System.KEY_MISSED_CALL_BREATH, 0) == 1) {
+             builder.setSmallIcon(R.drawable.stat_notify_missed_call_breath)
                 .setTicker(mContext.getString(R.string.notification_missedCallTicker, callName))
                 .setWhen(date)
                 .setContentTitle(mContext.getText(titleResId))
@@ -595,10 +595,12 @@ public class NotificationMgr {
                 .setContentIntent(pendingCallLogIntent)
                 .setAutoCancel(true)
                 .setDeleteIntent(createClearMissedCallsIntent());
-        } else {
-            builder.setSmallIcon(android.R.drawable.stat_notify_missed_call)
+           } else {
+             builder.setSmallIcon(android.R.drawable.stat_notify_missed_call)
                 .setTicker(mContext.getString(R.string.notification_missedCallTicker, callName))
                 .setWhen(date)
+                .setContentTitle(mContext.getText(titleResId))
+                .setContentText(expandedText)
                 .setContentIntent(pendingCallLogIntent)
                 .setAutoCancel(true)
                 .setDeleteIntent(createClearMissedCallsIntent());
