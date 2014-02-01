@@ -31,6 +31,15 @@
     <!-- Setting summary for the flip action setting. -->
     <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
 
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="national_roaming">National data roaming</string>
+
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Connect to data services when nationally roaming</string>
+
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
+
     <!-- Values for flip action array entries -->
     <string name="entry_do_nothing">Do nothing</string>
     <string name="entry_mute_ringer">Mute ringer</string>
