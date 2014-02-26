@@ -39,6 +39,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
+import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.Log;
@@ -81,6 +82,7 @@ public class MobileNetworkSettings extends PreferenceActivity
             "com.android.settings.Settings$WirelessSettingsActivity";
 
     //UI objects
+    Context mContext;
     private ListPreference mButtonPreferredNetworkMode;
     private ListPreference mButtonEnabledNetworks;
     private CheckBoxPreference mButtonDataRoam;
@@ -227,12 +229,9 @@ public class MobileNetworkSettings extends PreferenceActivity
         mHandler = new MyHandler();
 
         try {
-            Context con = createPackageContext("com.android.systemui", 0);
-            int id = con.getResources().getIdentifier("config_show4GForLTE",
-                    "bool", "com.android.systemui");
-            mShow4GForLTE = con.getResources().getBoolean(id);
-        } catch (NameNotFoundException e) {
-            loge("NameNotFoundException for show4GFotLTE");
+            mShow4GForLTE = Settings.System.getInt(mContext.getContentResolver(),
+                                 Settings.System.SHOW_4G_FOR_LTE, 0) == 1;
+        } catch (Exception e) {
             mShow4GForLTE = false;
         }
 
