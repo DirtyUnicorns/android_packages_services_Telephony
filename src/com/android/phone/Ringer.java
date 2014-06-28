@@ -35,7 +35,6 @@ import android.os.Vibrator;
 import android.provider.Settings;
 import android.util.Log;
 
-import com.android.internal.util.slim.QuietHoursHelper;
 import com.android.internal.telephony.Phone;
 /**
  * Ringer manager for the Phone app.
@@ -155,6 +154,14 @@ public class Ringer {
         if (DBG) log("ring()...");
 
         synchronized (this) {
+            if (Settings.System.getInt(mContext.getContentResolver(),
+                    Settings.System.QUIET_HOURS_RINGER, 0) == 2) {
+                // Quiet hours ringer setting is enabled, 
+                // Skip all calculations and return without ringing 
+                // or vibrating in any way. 
+                return;
+            }
+
             try {
                 if (mBluetoothManager.showBluetoothIndication()) {
                     mPowerManager.setAttentionLight(true, 0x000000ff);
@@ -171,8 +178,9 @@ public class Ringer {
                 if (DBG) log("- starting vibrator...");
                 mVibratorThread.start();
             }
-            int ringerVolume = mAudioManager.getStreamVolume(AudioManager.STREAM_RING);
-            if (ringerVolume == 0 || QuietHoursHelper.inQuietHours(mContext, Settings.System.QUIET_HOURS_RINGER)) {
+            AudioManager audioManager =
+                    (AudioManager) mContext.getSystemService(Context.AUDIO_SERVICE);
+            if (audioManager.getStreamVolume(AudioManager.STREAM_RING) == 0) {
                 if (DBG) log("skipping ring because volume is zero");
                 return;
             }
