@@ -26,7 +26,7 @@
     </string-array>
 
     <!-- Entries listed in the setting for the flip action. -->
-    <string-array name="flip_action_setting_entries">
+    <string-array name="flip_action_setting_entries"  translatable="false">
         <item>@string/entry_mute_ringer</item>
         <item>@string/entry_dismiss_call</item>
         <item>@string/entry_do_nothing</item>
@@ -34,7 +34,7 @@
 
     <!-- Summary texts for flip action. Must be ordered by numerical
          value (do mute = 0, dismiss = 1, nothing = 2 (default)) -->
-    <string-array name="flip_action_summary_entries">
+    <string-array name="flip_action_summary_entries"  translatable="false">
         <item>@string/summary_mute_ringer</item>
         <item>@string/summary_dismiss_call</item>
         <item>@string/summary_do_nothing</item>

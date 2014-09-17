@@ -20,4 +20,106 @@
     <string name="preference_category_interface">Interface</string>
     <string name="non_intrusive_incall_title">Non intrusif</string>
     <string name="non_intrusive_incall_summary">Utiliser la boite dialogue non intrusive lors d\'un appel entrant</string>
+
+    <!-- Smart Phone Call -->
+    <string name="smart_phone_call_title">Appel téléphonique malin</string>
+    <string name="smart_phone_call_summary">Placer l\'appareil sur l\'oreille compose automatiquement le numéro de téléphone présent à l\'écran dans l\'application SMS ou sur le pavé de numérotation</string>
+
+    <string name="call_end_sound_title">Son en fin d\'appel</string>
+    <string name="call_end_sound_summary">Émettre un son à la fin d\'un appel</string>
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Action au retournement</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Retourner le téléphone\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Retourner le téléphone <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Mobile network settings screen, setting check box name -->
+    <string name="national_roaming">Itinérance nationale des données</string>
+
+    <!-- Mobile network settings screen, setting summary text when check box is selected -->
+    <string name="national_roaming_enable">Se connecter aux services de données lors de l\'itinérance</string>
+
+    <!-- Mobile network settings screen, setting summary text when check box is clear -->
+    <string name="national_roaming_disable">Ne pas se connecter aux services de données lors de l\'itinérance</string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">Ne rien faire</string>
+    <string name="entry_mute_ringer">Éteindre la sonnerie</string>
+    <string name="entry_dismiss_call">Refuser l\'appel</string>
+    <string name="summary_do_nothing">ne fait rien</string>
+    <string name="summary_mute_ringer">éteint la sonnerie</string>
+    <string name="summary_dismiss_call">refuse l\'appel</string>
+    <string name="personal_category">Réglage personnel</string>
+
+    <!-- Noise suppression -->
+    <string name="noise_suppression_title">Suppression du bruit</string>
+    <string name="noise_suppression_summary">Réduit le bruit environnant lors des appels</string>
+
+    <!-- Number lookup -->
+    <string name="number_lookup">Recherche de numéro de téléphone</string>
+    <string name="enable_forward_lookup_title">Recherche directe</string>
+    <string name="enable_forward_lookup_summary">Affiche les lieux à proximité lors de la recherche sur le pavé de numérotation</string>
+    <string name="enable_people_lookup_title">Recherche de personnes</string>
+    <string name="enable_people_lookup_summary">Affiche des informations provenant d\'internet lors de la recherche de personnes sur le pavé de numérotation</string>
+    <string name="enable_reverse_lookup_title">Recherche inversée</string>
+    <string name="enable_reverse_lookup_summary">Affiche des informations sur la personne ou sur le lieu lors d\'un appel entrant d\'un numéro inconnu</string>
+    <string name="choose_lookup_providers">Choisir les fournisseurs de données</string>
+    <string name="choose_forward_lookup_provider_title">Fournisseur direct de données</string>
+    <string name="choose_people_lookup_provider_title">Fournisseur de données sur les appelants</string>
+    <string name="choose_reverse_lookup_provider_title">Fournisseur d\'annuaire inversé</string>
+
+    <!-- My Phone Number -->
+    <string name="phone_number_label">Mon numéro de téléphone</string>
+    <string name="phone_number_summary">Définir le numéro de téléphone pour cet appareil</string>
+
+    <!-- Sim contacts management -->
+    <string name="ContactScreen">Ajouter/Modifier un contact de la carte SIM</string>
+    <string name="ExportContactScreen">Exportation des contacts vers la carte SIM\u2026</string>
+    <string name="addSimEntries">Ajouter un contact dans la carte SIM</string>
+    <string name="deleteAllSimEntries">Supprimer tous les contacts de la carte SIM</string>
+    <string name="deleteSimContacts">Suppression des contacts de la carte SIM</string>
+    <string name="editContact">Modifier</string>
+    <string name="sendSms">Envoyer un SMS</string>
+    <string name="delete">Supprimer</string>
+    <string name="dial">Composer</string>
+    <string name="enterName">Entrer le nom\u00A0:</string>
+    <string name="enterNumber">Entrer le numéro de téléphone\u00A0:</string>
+    <string name="contactAddSuccess">Contact ajouté avec succès à la carte SIM</string>
+    <string name="contactAddFailed">Échec de l\'ajout du contact vers la carte SIM\u00A0!</string>
+    <string name="contactUpdateSuccess">Contact de la carte SIM mis à jour</string>
+    <string name="contactUpdateFailed">Échec de la mise à jour du contact de la carte SIM\u00A0!</string>
+    <string name="contactdeleteSuccess">Contact de la carte SIM supprimé</string>
+    <string name="contactdeleteFailed">Échec de la suppression du contact de la carte SIM\u00A0!</string>
+    <string name="allContactdeleteSuccess">Contacts supprimés de la SIM</string>
+    <string name="allContactdeleteFailed">Échec de la suppression des contacts de la carte SIM\u00A0!</string>
+    <string name="exportAllcontatsSuccess">Contacts exportés vers la carte SIM</string>
+    <string name="exportAllcontatsFailed">Échec de l\'exportation des contacts vers la carte SIM\u00A0!</string>
+    <string name="cursorError">Le curseur ne contient pas de données exploitables\u00A0!</string>
+
+    <!-- ADN related strings -->
+    <!-- Placeholder text displayed while loading the list of SIM contacts -->
+    <string name="exportContacts">Exportation des contacts vers la carte SIM\u2026</string>
+    <!-- Advanced Settings -->
+    <string name="advanced_setting">Paramètres avancés</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Liste noire</string>
+    <string name="blacklist_summary_disabled">Désactivée</string>
+    <string name="blacklist_summary">Les appels entrants provenant de numéro de la liste noire seront bloqués</string>
+
+    <!-- Blacklist notifications -->
+    <string name="blacklist_notification">Appel de %s bloqué</string>
+    <string name="blacklist_notification_private_number">Appel d\'un numéro privé bloqué</string>
+    <string name="blacklist_notification_list_private">Privée</string>
+    <string name="blacklist_notification_unknown_number">Appel d\'un numéro inconnu %s bloqué</string>
+    <string name="blacklist_notification_multiple"><xliff:g id="count">%d</xliff:g> appels ont été bloqués</string>
+    <string name="unblock_number">Débloqué</string>
+
+    <!-- Sprint MWI Quirk: Phantom message wait indicator workaround -->
+    <string name="mwi_notification_title">Indicateur de messages en attente</string>
+    <string name="mwi_notification_summary">Affiche un indicateur de message en attente sur le répondeur</string>
 </resources>
