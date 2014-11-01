@@ -76,7 +76,7 @@
         <item>ZabaSearch (US)</item>
     </string-array>
 
-    <string-array name="call_recording_encoder_entries">
+    <string-array name="call_recording_encoder_entries" translatable="false">
         <item>@string/wb_amr_format</item>
         <item>@string/aac_format</item>
     </string-array>
