@@ -15,10 +15,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone when the device is removed from your face</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="display_category_prox_auto_speaker_title">Haut-parleur de proximité</string>
+  <string name="prox_auto_speaker_title">Haut-parleur de proximité automatique</string>
+  <string name="prox_auto_speaker_summary">Active le haut-parleur lorsque l\'appareil est éloigné du visage</string>
+  <string name="prox_auto_speaker_incall_only_title">Seulement pendant les appels</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Lors des appels sortants, le haut-parleur s\'active après réponse du correspondant</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Pour tous les appels (Par défaut)</string>
 </resources>
