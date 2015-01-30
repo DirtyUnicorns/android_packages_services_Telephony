@@ -18,6 +18,8 @@
   <string name="display_category_prox_auto_speaker_title">Närhögtalarsinställningar</string>
   <string name="prox_auto_speaker_title">Detektera närmsta högtalare automatisk</string>
   <string name="prox_auto_speaker_summary">Aktivera högtalarfunktionen när telefonen avlägsnas från ansiktet</string>
+  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
+  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
   <string name="prox_auto_speaker_incall_only_title">Endast under samtal</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Vid utgående samtal, sensorn kommer endast aktiveras när mottagaren svarar</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Sensorn kommer vara aktiv under hela det utgående samtalet (standard)</string>
