@@ -18,6 +18,8 @@
   <string name="display_category_prox_auto_speaker_title">근접 스피커 설정</string>
   <string name="prox_auto_speaker_title">자동 근접 스피커</string>
   <string name="prox_auto_speaker_summary">당신의 얼굴에서 디바이스를 떼어낼 때는 스피커로 전환해 주시기 바랍니다.</string>
+  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
+  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
   <string name="prox_auto_speaker_incall_only_title">통화중에만</string>
   <string name="prox_auto_speaker_incall_only_summary_on">발신 중일 경우, 스피커 센서는 수신자가 회신하는 경우에만 활성화됩니다.</string>
   <string name="prox_auto_speaker_incall_only_summary_off">스피커는 모든 통화 중에 활성화됩니다. (기본값)</string>

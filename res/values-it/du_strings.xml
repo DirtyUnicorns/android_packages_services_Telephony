@@ -15,10 +15,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone when the device is removed from your face</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="display_category_prox_auto_speaker_title">Impostazioni vivavoce e sensore di prossimità</string>
+  <string name="prox_auto_speaker_title">Attiva automaticamente vivavoce</string>
+  <string name="prox_auto_speaker_summary">Attiva il vivavoce quando il dispositivo viene allontanato dalla tuo viso</string>
+  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
+  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
+  <string name="prox_auto_speaker_incall_only_title">Solo in chiamata</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Nelle chiamate in uscita, il vivavoce si attiverà dopo la risposta</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Il vivavoce sarà attivato per tutte le chiamate (predefinito)</string>
 </resources>
