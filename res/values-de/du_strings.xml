@@ -18,8 +18,8 @@
   <string name="display_category_prox_auto_speaker_title">Lautsprechereinstellungen</string>
   <string name="prox_auto_speaker_title">Automatische Lautsprecheranpassung</string>
   <string name="prox_auto_speaker_summary">Freisprecheinrichtung einschalten, wenn das Gerät vom Gesicht entfernt wird</string>
-  <string name="prox_auto_speaker_delay_title">Lautsprecher-Entfernungsverzögerung</string>
-  <string name="prox_auto_speaker_delay_summary">Zeitverzögerung bevor Lautsprecher aktiviert wird</string>
+  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
+  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
   <string name="prox_auto_speaker_incall_only_title">Nur während eines Telefonats</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Bei ausgehenden Anrufen wird der Lautsprechersensor erst dann aktiv, wenn der Empfänger antwortet</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Lautsprechersensor ist während des gesamten Telefonats aktiv (Standart)</string>

@@ -18,8 +18,8 @@
   <string name="display_category_prox_auto_speaker_title">Közelség hangszóró beállítások</string>
   <string name="prox_auto_speaker_title">Automatikus közelség hangszóró</string>
   <string name="prox_auto_speaker_summary">Hangszóró engedélyezése, ha a telefon a fejtől eltávolodik</string>
-  <string name="prox_auto_speaker_delay_title">Közelségi hangszóró késleltetés</string>
-  <string name="prox_auto_speaker_delay_summary">Időtartam, mielőtt a hangszóró aktiválódna</string>
+  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
+  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
   <string name="prox_auto_speaker_incall_only_title">Csak hívás közben</string>
   <string name="prox_auto_speaker_incall_only_summary_on">A kimenő hívások esetén a hallgató csak akkor lesz aktív, ha a fogadó fél válaszolt</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Hallgató aktív lesz az összes felvett telefon állapot alatt (alapértelmezett)</string>

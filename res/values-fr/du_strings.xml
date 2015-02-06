@@ -18,8 +18,8 @@
   <string name="display_category_prox_auto_speaker_title">Haut-parleur de proximité</string>
   <string name="prox_auto_speaker_title">Haut-parleur de proximité automatique</string>
   <string name="prox_auto_speaker_summary">Active le haut-parleur lorsque l\'appareil est éloigné du visage</string>
-  <string name="prox_auto_speaker_delay_title">Délai de proximité du haut-parleur</string>
-  <string name="prox_auto_speaker_delay_summary">Délai avant l\'activation du haut-parleur</string>
+  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
+  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
   <string name="prox_auto_speaker_incall_only_title">Seulement pendant les appels</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Lors des appels sortants, le haut-parleur s\'active après réponse du correspondant</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Pour tous les appels (Par défaut)</string>
