@@ -17,9 +17,6 @@
 package com.android.services.telephony;
 
 import android.content.Context;
-import android.content.BroadcastReceiver;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.telephony.SubscriptionInfo;
 import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
@@ -28,7 +25,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.widget.Toast;
 
-
+import com.android.internal.telephony.CallManager;
 import com.android.internal.telephony.gsm.SuppServiceNotification;
 import com.android.internal.telephony.Phone;
 import com.android.internal.telephony.PhoneFactory;
@@ -61,8 +58,7 @@ public class TelephonyGlobals {
     private static  Context mContext;
 
     private TtyManager mTtyManager;
-    private Phone[] phones;
-    private Phone defaultphone;
+    private Phone mDefaultphone;
     private static final int EVENT_SUPP_SERVICE_NOTIFY = 1;
     /**
      * Persists the specified parameters.
@@ -82,20 +78,18 @@ public class TelephonyGlobals {
 
     public void onCreate() {
         // TODO: Make this work with Multi-SIM devices
-        defaultphone = PhoneFactory.getDefaultPhone();
+        mDefaultphone = PhoneFactory.getDefaultPhone();
 
         int size = TelephonyManager.getDefault().getPhoneCount();
         mSsNotification = new SuppServiceNotification[size];
 
-        if (defaultphone != null) {
-            mTtyManager = new TtyManager(mContext, defaultphone);
+        if (mDefaultphone != null) {
+            mTtyManager = new TtyManager(mContext, mDefaultphone);
         }
-        IntentFilter intentFilter =
-                new IntentFilter(TelephonyIntents.ACTION_RADIO_TECHNOLOGY_CHANGED);
-        mContext.registerReceiver(mRATReceiver, intentFilter);
 
         TelecomAccountRegistry.getInstance(mContext).setupOnBoot();
-        registerForNotifications();
+        CallManager cm = CallManager.getInstance();
+        cm.registerForSuppServiceNotification(mHandler, EVENT_SUPP_SERVICE_NOTIFY, null);
     }
 
     public static Context getApplicationContext() {
@@ -108,12 +102,16 @@ public class TelephonyGlobals {
             switch (msg.what) {
                 case EVENT_SUPP_SERVICE_NOTIFY:
                     AsyncResult ar = (AsyncResult)msg.obj;
-                    int phoneId = (int)ar.userObj;
-                    if (msg.obj != null && ((AsyncResult) msg.obj).result != null) {
+                    if (ar != null && ar.result != null) {
+                        ar =  (AsyncResult)ar.result;
+                        if ( ar.userObj == null ) {
+                            return;
+                        }
+                        int phoneId = (int)ar.userObj;
                         Log.v(LOG_TAG, "MSG_SUPP_SERVICE_NOTIFY on phoneId : "
                                 + phoneId);
                         mSsNotification[phoneId] =
-                                (SuppServiceNotification)((AsyncResult) msg.obj).result;
+                                (SuppServiceNotification)ar.result;
                         final String notificationText =
                                 getSuppSvcNotificationText(mSsNotification[phoneId], phoneId);
                         if (TelephonyManager.getDefault().getPhoneCount() > 1) {
@@ -309,34 +307,5 @@ public class TelephonyGlobals {
                 break;
         }
         return callForwardTxt;
-    }
-
-    /**
-     * Receiver to listen for radio technology change events.
-     */
-    private final BroadcastReceiver mRATReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            String action = intent.getAction();
-            if (TelephonyIntents.ACTION_RADIO_TECHNOLOGY_CHANGED.equals(action)) {
-                unregisterForNotifications();
-                registerForNotifications();
-            }
-        }
-    };
-
-    private void registerForNotifications() {
-        phones = PhoneFactory.getPhones();
-        for (Phone phone : phones) {
-            int phoneId = phone.getPhoneId();
-            phone.registerForSuppServiceNotification(mHandler,
-                    EVENT_SUPP_SERVICE_NOTIFY, phoneId);
-        }
-    }
-
-    private void unregisterForNotifications() {
-        for (Phone phone : phones) {
-            phone.unregisterForSuppServiceNotification(mHandler);
-        }
     }
 }
