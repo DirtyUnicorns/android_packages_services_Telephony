@@ -152,4 +152,7 @@
 
     <!-- Disable speaker proximity preference for problematic devices -->
     <bool name="config_enabled_speakerprox" translatable="false">true</bool>
+
+    <!-- After a CDMA conference call is merged, the swap button should be displayed. -->
+    <bool name="support_swap_after_merge" translatable="false">true</bool>
 </resources>
