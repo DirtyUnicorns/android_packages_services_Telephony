@@ -604,6 +604,7 @@ private String getSuppSvcNotificationText(SuppServiceNotification suppSvcNotific
     @Override
     public void onDisconnect() {
         Log.v(this, "onDisconnect");
+        PhoneNumberUtils.resetCountryDetectorInfo();
         hangup(android.telephony.DisconnectCause.LOCAL);
     }
 
