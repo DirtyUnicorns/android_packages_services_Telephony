@@ -253,8 +253,6 @@ public class DisconnectCauseUtil {
                         SuppServiceNotification.MT_CODE_ADDITIONAL_CALL_FORWARDED) {
                     resourceId = R.string.callUnanswered_forwarded;
                 }
-                mNotificationCode = 0xFF;
-                mNotificationType = 0xFF;
                 break;
             }
 
@@ -270,8 +268,6 @@ public class DisconnectCauseUtil {
                 } else {
                     resourceId = R.string.callFailed_cb_enabled;
                 }
-                mNotificationCode = 0xFF;
-                mNotificationType = 0xFF;
                 break;
             }
 
