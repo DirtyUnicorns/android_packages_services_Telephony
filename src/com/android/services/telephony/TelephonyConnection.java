@@ -446,14 +446,6 @@ private String getSuppSvcNotificationText(SuppServiceNotification suppSvcNotific
                 setPostDialWait(mOriginalConnection.getRemainingPostDialString());
             }
         }
-
-        @Override
-        public void onPostDialChar(char c) {
-            Log.v(TelephonyConnection.this, "onPostDialChar: %s", c);
-            if (mOriginalConnection != null) {
-                setNextPostDialWaitChar(c);
-            }
-        }
     };
 
     /**
