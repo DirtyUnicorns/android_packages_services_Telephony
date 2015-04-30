@@ -639,6 +639,8 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
                     synchronized (request) {
                         request.notifyAll();
                     }
+                    break;
+
                 case CMD_SET_VOICEMAIL_NUMBER:
                     request = (MainThreadRequest) msg.obj;
                     onCompleted = obtainMessage(EVENT_SET_VOICEMAIL_NUMBER_DONE, request);
