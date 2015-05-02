@@ -49,7 +49,6 @@ public class GsmUmtsOptions {
 
     private static final String BUTTON_APN_EXPAND_KEY = "button_apn_key";
     private static final String BUTTON_OPERATOR_SELECTION_EXPAND_KEY = "button_carrier_sel_key";
-    private static final String BUTTON_CARRIER_SETTINGS_KEY = "carrier_settings_key";
     private PreferenceActivity mPrefActivity;
     private PreferenceScreen mPrefScreen;
     private Phone mPhone;
@@ -146,18 +145,6 @@ public class GsmUmtsOptions {
             } else {
                 log("[CSP] Disabling Operator Selection menu.");
                 mPrefScreen.removePreference(mButtonOperatorSelectionExpand);
-            }
-        }
-
-        if (res.getBoolean(R.bool.csp_enabled)) {
-            // Read platform settings for carrier settings
-            final boolean isCarrierSettingsEnabled = mPrefActivity.getResources().getBoolean(
-                    R.bool.config_carrier_settings_enable);
-            if (!isCarrierSettingsEnabled) {
-                Preference pref = mPrefScreen.findPreference(BUTTON_CARRIER_SETTINGS_KEY);
-                if (pref != null) {
-                    mPrefScreen.removePreference(pref);
-                }
             }
         }
         if (!mRemovedAPNExpand) {
