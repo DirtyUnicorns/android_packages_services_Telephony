@@ -135,12 +135,6 @@
         as an enum (NONE, HFA, OTASP). -->
     <bool name="config_use_otasp_for_provisioning">false</bool>
 
-    <!-- Display carrier settings menu if true -->
-    <bool name="config_carrier_settings_enable">false</bool>
-    <!-- carrier settings menu -->
-    <string name="carrier_settings" translatable="false"></string>
-    <string name="carrier_settings_menu" translatable="false"></string>
-
     <!-- Does not display additional call seting for IMS phone based on GSM Phone -->
     <bool name="config_additional_call_setting">true</bool>
 
