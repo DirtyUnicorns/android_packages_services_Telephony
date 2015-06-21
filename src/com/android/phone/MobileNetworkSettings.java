@@ -79,6 +79,7 @@ public class MobileNetworkSettings extends PreferenceActivity
     //String keys for preference lookup
     private static final String BUTTON_PREFERED_NETWORK_MODE = "preferred_network_mode_key";
     private static final String BUTTON_ROAMING_KEY = "button_roaming_key";
+    private static final String BUTTON_NATIONAL_ROAMING_KEY = "button_national_roaming_key";
     private static final String BUTTON_CDMA_LTE_DATA_SERVICE_KEY = "cdma_lte_data_service_key";
     private static final String BUTTON_UPLMN_KEY = "button_uplmn_key";
     private static final String BUTTON_ENABLED_NETWORKS_KEY = "enabled_networks_key";
@@ -97,6 +98,7 @@ public class MobileNetworkSettings extends PreferenceActivity
     private ListPreference mButtonEnabledNetworks;
     private SwitchPreference mButtonDataRoam;
     private SwitchPreference mButton4glte;
+    private SwitchPreference mButtonNationalDataRoam;
     private Preference mLteDataServicePref;
 
     private static final String iface = "rmnet0"; //TODO: this will go away
@@ -209,6 +211,8 @@ public class MobileNetworkSettings extends PreferenceActivity
         } else if (preference == mButtonDataRoam) {
             // Do not disable the preference screen if the user clicks Data roaming.
             return true;
+        } else if (preference == mButtonNationalDataRoam) {
+            return true;
         } else {
             // if the button is anything but the simple toggle preference,
             // we'll need to disable all preferences to reject all click
@@ -266,6 +270,9 @@ public class MobileNetworkSettings extends PreferenceActivity
         PreferenceScreen prefSet = getPreferenceScreen();
 
         mButtonDataRoam = (SwitchPreference) prefSet.findPreference(BUTTON_ROAMING_KEY);
+        mButtonNationalDataRoam = (SwitchPreference) prefSet.findPreference(
+                BUTTON_NATIONAL_ROAMING_KEY);
+	mButtonNationalDataRoam.setOnPreferenceChangeListener(this);
         mButtonPreferredNetworkMode = (ListPreference) prefSet.findPreference(
                 BUTTON_PREFERED_NETWORK_MODE);
         mButtonEnabledNetworks = (ListPreference) prefSet.findPreference(
@@ -287,6 +294,21 @@ public class MobileNetworkSettings extends PreferenceActivity
         }
 
         boolean isLteOnCdma = mPhone.getLteOnCdmaMode() == PhoneConstants.LTE_ON_CDMA_TRUE;
+        final int phoneSubId = mPhone.getSubId();
+
+        if (DBG) {
+            log("updateBody: isLteOnCdma=" + isLteOnCdma + " phoneSubId=" + phoneSubId);
+        }
+
+        if (prefSet != null) {
+            prefSet.removeAll();
+            prefSet.addPreference(mButtonDataRoam);
+            prefSet.addPreference(mButtonPreferredNetworkMode);
+            prefSet.addPreference(mButtonEnabledNetworks);
+            prefSet.addPreference(mButton4glte);
+            prefSet.addPreference(mButtonNationalDataRoam);
+        }
+
         mIsGlobalCdma = isLteOnCdma && getResources().getBoolean(R.bool.config_show_cdma);
         int shouldHideCarrierSettings = android.provider.Settings.Global.getInt(mPhone.getContext().
                 getContentResolver(), android.provider.Settings.Global.HIDE_CARRIER_NETWORK_SETTINGS, 0);
@@ -420,6 +442,10 @@ public class MobileNetworkSettings extends PreferenceActivity
         // app to change this setting's backend, and re-launch this settings app
         // and the UI state would be inconsistent with actual state
         mButtonDataRoam.setChecked(mPhone.getDataRoamingEnabled());
+
+        mButtonNationalDataRoam.setChecked(android.provider.Settings.System.getInt(
+                mPhone.getContext().getContentResolver(),
+                android.provider.Settings.System.MVNO_ROAMING, 0) == 1);
 
         if (getPreferenceScreen().findPreference(BUTTON_PREFERED_NETWORK_MODE) != null)  {
             mPhone.getPreferredNetworkType(mHandler.obtainMessage(
@@ -582,6 +608,12 @@ public class MobileNetworkSettings extends PreferenceActivity
             } else {
                 mPhone.setDataRoamingEnabled(false);
             }
+            return true;
+
+        } else if (preference == mButtonNationalDataRoam) {
+            boolean value = (Boolean) objValue;
+            android.provider.Settings.System.putInt(mPhone.getContext().getContentResolver(),
+                    android.provider.Settings.System.MVNO_ROAMING, value ? 1 : 0);
             return true;
         }
 
