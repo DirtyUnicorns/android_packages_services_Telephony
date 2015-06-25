@@ -200,8 +200,9 @@ public class TelephonyConnectionService extends ConnectionService {
         // when voice RAT is OOS but Data RAT is present.
         int state = phone.getServiceState().getState();
         if (state == ServiceState.STATE_OUT_OF_SERVICE) {
-            if (phone.getServiceState().getDataNetworkType() ==
-                    ServiceState.RIL_RADIO_TECHNOLOGY_LTE) {
+            int dataNetType = phone.getServiceState().getDataNetworkType();
+            if (dataNetType == ServiceState.RIL_RADIO_TECHNOLOGY_LTE ||
+                    dataNetType == ServiceState.RIL_RADIO_TECHNOLOGY_LTE_CA) {
                 state = phone.getServiceState().getDataRegState();
             }
         }
