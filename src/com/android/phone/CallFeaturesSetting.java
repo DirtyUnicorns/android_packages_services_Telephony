@@ -52,6 +52,7 @@ import android.view.MenuItem;
 import android.widget.ListAdapter;
 import android.widget.Toast;
 
+import com.android.ims.ImsConfig;
 import com.android.ims.ImsManager;
 import com.android.internal.telephony.CallForwardInfo;
 import com.android.internal.telephony.Phone;
@@ -207,6 +208,7 @@ public class CallFeaturesSetting extends PreferenceActivity
     private VoicemailRingtonePreference mVoicemailNotificationRingtone;
     private CheckBoxPreference mVoicemailNotificationVibrate;
     private CheckBoxPreference mEnableVideoCalling;
+
     private SwitchPreference mProxSpeaker;
     private SlimSeekBarPreference mProxSpeakerDelay;
     private SwitchPreference mProxSpeakerIncallOnly;
@@ -1213,6 +1215,18 @@ public class CallFeaturesSetting extends PreferenceActivity
         mButtonTTY = (TtyModeListPreference) findPreference(
                 getResources().getString(R.string.tty_mode_key));
 
+        mProxSpeaker = (SwitchPreference) findPreference(PROX_AUTO_SPEAKER);
+        mProxSpeakerIncallOnly = (SwitchPreference) findPreference(PROX_AUTO_SPEAKER_INCALL_ONLY);
+        mProxSpeakerDelay = (SlimSeekBarPreference) findPreference(PROX_AUTO_SPEAKER_DELAY);
+        if (mProxSpeakerDelay != null) {
+            mProxSpeakerDelay.setDefault(100);
+            mProxSpeakerDelay.isMilliseconds(true);
+            mProxSpeakerDelay.setInterval(1);
+            mProxSpeakerDelay.minimumValue(100);
+            mProxSpeakerDelay.multiplyValue(100);
+            mProxSpeakerDelay.setOnPreferenceChangeListener(this);
+        }
+
         mVoicemailProviders = (VoicemailProviderListPreference) findPreference(
                 BUTTON_VOICEMAIL_PROVIDER_KEY);
         mVoicemailProviders.init(mPhone, getIntent());
@@ -1234,18 +1248,6 @@ public class CallFeaturesSetting extends PreferenceActivity
         updateVMPreferenceWidgets(mVoicemailProviders.getValue());
 
         mEnableVideoCalling = (CheckBoxPreference) findPreference(ENABLE_VIDEO_CALLING_KEY);
-
-        mProxSpeaker = (SwitchPreference) findPreference(PROX_AUTO_SPEAKER);
-        mProxSpeakerIncallOnly = (SwitchPreference) findPreference(PROX_AUTO_SPEAKER_INCALL_ONLY);
-        mProxSpeakerDelay = (SlimSeekBarPreference) findPreference(PROX_AUTO_SPEAKER_DELAY);
-        if (mProxSpeakerDelay != null) {
-            mProxSpeakerDelay.setDefault(100);
-            mProxSpeakerDelay.isMilliseconds(true);
-            mProxSpeakerDelay.setInterval(1);
-            mProxSpeakerDelay.minimumValue(100);
-            mProxSpeakerDelay.multiplyValue(100);
-            mProxSpeakerDelay.setOnPreferenceChangeListener(this);
-        }
 
         if (getResources().getBoolean(R.bool.dtmf_type_enabled)) {
             mButtonDTMF.setOnPreferenceChangeListener(this);
@@ -1402,6 +1404,31 @@ public class CallFeaturesSetting extends PreferenceActivity
                         com.android.internal.R.bool.config_carrier_volte_tty_supported)) {
             TelephonyManager tm = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
             tm.listen(mPhoneStateListener, PhoneStateListener.LISTEN_CALL_STATE);
+        }
+
+        Preference wifiCallingSettings = findPreference(
+                getResources().getString(R.string.wifi_calling_settings_key));
+        if (!ImsManager.isWfcEnabledByPlatform(mPhone.getContext())) {
+            prefSet.removePreference(wifiCallingSettings);
+        } else {
+            int resId = com.android.internal.R.string.wifi_calling_off_summary;
+            if (ImsManager.isWfcEnabledByUser(mPhone.getContext())) {
+                int wfcMode = ImsManager.getWfcMode(mPhone.getContext());
+                switch (wfcMode) {
+                    case ImsConfig.WfcModeFeatureValueConstants.WIFI_ONLY:
+                        resId = com.android.internal.R.string.wfc_mode_wifi_only_summary;
+                        break;
+                    case ImsConfig.WfcModeFeatureValueConstants.CELLULAR_PREFERRED:
+                        resId = com.android.internal.R.string.wfc_mode_cellular_preferred_summary;
+                        break;
+                    case ImsConfig.WfcModeFeatureValueConstants.WIFI_PREFERRED:
+                        resId = com.android.internal.R.string.wfc_mode_wifi_preferred_summary;
+                        break;
+                    default:
+                        if (DBG) log("Unexpected WFC mode value: " + wfcMode);
+                }
+            }
+            wifiCallingSettings.setSummary(resId);
         }
     }
 
