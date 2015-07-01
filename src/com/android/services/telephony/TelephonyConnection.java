@@ -86,6 +86,7 @@ abstract class TelephonyConnection extends Connection {
     private String[] mSubName = {"SUB 1", "SUB 2", "SUB 3"};
     private String mDisplayName;
     private boolean mVoicePrivacyState = false;
+    private boolean mIsEmergencyNumber = false;
     protected boolean mIsOutgoing;
     private boolean[] mIsPermDiscCauseReceived = new
             boolean[TelephonyManager.getDefault().getPhoneCount()];
@@ -891,6 +892,11 @@ private String getSuppSvcNotificationText(SuppServiceNotification suppSvcNotific
         mOriginalConnection.addPostDialListener(mPostDialListener);
         mOriginalConnection.addListener(mOriginalConnectionListener);
 
+        if (mOriginalConnection != null && mOriginalConnection.getAddress() != null) {
+            mIsEmergencyNumber = PhoneNumberUtils.isEmergencyNumber(mOriginalConnection.
+                    getAddress());
+        }
+
         updateAddress();
 
         // Set video state and capabilities
@@ -1344,7 +1350,8 @@ private String getSuppSvcNotificationText(SuppServiceNotification suppSvcNotific
     private int applyAddParticipantCapabilities(int callCapabilities) {
         int currentCapabilities = callCapabilities;
         if (getPhone() != null &&
-                 getPhone().getPhoneType() == PhoneConstants.PHONE_TYPE_IMS) {
+                 getPhone().getPhoneType() == PhoneConstants.PHONE_TYPE_IMS &&
+                 !mIsEmergencyNumber) {
             currentCapabilities = applyCapability(currentCapabilities,
                     PhoneCapabilities.ADD_PARTICIPANT);
         } else {
