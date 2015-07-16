@@ -348,12 +348,18 @@ public class TelephonyConnectionService extends ConnectionService {
             allConnections.addAll(ringingCall.getConnections());
         }
         final Call foregroundCall = phone.getForegroundCall();
-        if (foregroundCall.hasConnections()) {
+        final Call.State fgCallState = foregroundCall.getState();
+        if ((fgCallState != Call.State.DISCONNECTED &&
+                fgCallState != Call.State.DISCONNECTING) &&
+                foregroundCall.hasConnections()) {
             allConnections.addAll(foregroundCall.getConnections());
         }
         if (phone.getImsPhone() != null) {
             final Call imsFgCall = phone.getImsPhone().getForegroundCall();
-            if (imsFgCall.hasConnections()) {
+            final Call.State imsFgCallState = imsFgCall.getState();
+            if ((imsFgCallState != Call.State.DISCONNECTED
+                    && imsFgCallState != Call.State.DISCONNECTING) &&
+                    imsFgCall.hasConnections()) {
                 allConnections.addAll(imsFgCall.getConnections());
             }
 
@@ -372,6 +378,7 @@ public class TelephonyConnectionService extends ConnectionService {
             if ((!isOriginalConnectionKnown(telephonyConnection)) &&
                     !isConferenceHostOriginalConnection(telephonyConnection)) {
                 unknownConnection = telephonyConnection;
+                Log.d(this, "onCreateUnknownConnection: conn = " + unknownConnection);
                 break;
             }
         }
