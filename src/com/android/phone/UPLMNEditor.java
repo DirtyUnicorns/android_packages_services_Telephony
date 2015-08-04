@@ -320,8 +320,7 @@ public class UPLMNEditor extends PreferenceActivity implements
     public void buttonEnabled() {
         int len = mNWIDText.getText().toString().length();
         boolean state = true;
-        int plmnLen = 6;
-        if (len != plmnLen) {
+        if (len < 5 || len > 6) {
             state = false;
         }
         if (mNWIDDialog != null) {
