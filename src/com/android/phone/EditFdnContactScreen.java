@@ -466,6 +466,12 @@ public class EditFdnContactScreen extends Activity {
             } else if (v == mNumberField) {
                 mButton.requestFocus();
             } else if (v == mButton) {
+                final String number = PhoneNumberUtils.convertAndStrip(getNumberFromTextField());
+
+                if ((number.length() > 20) || (number.length() <= 0)) {
+                    handleResult(false, true);
+                    return;
+                }
                 // Authenticate the pin AFTER the contact information
                 // is entered, and if we're not busy.
                 if (!mDataBusy) {
