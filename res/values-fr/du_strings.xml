@@ -35,4 +35,21 @@
     <string name="prox_auto_speaker_incall_only_summary_on">Lors des appels sortants, le haut-parleur s\'active après réponse du correspondant</string>
     <string name="prox_auto_speaker_incall_only_summary_off">Pour tous les appels (Par défaut)</string>
 
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Action au retournement</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Action au retournement\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Retourner le téléphone <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">Ne rien faire</string>
+    <string name="entry_mute_ringer">Éteindre la sonnerie</string>
+    <string name="entry_dismiss_call">Refuser l\'appel</string>
+    <string name="summary_do_nothing">ne fait rien</string>
+    <string name="summary_mute_ringer">éteint la sonnerie</string>
+    <string name="summary_dismiss_call">refuse l\'appel</string>
+
 </resources>
