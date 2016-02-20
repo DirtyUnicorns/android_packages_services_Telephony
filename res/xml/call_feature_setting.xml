@@ -87,6 +87,11 @@
         android:entryValues="@array/flip_action_setting_values"
         android:persistent="false" />
 
+    <SwitchPreference
+        android:key="call_screen_wakeup"
+        android:title="@string/screen_wakeup"
+        android:persistent="false" />
+
     <PreferenceCategory
             android:key="category_prox_auto_speaker"
             android:title="@string/display_category_prox_auto_speaker_title" >
