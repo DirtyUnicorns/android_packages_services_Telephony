@@ -46,6 +46,15 @@
 
     </PreferenceScreen>
 
+     <PreferenceScreen
+         android:key="button_blacklist"
+         android:title="@string/blacklist_title"
+         android:persistent="false">
+         <intent android:action="android.intent.action.MAIN"
+             android:targetPackage="com.android.settings"
+             android:targetClass="com.android.settings.Settings$BlacklistSettingsActivity" />
+     </PreferenceScreen>
+
     <CheckBoxPreference
         android:key="button_enable_video_calling"
         android:title="@string/enable_video_calling_title"
@@ -106,13 +115,4 @@
             android:dependency="prox_auto_speaker" />
 
     </PreferenceCategory>
-
-     <PreferenceScreen
-         android:key="button_blacklist"
-         android:title="@string/blacklist_title"
-         android:persistent="false">
-         <intent android:action="android.intent.action.MAIN"
-             android:targetPackage="com.android.settings"
-             android:targetClass="com.android.settings.Settings$BlacklistSettingsActivity" />
-     </PreferenceScreen>
 </PreferenceScreen>
