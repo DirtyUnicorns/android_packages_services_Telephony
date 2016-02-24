@@ -52,4 +52,12 @@
     <string name="summary_mute_ringer">éteint la sonnerie</string>
     <string name="summary_dismiss_call">refuse l\'appel</string>
 
+    <!-- Advanced Settings -->
+    <string name="advanced_setting">Paramètres avancés</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Numéros bloqués</string>
+    <string name="blacklist_summary_disabled">Désactivé</string>
+    <string name="blacklist_summary">Les appels ou SMS entrants provenant des numéros de téléphone de cette liste seront bloqués</string>
+
 </resources>
