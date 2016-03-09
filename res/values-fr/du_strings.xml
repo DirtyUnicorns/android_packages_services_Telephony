@@ -60,4 +60,9 @@
     <string name="blacklist_summary_disabled">Désactivé</string>
     <string name="blacklist_summary">Les appels ou SMS entrants provenant des numéros de téléphone de cette liste seront bloqués</string>
 
+    <!-- Call screen wakeup settings -->
+    <string name="screen_wakeup">Réveillez l\'écran à la fin d\'un appel</string>
+    <string name="screen_wakeup_enabled_summary">Activé</string>
+    <string name="screen_wakeup_disabled_summary">Désactivé</string>
+
 </resources>
