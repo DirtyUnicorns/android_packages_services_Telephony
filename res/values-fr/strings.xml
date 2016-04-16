@@ -421,7 +421,7 @@
   <string name="throttle_rate_subtext">Taux de transfert des données réduit à <xliff:g id="USED">%1$d</xliff:g> Ko/s si le plafond d\'utilisation est dépassé</string>
   <string name="throttle_help_subtext">Plus d\'informations sur les règles de votre opérateur mobile concernant l\'utilisation des données sur son réseau</string>
   <string name="cell_broadcast_sms">Diffusion cellulaire par SMS</string>
-  <string name="enable_disable_cell_bc_sms">Cell Broadcast SMS</string>
+  <string name="enable_disable_cell_bc_sms">Diffusion cellulaire par SMS</string>
   <string name="cell_bc_sms_enable">Option \"Diffusion cellulaire par SMS\" activée</string>
   <string name="cell_bc_sms_disable">Option \"Diffusion cellulaire par SMS\" désactivée</string>
   <string name="cb_sms_settings">Paramètres de la diffusion cellulaire par SMS</string>
@@ -988,7 +988,6 @@
   <string name="preference_category_ringtone">Sonnerie et vibreur</string>
   <!-- String resource for the font-family to use for the call setting activity's title
          Do not translate. -->
-  <string name="call_settings_title_font_family">sans-serif-light</string>
   <!-- Label for PSTN connection service. -->
   <string name="pstn_connection_service_label">Cartes SIM intégrées</string>
   <!-- Label for enabling video calling. -->
@@ -1015,15 +1014,10 @@
   <!-- Status hint label for a call being made over a wifi network. [CHAR LIMIT=25] -->
   <string name="status_hint_label_wifi_call">Appel Wi-Fi</string>
   <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
-  <string name="voicemail_notification_ringtone_key">voicemail_notification_ringtone_key</string>
   <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
-  <string name="voicemail_notification_vibrate_key">voicemail_notification_vibrate_key</string>
   <!-- DO NOT TRANSLATE. Internal key for a visual voicemail preference. -->
-  <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
   <!-- DO NOT TRANSLATE. Internal key for tty mode preference. -->
-  <string name="tty_mode_key">button_tty_mode_key</string>
   <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
-  <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
   <!-- Hint appearing below a selected action on the emergency dialer telling user to tap again to execute the action [CHAR LIMIT=NONE] -->
   <string name="emergency_action_launch_hint">Appuyer à nouveau pour ouvrir</string>
   <!-- Strings for IMAP -->

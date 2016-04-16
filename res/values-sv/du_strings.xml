@@ -20,15 +20,15 @@
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
   <string name="national_roaming_enable">Anslut till datatjänster vid nationell roaming</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
-  <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
+  <string name="national_roaming_disable">Anslut inte till datatjänster vid nationell roaming</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone when the device is removed from your face</string>
-  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
-  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
+  <string name="display_category_prox_auto_speaker_title">Närhet högtalarinställningar</string>
+  <string name="prox_auto_speaker_title">Automatisk närhet högtalare</string>
+  <string name="prox_auto_speaker_summary">Aktivera högtalartelefonen när enheten tas bort från ditt ansikte</string>
+  <string name="prox_auto_speaker_delay_title">Närhet högtalarfördröjning</string>
+  <string name="prox_auto_speaker_delay_summary">Tidsfördröjning innan högtalaren aktiveras</string>
+  <string name="prox_auto_speaker_incall_only_title">Endast under samtal</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Vid utgående samtal, lyssnaren kommer endast vara aktiv vid svar</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Flip action</string>
