@@ -1244,7 +1244,7 @@
 
     <!-- String resource for the font-family to use for the call setting activity's title
          Do not translate. -->
-    <string name="call_settings_title_font_family">sans-serif-light</string>
+    <string name="call_settings_title_font_family" translatable="false">sans-serif-light</string>
 
     <!-- Label for PSTN connection service. -->
     <string name="pstn_connection_service_label">Built-in SIM cards</string>
@@ -1284,15 +1284,15 @@
     <string name="status_hint_label_wifi_call">Wi-Fi call</string>
 
     <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
-    <string name="voicemail_notification_ringtone_key">voicemail_notification_ringtone_key</string>
+    <string name="voicemail_notification_ringtone_key" translatable="false">voicemail_notification_ringtone_key</string>
     <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
-    <string name="voicemail_notification_vibrate_key">voicemail_notification_vibrate_key</string>
+    <string name="voicemail_notification_vibrate_key" translatable="false">voicemail_notification_vibrate_key</string>
     <!-- DO NOT TRANSLATE. Internal key for a visual voicemail preference. -->
-    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
+    <string name="voicemail_visual_voicemail_key" translatable="false">voicemail_visual_voicemail_key</string>
     <!-- DO NOT TRANSLATE. Internal key for tty mode preference. -->
-    <string name="tty_mode_key">button_tty_mode_key</string>
+    <string name="tty_mode_key" translatable="false">button_tty_mode_key</string>
     <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
-    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
+    <string name="wifi_calling_settings_key" translatable="false">button_wifi_calling_settings_key</string>
 
     <!-- Hint appearing below a selected action on the emergency dialer telling user to tap again to execute the action [CHAR LIMIT=NONE] -->
     <string name="emergency_action_launch_hint">Touch again to open</string>
