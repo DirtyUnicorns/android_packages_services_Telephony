@@ -414,8 +414,8 @@
   <string name="throttle_rate">Richtlinien zur Datenrate</string>
   <!-- Data usage settings screen option for accessing the carrier website-->
   <string name="throttle_help">Weitere Informationen</string>
-  <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum\nNext period starts in <xliff:g id="used">%4$d</xliff:g> days (<xliff:g id="used">%5$s</xliff:g>)</string>
-  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum</string>
+  <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) vom <xliff:g id="used">%3$s</xliff:g> maximalen Zeitraum\nNächster Zeitraum startet in <xliff:g id="used">%4$d</xliff:g> Tagen (<xliff:g id="used">%5$s</xliff:g>)</string>
+  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) vom <xliff:g id="used">%3$s</xliff:g> maximalen Zeitraum</string>
   <string name="throttle_data_rate_reduced_subtext">Maximum von <xliff:g id="USED_0">%1$s</xliff:g> wurde überschritten.\nDatenrate wurde auf <xliff:g id="USED_1">%2$d</xliff:g> kbit/s reduziert.</string>
   <string name="throttle_time_frame_subtext"><xliff:g id="USED_0">%1$d</xliff:g> % des Zyklus sind verstrichen. \nDer nächste Zeitraum beginnt in <xliff:g id="USED_1">%2$d</xliff:g> Tagen (<xliff:g id="USED_2">%3$s</xliff:g>).</string>
   <string name="throttle_rate_subtext">Datenrate wird auf <xliff:g id="USED">%1$d</xliff:g> kbit/s reduziert, wenn Datennutzungslimit überschritten wird.</string>
