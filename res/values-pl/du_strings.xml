@@ -28,14 +28,14 @@
   <string name="prox_auto_speaker_delay_title">Opóźnienie reakcji czujnika zbliżeniowego</string>
   <string name="prox_auto_speaker_delay_summary">Czas opóźnienia, przed aktywacją głośnika</string>
   <string name="prox_auto_speaker_incall_only_title">Tylko podczas rozmowy</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Dla połączeń wychodzących, detektor będzie aktywny tylko po odebraniu rozmowy</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Detektor będzie aktywny dla wszystkich rodzajów połączeń gdy jest w użyciu (domyślnie)</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Reakcja na odwrócenie</string>
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">Odwróć urządzenie aby\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">Odwrócenie urządzenia spowoduje <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
   <string name="entry_do_nothing">Nic nie rób</string>
   <string name="entry_mute_ringer">Wyciszenie dzwonka</string>

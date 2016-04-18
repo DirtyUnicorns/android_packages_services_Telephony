@@ -16,41 +16,41 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Mobile network settings screen, setting check box name -->
-  <string name="national_roaming">National data roaming</string>
+  <string name="national_roaming">Национальный роуминг</string>
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
-  <string name="national_roaming_enable">Connect to data services when nationally roaming</string>
+  <string name="national_roaming_enable">Подключаться к службам передачи данных при национальном роуминге</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
-  <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
+  <string name="national_roaming_disable">Не подключаться к службам передачи данных в национальном роуминге</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone when the device is removed from your face</string>
-  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
-  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="display_category_prox_auto_speaker_title">Настройки громкой связи</string>
+  <string name="prox_auto_speaker_title">Автовключение громкой связи</string>
+  <string name="prox_auto_speaker_summary">Автоматически включать громкую связь, когда устройство убирается от лица</string>
+  <string name="prox_auto_speaker_delay_title">Задержка включения громкой связи</string>
+  <string name="prox_auto_speaker_delay_summary">Пауза до момента активации громкой связи</string>
+  <string name="prox_auto_speaker_incall_only_title">Только во время звонка</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">При исходящих звонках функция активируется только после ответа на вызов</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Функция активна при любых вызовах (по умолчанию)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Flip action</string>
+  <string name="flip_action_title">Действие при повороте</string>
   <!-- Dialog title of the flip action setting. -->
-  <string name="flip_action_dialog_title">Flip device to\u2026</string>
+  <string name="flip_action_dialog_title">Переверните телефон для\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">При переворачивании телефона <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Do nothing</string>
-  <string name="entry_mute_ringer">Mute ringer</string>
-  <string name="entry_dismiss_call">Dismiss call</string>
-  <string name="summary_do_nothing">do nothing</string>
-  <string name="summary_mute_ringer">mute the ringer</string>
-  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="entry_do_nothing">Ничего не делать</string>
+  <string name="entry_mute_ringer">Выключить звонок</string>
+  <string name="entry_dismiss_call">Отклонить вызов</string>
+  <string name="summary_do_nothing">ничего не делать</string>
+  <string name="summary_mute_ringer">отключить звонок</string>
+  <string name="summary_dismiss_call">cбросить вызов</string>
   <!-- Advanced Settings -->
-  <string name="advanced_setting">Advanced Settings</string>
+  <string name="advanced_setting">Дополнительные настройки</string>
   <!-- Blacklist preferences -->
-  <string name="blacklist_title">Blocked caller list</string>
-  <string name="blacklist_summary_disabled">Disabled</string>
-  <string name="blacklist_summary">You will not receive incoming calls or messages from phone numbers on the blocked caller list</string>
+  <string name="blacklist_title">Список заблокированных абонентов</string>
+  <string name="blacklist_summary_disabled">Отключен</string>
+  <string name="blacklist_summary">Никакие звонки или сообщения не будут получены от номеров, указанных в \"черном\" списке</string>
   <!-- Call screen wakeup settings -->
-  <string name="screen_wakeup">Wake up screen when a call is disconnected</string>
-  <string name="screen_wakeup_enabled_summary">Enabled</string>
-  <string name="screen_wakeup_disabled_summary">Disabled</string>
+  <string name="screen_wakeup">Включить экран после окончания разговора</string>
+  <string name="screen_wakeup_enabled_summary">Включено</string>
+  <string name="screen_wakeup_disabled_summary">Отключено</string>
 </resources>

@@ -16,41 +16,41 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Mobile network settings screen, setting check box name -->
-  <string name="national_roaming">National data roaming</string>
+  <string name="national_roaming">Servizi di roaming nazionale</string>
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
-  <string name="national_roaming_enable">Connect to data services when nationally roaming</string>
+  <string name="national_roaming_enable">Connetti i servizi dati quando in roaming nazionale</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
-  <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
+  <string name="national_roaming_disable">Non connettere i servizi dati quando in roaming nazionale</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone when the device is removed from your face</string>
-  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
-  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="display_category_prox_auto_speaker_title">Impostazioni vivavoce e sensore di prossimità</string>
+  <string name="prox_auto_speaker_title">Attiva automaticamente vivavoce con sensore di prossimità</string>
+  <string name="prox_auto_speaker_summary">Attiva il vivavoce quando il dispositivo viene allontanato dal tuo viso</string>
+  <string name="prox_auto_speaker_delay_title">Ritardo vivavoce</string>
+  <string name="prox_auto_speaker_delay_summary">Tempo di ritardo prima di attivare il vivavoce</string>
+  <string name="prox_auto_speaker_incall_only_title">Solo in chiamata</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Nelle chiamate in uscita, il vivavoce si attiverà dopo la risposta</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Il vivavoce sarà attivato per tutte le chiamate (predefinito)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Flip action</string>
+  <string name="flip_action_title">Azione capovolgimento</string>
   <!-- Dialog title of the flip action setting. -->
-  <string name="flip_action_dialog_title">Flip device to\u2026</string>
+  <string name="flip_action_dialog_title">Capovolgi il dispositivo verso\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">Capovolgere il telefono verso il basso: <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Do nothing</string>
-  <string name="entry_mute_ringer">Mute ringer</string>
-  <string name="entry_dismiss_call">Dismiss call</string>
-  <string name="summary_do_nothing">do nothing</string>
-  <string name="summary_mute_ringer">mute the ringer</string>
-  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="entry_do_nothing">Nessuna azione</string>
+  <string name="entry_mute_ringer">Silenzia suoneria</string>
+  <string name="entry_dismiss_call">Ignora chiamata</string>
+  <string name="summary_do_nothing">non fare nulla</string>
+  <string name="summary_mute_ringer">silenzia la suoneria</string>
+  <string name="summary_dismiss_call">respingi la chiamata</string>
   <!-- Advanced Settings -->
-  <string name="advanced_setting">Advanced Settings</string>
+  <string name="advanced_setting">Impostazioni avanzate</string>
   <!-- Blacklist preferences -->
-  <string name="blacklist_title">Blocked caller list</string>
-  <string name="blacklist_summary_disabled">Disabled</string>
-  <string name="blacklist_summary">You will not receive incoming calls or messages from phone numbers on the blocked caller list</string>
+  <string name="blacklist_title">Lista dei numeri bloccati</string>
+  <string name="blacklist_summary_disabled">Disabilitata</string>
+  <string name="blacklist_summary">Non si riceveranno messaggi o chiamate in arrivo da numeri di telefono nella lista dei numeri bloccati</string>
   <!-- Call screen wakeup settings -->
-  <string name="screen_wakeup">Wake up screen when a call is disconnected</string>
-  <string name="screen_wakeup_enabled_summary">Enabled</string>
-  <string name="screen_wakeup_disabled_summary">Disabled</string>
+  <string name="screen_wakeup">Risveglia lo schermo quando la chiamata si interrompe</string>
+  <string name="screen_wakeup_enabled_summary">Attivo</string>
+  <string name="screen_wakeup_disabled_summary">Non attivo</string>
 </resources>

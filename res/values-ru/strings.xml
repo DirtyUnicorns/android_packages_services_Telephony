@@ -417,7 +417,7 @@
   <string name="throttle_status_subtext"><xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) из <xliff:g id="USED_2">%3$s</xliff:g> (максимум)\nСледующий период начнется в течение <xliff:g id="USED_3">%4$d</xliff:g> дн. (<xliff:g id="USED_4">%5$s</xliff:g>)</string>
   <string name="throttle_data_usage_subtext"><xliff:g id="USED_0">%1$s</xliff:g> (<xliff:g id="USED_1">%2$d</xliff:g>٪) из <xliff:g id="USED_2">%3$s</xliff:g> (максимум)</string>
   <string name="throttle_data_rate_reduced_subtext">Превышен лимит в <xliff:g id="USED_0">%1$s</xliff:g>.\nСкорость передачи данных снижена до <xliff:g id="USED_1">%2$d</xliff:g> кбит/с.</string>
-  <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A of cycle elapsed\nNext period starts in <xliff:g id="used">%2$d</xliff:g> days (<xliff:g id="used">%3$s</xliff:g>)</string>
+  <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A цикла истекло\nСледующий период начнется в течение <xliff:g id="used">%2$d</xliff:g> дней (<xliff:g id="used">%3$s</xliff:g>)</string>
   <string name="throttle_rate_subtext">Превышение лимита снижает скорость передачи данных до <xliff:g id="USED">%1$d</xliff:g> кбит/с</string>
   <string name="throttle_help_subtext">Подробнее о политике передачи данных вашего оператора мобильной связи…</string>
   <string name="cell_broadcast_sms">Широковещательные SMS-службы</string>
