@@ -57,7 +57,7 @@
   <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
   <string name="audio_mode_earpiece">Słuchawka telefonu</string>
   <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
-  <string name="audio_mode_wired_headset">Przewodowy zestaw słuch.</string>
+  <string name="audio_mode_wired_headset">Słuchawki</string>
   <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
   <string name="audio_mode_bluetooth">Bluetooth</string>
   <!-- post dial -->
