@@ -365,7 +365,7 @@
   <!-- Mobile network settings, summary for preferred network mode TDSCDMTA [CHAR LIMIT=100] -->
   <string name="preferred_network_mode_tdscdma_summary">Tercih edilen ağ modu: TDSCDMA</string>
   <string-array name="preferred_network_mode_choices">
-    <item>LTE / WCDMA</item>
+    <item>LTE/WCDMA</item>
     <item>LTE</item>
     <item>Dünya Genelinde</item>
     <item>GSM/WCDMA/LTE</item>

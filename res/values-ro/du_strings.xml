@@ -16,9 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Mobile network settings screen, setting check box name -->
-  <string name="national_roaming">National data roaming</string>
+  <string name="national_roaming">Roaming de date naţionale</string>
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
-  <string name="national_roaming_enable">Connect to data services when nationally roaming</string>
+  <string name="national_roaming_enable">Conectare la servicii de date in roaming naţional</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
   <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
   <!-- Proximity speaker -->
