@@ -41,7 +41,7 @@
   <!-- Possible error messages with outgoing calls -->
   <string name="mmiStarted">MMI-kód elindítva</string>
   <!-- Dialog label when a USSD code starts running -->
-  <string name="ussdRunning">USSD-kód futtatása...</string>
+  <string name="ussdRunning">USSD-kód futtatása\u2026</string>
   <!-- Dialog label when an MMI code is canceled -->
   <string name="mmiCancelled">MMI-kód megszakítva</string>
   <!-- Label for "cancel" button on the MMI dialog -->
@@ -87,7 +87,7 @@
   <!-- Button label on the "Missing voicemail number" dialog -->
   <string name="add_vm_number_str">Szám hozzáadása</string>
   <!-- Status message displayed on SIM PIN unlock panel -->
-  <string name="puk_unlocked">SIM kártyája letiltása megszűnt. Feloldás folyamatban...</string>
+  <string name="puk_unlocked">SIM kártyája letiltása megszűnt. Feloldás folyamatban\u2026</string>
   <!-- network depersonalization -->
   <!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
   <string name="label_ndp">SIM hálózati függetlenítő PIN kódja</string>
@@ -96,7 +96,7 @@
   <!-- Button label on SIM Network Depersonalization panel -->
   <string name="sim_ndp_dismiss_text">Elvetés</string>
   <!-- Status message displayed on SIM Network Depersonalization panel -->
-  <string name="requesting_unlock">Függetlenítés kérése...</string>
+  <string name="requesting_unlock">Függetlenítés kérése\u2026</string>
   <!-- Error message displayed on SIM Network Depersonalization panel -->
   <string name="unlock_failed">A hálózatzárolás feloldására vonatkozó kérelem sikertelen volt.</string>
   <!-- Success message displayed on SIM Network Depersonalization panel -->
@@ -174,7 +174,7 @@
   <!-- Call settings screen, setting option name -->
   <string name="labelCallerId">Hívóazonosító</string>
   <!-- Additional call settings screen, setting summary text when the setting is being loaded [CHAR LIMIT=40] -->
-  <string name="sum_loading_settings">Beállítások betöltése...</string>
+  <string name="sum_loading_settings">Beállítások betöltése\u2026</string>
   <!-- Additional call settings screen, setting summary text when Caller ID is hidden -->
   <string name="sum_hide_caller_id">A kimenő hívások során elrejtett szám</string>
   <!-- Additional call settings screen, setting summary text when Caller ID is shown -->
@@ -244,11 +244,11 @@
   <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
   <string name="error_updating_title">Hiba a hívásbeállításokban</string>
   <!-- Toast in Call settings dialog while settings are being read -->
-  <string name="reading_settings">Beállítások olvasása...</string>
+  <string name="reading_settings">Beállítások olvasása\u2026</string>
   <!-- Toast in Call settings dialog while settings are being saved -->
-  <string name="updating_settings">Beállítások frissítése...</string>
+  <string name="updating_settings">Beállítások frissítése\u2026</string>
   <!-- Toast in Call settings dialog while settings are being reverted -->
-  <string name="reverting_settings">Beállítások visszaállítása...</string>
+  <string name="reverting_settings">Beállítások visszaállítása\u2026</string>
   <!-- Status message displayed in the "Call settings error" dialog -->
   <string name="response_error">Nem várt válasz a hálózattól.</string>
   <!-- Status message displayed in the "Call settings error" dialog -->
@@ -311,7 +311,7 @@
   <!-- Available networks screen, toast when an error is encountered when searching for networks -->
   <string name="network_query_error">Hiba történt a hálózatok keresése közben.</string>
   <!-- Available networks screen, toast when registering on a specific network -->
-  <string name="register_on_network">Regisztrálás a(z) <xliff:g id="NETWORK">%s</xliff:g> hálózaton...</string>
+  <string name="register_on_network">Regisztrálás a(z) <xliff:g id="NETWORK">%s</xliff:g> hálózaton\u2026</string>
   <!-- Available networks screen, toast when SIM card isn't allowed on a network -->
   <string name="not_allowed">SIM kártyája nem teszi lehetővé a kapcsolódást ehhez a hálózathoz.</string>
   <!-- Available networks screen, toast when unable to connect to a network temporarily -->
@@ -326,7 +326,7 @@
   <string name="select_automatically">Automatikus választás</string>
   <!-- Available networks screen, setting summary text -->
   <string name="sum_select_automatically">Preferált hálózat automatikus kiválasztása</string>
-  <string name="register_automatically">Automatikus regisztráció...</string>
+  <string name="register_automatically">Automatikus regisztráció\u2026</string>
   <string name="preferred_network_mode_title">Preferált hálózattípus</string>
   <string name="preferred_network_mode_summary">A hálózati üzemmód megváltoztatása</string>
   <string name="preferred_network_mode_dialogtitle">Preferált hálózattípus</string>
@@ -603,19 +603,19 @@
   <!-- Title of "Edit FDN Contact" screen for a new contact -->
   <string name="add_fdn_contact">Fix hívószám hozzáadása</string>
   <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="adding_fdn_contact">Fix hívószám hozzáadása...</string>
+  <string name="adding_fdn_contact">Fix hívószám hozzáadása\u2026</string>
   <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
   <string name="fdn_contact_added">A fix hívószám hozzáadva.</string>
   <!-- Title of "Edit FDN Contact" screen when editing an already-existing contact -->
   <string name="edit_fdn_contact">Fix hívószám szerkesztése</string>
   <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="updating_fdn_contact">Fix hívószám frissítése...</string>
+  <string name="updating_fdn_contact">Fix hívószám frissítése\u2026</string>
   <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
   <string name="fdn_contact_updated">A fix hívószám frissítve.</string>
   <!-- Title of "Delete FDN Contact" screen -->
   <string name="delete_fdn_contact">Fix hívószám törlése</string>
   <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="deleting_fdn_contact">Fix hívószám törlése...</string>
+  <string name="deleting_fdn_contact">Fix hívószám törlése\u2026</string>
   <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
   <string name="fdn_contact_deleted">A fix hívószám törölve.</string>
   <!-- FDN settings: error message displayed in a popup (toast) -->
@@ -632,7 +632,7 @@
   <string name="fdn_failed">Sikertelen a fix hívószámmal végzett művelet.</string>
   <!-- ADN related strings -->
   <!-- Placeholder text displayed while loading the list of SIM contacts -->
-  <string name="simContacts_emptyLoading">Beolvasás a SIM kártyáról...</string>
+  <string name="simContacts_emptyLoading">Beolvasás a SIM kártyáról\u2026</string>
   <!-- Call settings, string that appears on FDN contact list when there are no contacts on the SIM. -->
   <string name="simContacts_empty">Nincsenek névjegyek a SIM kártyán.</string>
   <!-- Call settings: title of the dialog that lets you select contacts from the SIM. -->
@@ -769,7 +769,7 @@
   <!-- In-call screen: call failure message displayed in an error dialog -->
   <string name="incall_error_call_failed">A hívás sikertelen.</string>
   <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
-  <string name="incall_status_dialed_mmi">MMI-sorozat indítása...</string>
+  <string name="incall_status_dialed_mmi">MMI-sorozat indítása\u2026</string>
   <!-- In-call screen: message displayed in an error dialog -->
   <string name="incall_error_supp_service_unknown">A szolgáltatás nem támogatott</string>
   <!-- In-call screen: message displayed in an error dialog -->
@@ -789,7 +789,7 @@
   <!-- Dialog title for the "radio enable" UI for emergency calls -->
   <string name="emergency_enable_radio_dialog_title">Segélyhívás</string>
   <!-- Status message for the "radio enable" UI for emergency calls -->
-  <string name="emergency_enable_radio_dialog_message">Rádió bekapcsolása...</string>
+  <string name="emergency_enable_radio_dialog_message">Rádió bekapcsolása\u2026</string>
   <!-- Status message for the "radio enable" UI for emergency calls -->
   <string name="emergency_enable_radio_dialog_retry">Nincs szolgáltatás. Újrapróbálkozás folyamatban…</string>
   <!-- Dialer text on Emergency Dialer -->
