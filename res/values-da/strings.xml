@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Der skal foretages et særligt opkald for at aktivere din telefontjeneste. \n\n Lyt til instruktionerne, når du har trykket på “Aktivér” for at aktivere din telefon.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Aktiverer...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Telefonen er ved at aktivere din mobildatatjeneste.\n\nDette kan tage op til fem minutter.</string>
   <!-- Title of skip activation dialog -->

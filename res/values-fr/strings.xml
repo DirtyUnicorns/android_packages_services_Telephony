@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Vous devez passer un appel spécial pour activer le service de téléphonie. \n\nAprès avoir appuyé sur \"Activer\", écoutez les instructions qui vous permettront d\'activer votre téléphone.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activation en cours…</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Le service de données mobiles est en cours d\'activation sur le téléphone…\n\nCette opération peut prendre jusqu\'à cinq minutes.</string>
   <!-- Title of skip activation dialog -->

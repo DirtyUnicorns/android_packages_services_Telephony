@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">יש לבצע שיחה מיוחדת כדי להפעיל את השירות לטלפון. \n\nלאחר הלחיצה על \'הפעל\', הקשב להוראות להפעלת הטלפון.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">מפעיל...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">הטלפון מפעיל את שירותי הנתונים שלך לנייד.\n\nהתהליך עשוי לארוך עד 5 דקות.</string>
   <!-- Title of skip activation dialog -->

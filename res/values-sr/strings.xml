@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Потребно је да упутите посебан позив да бисте активирали услугу свој телефона. \n\nНакон што притиснете дугме „Активирај“, слушајте дата упутства да бисте да бисте активирали свој телефон.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Активирање...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Телефон активира услугу мобилног преноса података.\n\nТо може да потраје и до 5 минута.</string>
   <!-- Title of skip activation dialog -->

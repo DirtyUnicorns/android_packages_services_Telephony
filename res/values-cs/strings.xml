@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">K aktivaci telefonní služby je potřeba uskutečnit speciální hovor. \n\nStiskněte tlačítko Aktivovat a aktivujte telefon podle pokynů, které vám budou sděleny.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Aktivace...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">V telefonu se aktivuje mobilní datová služba.\n\nMůže to trvat až 5 minut.</string>
   <!-- Title of skip activation dialog -->

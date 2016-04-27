@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Щоб активувати службу вашого тел., треба зробити спеціальний дзвінок. \n\nНатиснувши \"Активувати\", прослухайте інструкції, надані для активації телефону.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Активація…</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Телефон активує службу мобільного передавання даних.\n\nЦе може тривати до 5 хвилин.</string>
   <!-- Title of skip activation dialog -->

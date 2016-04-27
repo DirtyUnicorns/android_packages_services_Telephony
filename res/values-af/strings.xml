@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">\'n Spesiale oproep moet gemaak word om jou foondiens te aktiveer. \n\nDruk \"Aktiveer\" en luister dan na die instruksies om jou foon te aktiveer.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Aktiveer tans…</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Die foon aktiveer tans jou mobiele datadiens.\n\nDit kan tot 5 minute neem.</string>
   <!-- Title of skip activation dialog -->

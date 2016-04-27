@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Pentru a vă activa serviciul de telefonie, trebuie să efectuați un apel special. \n\nDupă ce apăsaţi „Activați”, ascultaţi instrucţiunile furnizate pentru a vă activa telefonul.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Se activează...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Serviciul de date mobile este în curs de activare pe telefonul dvs.\n\nAcest proces poate dura până la 5 minute.</string>
   <!-- Title of skip activation dialog -->

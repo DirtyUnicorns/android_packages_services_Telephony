@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Bạn cần phải thực hiện cuộc gọi đặc biệt để kích hoạt dịch vụ điện thoại của mình. \n\nSau khi nhấn “Kích hoạt”, nghe hướng dẫn được cung cấp để kích hoạt điện thoại của bạn.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Đang kích hoạt...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Điện thoại đang kích hoạt dịch vụ dữ liệu di động của bạn.\n\nThao tác này có thể mất tối đa 5 phút.</string>
   <!-- Title of skip activation dialog -->

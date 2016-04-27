@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">전화 서비스를 활성화하려면 특수 통화를 해야 합니다. \n\n\'활성화\'를 누른 다음 지시사항을 듣고 전화를 활성화하세요.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">활성화 중...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">휴대전화에서 모바일 데이터 서비스를 활성화하고 있습니다.\n\n최대 5분 정도 소요될 수 있습니다.</string>
   <!-- Title of skip activation dialog -->

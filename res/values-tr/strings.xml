@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Telefon hizmetinizin aktive edilmesi için özel bir çağrı yapılması gerekiyor. \n\n“Aktive Et”e bastıktan sonra, telefonunuzun aktive edilmesi için sağlanan talimatları dinleyin.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Etkinleştiriliyor...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Telefon, mobil veri hizmetinizi etkinleştiriyor.\n\nBu işlem 5 dakika kadar sürebilir.</string>
   <!-- Title of skip activation dialog -->

@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">如要啟用手機服務，您必須撥打一通特殊電話。\n\n按下 [啟用] 後，請聽取手機啟用說明。</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">啟用中...</string>
+  <string name="ota_hfa_activation_title">Activating\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">手機正在啟用行動數據服務。\n\n最多可能需要 5 分鐘。</string>
   <!-- Title of skip activation dialog -->
