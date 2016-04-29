@@ -28,29 +28,29 @@
   <string name="prox_auto_speaker_delay_title">Retardo de proximidad del altavoz</string>
   <string name="prox_auto_speaker_delay_summary">Retardo antes de que se active el altavoz</string>
   <string name="prox_auto_speaker_incall_only_title">Sólo durante la llamada</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">En las llamadas salientes, el detector sólo se activará después de que la otra persona conteste</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">El detector estará activo durante todos los estados de llamada descolgada (por defecto)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Flip action</string>
+  <string name="flip_action_title">Acción al voltear</string>
   <!-- Dialog title of the flip action setting. -->
-  <string name="flip_action_dialog_title">Flip device to\u2026</string>
+  <string name="flip_action_dialog_title">Acción al voltear...\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">Al voltear el teléfono <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Do nothing</string>
-  <string name="entry_mute_ringer">Mute ringer</string>
-  <string name="entry_dismiss_call">Dismiss call</string>
-  <string name="summary_do_nothing">do nothing</string>
-  <string name="summary_mute_ringer">mute the ringer</string>
-  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="entry_do_nothing">No hacer nada</string>
+  <string name="entry_mute_ringer">Silenciar el tono de llamada</string>
+  <string name="entry_dismiss_call">Rechazar llamada</string>
+  <string name="summary_do_nothing">no hacer nada</string>
+  <string name="summary_mute_ringer">silenciar el timbre</string>
+  <string name="summary_dismiss_call">ignorar la llamada</string>
   <!-- Advanced Settings -->
-  <string name="advanced_setting">Advanced Settings</string>
+  <string name="advanced_setting">Configuración Avanzada</string>
   <!-- Blacklist preferences -->
-  <string name="blacklist_title">Blocked caller list</string>
-  <string name="blacklist_summary_disabled">Disabled</string>
-  <string name="blacklist_summary">You will not receive incoming calls or messages from phone numbers on the blocked caller list</string>
+  <string name="blacklist_title">Lista de llamadas bloqueadas</string>
+  <string name="blacklist_summary_disabled">Inhabilitado</string>
+  <string name="blacklist_summary">No recibirá llamadas o mensajes de los números de teléfono que están en la lista de llamadas bloqueadas</string>
   <!-- Call screen wakeup settings -->
-  <string name="screen_wakeup">Wake up screen when a call is disconnected</string>
-  <string name="screen_wakeup_enabled_summary">Enabled</string>
-  <string name="screen_wakeup_disabled_summary">Disabled</string>
+  <string name="screen_wakeup">Despertar pantalla cuando una llamada finalize</string>
+  <string name="screen_wakeup_enabled_summary">Habilitado</string>
+  <string name="screen_wakeup_disabled_summary">Deshabilitado</string>
 </resources>

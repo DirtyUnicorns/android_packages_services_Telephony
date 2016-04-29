@@ -51,7 +51,7 @@
   <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
   <string name="manageConferenceLabel">Gestionați teleconferinţa</string>
   <!-- Positive button label ("OK") used in several dialogs in the phone UI [CHAR LIMIT=10] -->
-  <string name="ok">OK</string>
+  <string name="ok">Ok</string>
   <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
   <string name="audio_mode_speaker">Difuzor</string>
   <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
@@ -264,7 +264,7 @@
   <!-- Status message displayed in the "Call settings error" dialog -->
   <string name="radio_off_error">Activați semnalul radio, înainte de a vizualiza aceste setări.</string>
   <!-- Button label used to dismiss the "Call settings error" dialog -->
-  <string name="close_dialog">OK</string>
+  <string name="close_dialog">Ok</string>
   <!-- Button label used in several settings-related dialogs -->
   <string name="enable">Activați</string>
   <!-- Button label used in several settings-related dialogs -->
@@ -441,7 +441,7 @@
   <string name="enable_disable_local">Local</string>
   <string name="local_enable">Știri locale activate</string>
   <string name="local_disable">Știri locale dezactivate</string>
-  <string name="enable_disable_regional">Regional</string>
+  <string name="enable_disable_regional">Regionale</string>
   <string name="regional_enable">Știri locale activate</string>
   <string name="regional_disable">Știri regionale dezactivate</string>
   <string name="enable_disable_national">Naţional</string>
@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Pentru a vă activa serviciul de telefonie, trebuie să efectuați un apel special. \n\nDupă ce apăsaţi „Activați”, ascultaţi instrucţiunile furnizate pentru a vă activa telefonul.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activating\u2026</string>
+  <string name="ota_hfa_activation_title">Se activează\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Serviciul de date mobile este în curs de activare pe telefonul dvs.\n\nAcest proces poate dura până la 5 minute.</string>
   <!-- Title of skip activation dialog -->

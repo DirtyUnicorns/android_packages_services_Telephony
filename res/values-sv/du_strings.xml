@@ -37,17 +37,17 @@
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Do nothing</string>
-  <string name="entry_mute_ringer">Mute ringer</string>
-  <string name="entry_dismiss_call">Dismiss call</string>
-  <string name="summary_do_nothing">do nothing</string>
+  <string name="entry_do_nothing">Gör inget</string>
+  <string name="entry_mute_ringer">Stäng av ringsignalen</string>
+  <string name="entry_dismiss_call">Avvisa samtalet</string>
+  <string name="summary_do_nothing">gör inget</string>
   <string name="summary_mute_ringer">stänga av ringsignalen</string>
-  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="summary_dismiss_call">avvisa samtalet</string>
   <!-- Advanced Settings -->
-  <string name="advanced_setting">Advanced Settings</string>
+  <string name="advanced_setting">Avancerade inställningar</string>
   <!-- Blacklist preferences -->
-  <string name="blacklist_title">Blocked caller list</string>
-  <string name="blacklist_summary_disabled">Disabled</string>
+  <string name="blacklist_title">Blockerade ringare</string>
+  <string name="blacklist_summary_disabled">Inaktiverad</string>
   <string name="blacklist_summary">You will not receive incoming calls or messages from phone numbers on the blocked caller list</string>
   <!-- Call screen wakeup settings -->
   <string name="screen_wakeup">Wake up screen when a call is disconnected</string>
