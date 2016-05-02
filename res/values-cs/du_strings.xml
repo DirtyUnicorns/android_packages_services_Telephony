@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Mobile network settings screen, setting check box name -->
-  <string name="national_roaming">National data roaming</string>
+  <string name="national_roaming">Národní datový roaming</string>
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
   <string name="national_roaming_enable">Connect to data services when nationally roaming</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
