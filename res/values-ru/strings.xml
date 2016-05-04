@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Необходим специальный звонок для активации службы телефона. \n\nПосле нажатия кнопки \"Активировать\" прослушайте инструкции по активации телефона.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activating\u2026</string>
+  <string name="ota_hfa_activation_title">Включение/u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Активация мобильного Интернета…\n\nВсе будет готово в течение 5 мин.</string>
   <!-- Title of skip activation dialog -->
