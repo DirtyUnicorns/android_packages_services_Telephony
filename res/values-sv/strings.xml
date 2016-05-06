@@ -264,7 +264,7 @@
   <!-- Status message displayed in the "Call settings error" dialog -->
   <string name="radio_off_error">Sätt på radion innan du visar inställningarna.</string>
   <!-- Button label used to dismiss the "Call settings error" dialog -->
-  <string name="close_dialog">OK</string>
+  <string name="close_dialog">Ok</string>
   <!-- Button label used in several settings-related dialogs -->
   <string name="enable">Aktivera</string>
   <!-- Button label used in several settings-related dialogs -->
@@ -414,10 +414,10 @@
   <string name="throttle_rate">Datahastighetspolicy</string>
   <!-- Data usage settings screen option for accessing the carrier website-->
   <string name="throttle_help">Läs mer</string>
-  <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum\nNext period starts in <xliff:g id="used">%4$d</xliff:g> days (<xliff:g id="used">%5$s</xliff:g>)</string>
-  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum</string>
+  <string name="throttle_status_subtext"><xliff:g id="used">%1$s </xliff:g> (<xliff:g id="used">%2$d </xliff:g> \u066A) av <xliff:g id="used">%3$s </xliff:g> period maximum\nNästa period startar om <xliff:g id="used">%4$d </xliff:g> dagar (<xliff:g id="used">%5$s </xliff:g>)</string>
+  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s </xliff:g> (<xliff:g id="used">%2$d </xliff:g> \u066A) av <xliff:g id="used">%3$s </xliff:g> period maximum</string>
   <string name="throttle_data_rate_reduced_subtext"><xliff:g id="USED_0">%1$s</xliff:g> maxvärdet har överskridits\nDatahastigheten har sänkts till <xliff:g id="USED_1">%2$d</xliff:g> kbit/s</string>
-  <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A of cycle elapsed\nNext period starts in <xliff:g id="used">%2$d</xliff:g> days (<xliff:g id="used">%3$s</xliff:g>)</string>
+  <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d </xliff:g> \u066A av cykel förflutit\nNästa startar om <xliff:g id="used">%2$d </xliff:g> dagar (<xliff:g id="used">%3$s </xliff:g>)</string>
   <string name="throttle_rate_subtext">Datahastigheten sänks till <xliff:g id="USED">%1$d</xliff:g> kbit/s om dataanvändningsgränsen överskrids</string>
   <string name="throttle_help_subtext">Mer information om operatörens dataanvändningspolicy för mobilnätverket</string>
   <string name="cell_broadcast_sms">Cell Broadcast SMS</string>
@@ -850,7 +850,7 @@
   <string name="dtmf_tones_summary">Ange längd på DTMF-signaler</string>
   <!-- Options displayed as part of DTMF Tones in Call Settings -->
   <string-array name="dtmf_tone_entries">
-    <item>Normal</item>
+    <item>Normalt</item>
     <item>Lång</item>
   </string-array>
   <!-- Do not translate. -->
@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Du måste ringa ett särskilt samtal för att aktivera telefontjänsten. \n\n Tryck på \"Aktivera\" och lyssna på instruktionerna om hur du aktiverar telefonen.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activating\u2026</string>
+  <string name="ota_hfa_activation_title">Aktiverar\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">Din mobila datatjänst aktiveras av mobilen.\n\nDetta kan ta upp till fem minuter.</string>
   <!-- Title of skip activation dialog -->

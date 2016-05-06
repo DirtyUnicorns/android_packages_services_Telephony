@@ -52,5 +52,5 @@
   <!-- Call screen wakeup settings -->
   <string name="screen_wakeup">Väck skärmen när ett samtal kopplas ner</string>
   <string name="screen_wakeup_enabled_summary">Aktiverad</string>
-  <string name="screen_wakeup_disabled_summary">Disabled</string>
+  <string name="screen_wakeup_disabled_summary">Inaktiverad</string>
 </resources>

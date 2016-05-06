@@ -16,11 +16,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Mobile network settings screen, setting check box name -->
-  <string name="national_roaming">National data roaming</string>
+  <string name="national_roaming">Роминг услуге преноса података</string>
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
-  <string name="national_roaming_enable">Connect to data services when nationally roaming</string>
+  <string name="national_roaming_enable">Повежи се на услуге преноса података када си у ромингу</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
-  <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
+  <string name="national_roaming_disable">Немој да се повезујеш на услуге преноса података када си у ромингу</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
   <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
@@ -47,10 +47,10 @@
   <string name="advanced_setting">Advanced Settings</string>
   <!-- Blacklist preferences -->
   <string name="blacklist_title">Blocked caller list</string>
-  <string name="blacklist_summary_disabled">Disabled</string>
+  <string name="blacklist_summary_disabled">Онемогућено</string>
   <string name="blacklist_summary">You will not receive incoming calls or messages from phone numbers on the blocked caller list</string>
   <!-- Call screen wakeup settings -->
-  <string name="screen_wakeup">Wake up screen when a call is disconnected</string>
-  <string name="screen_wakeup_enabled_summary">Enabled</string>
-  <string name="screen_wakeup_disabled_summary">Disabled</string>
+  <string name="screen_wakeup">Пробуди екран када је позив прекинут</string>
+  <string name="screen_wakeup_enabled_summary">Омогућено</string>
+  <string name="screen_wakeup_disabled_summary">Онемогућено</string>
 </resources>
