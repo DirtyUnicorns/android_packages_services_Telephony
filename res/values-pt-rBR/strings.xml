@@ -41,9 +41,9 @@
   <!-- Possible error messages with outgoing calls -->
   <string name="mmiStarted">Código de MMI iniciado</string>
   <!-- Dialog label when a USSD code starts running -->
-  <string name="ussdRunning">USSD code running\u2026</string>
+  <string name="ussdRunning">Executando código USSD\u2026</string>
   <!-- Dialog label when an MMI code is canceled -->
-  <string name="mmiCancelled">MMI code canceled</string>
+  <string name="mmiCancelled">Código de MMI cancelado</string>
   <!-- Label for "cancel" button on the MMI dialog -->
   <string name="cancel">Cancelar</string>
   <!-- Toast string displayed to user if the input in MMI dialog is < 1 or > 160 -->
@@ -64,41 +64,41 @@
   <!-- In-call screen: body text of the dialog that appears when we encounter
          the "wait" character in a phone number to be dialed; this dialog asks the
          user if it's OK to send the numbers following the "wait". -->
-  <string name="wait_prompt_str">Send the following tones?\n</string>
+  <string name="wait_prompt_str">Enviar os toques a seguir?\n</string>
   <!-- In-call screen: body text of the dialog that appears when we encounter
          the "PAUSE" character in a phone number to be dialed; this dialog gives
          informative message to the user to show the sending numbers following the "Pause". -->
-  <string name="pause_prompt_str">Sending tones\n</string>
+  <string name="pause_prompt_str">Enviando toques\n</string>
   <!-- In-call screen: button label on the "wait" prompt dialog -->
-  <string name="send_button">Send</string>
+  <string name="send_button">Enviar</string>
   <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
-  <string name="pause_prompt_yes">Yes</string>
+  <string name="pause_prompt_yes">Sim</string>
   <!-- In-call screen: button label on the "wait" prompt dialog in CDMA Mode-->
-  <string name="pause_prompt_no">No</string>
+  <string name="pause_prompt_no">Não</string>
   <!-- In-call screen: on the "wild" character dialog, this is the label
          for a text widget that lets the user enter the digits that should
          replace the "wild" character. -->
-  <string name="wild_prompt_str">Replace wild character with</string>
+  <string name="wild_prompt_str">Substituir o caracter coringa por</string>
   <!-- missing voicemail number -->
   <!-- Title of the "Missing voicemail number" dialog -->
-  <string name="no_vm_number">Missing voicemail number</string>
+  <string name="no_vm_number">Número do correio de voz ausente</string>
   <!-- Body text of the "Missing voicemail number" dialog -->
-  <string name="no_vm_number_msg">No voicemail number is stored on the SIM card.</string>
+  <string name="no_vm_number_msg">Não existe um número de correio de voz armazenado no cartão SIM.</string>
   <!-- Button label on the "Missing voicemail number" dialog -->
-  <string name="add_vm_number_str">Add number</string>
+  <string name="add_vm_number_str">Adicionar número</string>
   <!-- Status message displayed on SIM PIN unlock panel -->
-  <string name="puk_unlocked">Your SIM card has been unblocked. Your phone is unlocking\u2026</string>
+  <string name="puk_unlocked">O cartão SIM foi desbloqueado. O telefone está sendo desbloqueado\u2026</string>
   <!-- network depersonalization -->
   <!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
-  <string name="label_ndp">SIM network unlock PIN</string>
+  <string name="label_ndp">PIN para desbloqueio de rede do cartão SIM</string>
   <!-- Button label on SIM Network Depersonalization panel -->
-  <string name="sim_ndp_unlock_text">Unlock</string>
+  <string name="sim_ndp_unlock_text">Desbloquear</string>
   <!-- Button label on SIM Network Depersonalization panel -->
-  <string name="sim_ndp_dismiss_text">Dismiss</string>
+  <string name="sim_ndp_dismiss_text">Dispensar</string>
   <!-- Status message displayed on SIM Network Depersonalization panel -->
-  <string name="requesting_unlock">Requesting network unlock\u2026</string>
+  <string name="requesting_unlock">Solicitando o desbloqueio da rede\u2026</string>
   <!-- Error message displayed on SIM Network Depersonalization panel -->
-  <string name="unlock_failed">Network unlock request unsuccessful.</string>
+  <string name="unlock_failed">O pedido de desbloqueio de rede falhou.</string>
   <!-- Success message displayed on SIM Network Depersonalization panel -->
   <string name="unlock_success">Network unlock successful.</string>
   <!-- settings strings -->
@@ -108,12 +108,12 @@
   <string name="labelGSMMore">GSM call settings</string>
   <!-- GSM Call settings screen, setting option name with label indicating the SIM the settings
          are applied to. [CHAR LIMIT=40] -->
-  <string name="labelGsmMore_with_label">GSM call settings (<xliff:g id="subscriptionlabel" example="T-Mobile">%s</xliff:g>)</string>
+  <string name="labelGsmMore_with_label">Definições de chamadas GSM (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
   <!-- CDMA Call settings screen, setting option name -->
-  <string name="labelCDMAMore">CDMA call settings</string>
+  <string name="labelCDMAMore">Definições de chamada CDMA</string>
   <!-- CDMA Call settings screen, setting option name with label indicating the SIM the settings
          are applied to. [CHAR LIMIT=40] -->
-  <string name="labelCdmaMore_with_label">CDMA call settings (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+  <string name="labelCdmaMore_with_label">Definições de chamadas CDMA (<xliff:g id="subscriptionlabel" example="Vivo">%s</xliff:g>)</string>
   <!-- Mobile network settings screen, setting option name -->
   <string name="apn_settings">Access Point Names</string>
   <!-- Label for the "Network settings" screen in the Settings UI -->

@@ -22,10 +22,10 @@
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
   <string name="national_roaming_disable">Bei nationalem Roaming nicht mit Datendienst verbinden</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Proximity Lautsprechereinstellungen</string>
-  <string name="prox_auto_speaker_title">Automatischer Proximity-Lautsprecher</string>
+  <string name="display_category_prox_auto_speaker_title">Lautsprecher-Entfernungseinstellungen</string>
+  <string name="prox_auto_speaker_title">Lautsprecher-Entfernungsautomatik</string>
   <string name="prox_auto_speaker_summary">Freisprecheinrichtung aktivieren, wenn das Gerät von Ihrem Ohr entfernt wird.</string>
-  <string name="prox_auto_speaker_delay_title">Proximity-Lautsprecher Verzögerung</string>
+  <string name="prox_auto_speaker_delay_title">Lautsprecher-Entfernungsverzögerung</string>
   <string name="prox_auto_speaker_delay_summary">Zeitverzögerung bis Lautsprecher aktiviert wird</string>
   <string name="prox_auto_speaker_incall_only_title">Nur während eines Anrufs</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Bei ausgehenden Anrufen wird der Hörer erst aktiviert, nachdem der Angerufene abhebt.</string>
