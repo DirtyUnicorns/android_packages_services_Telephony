@@ -100,12 +100,12 @@
   <!-- Error message displayed on SIM Network Depersonalization panel -->
   <string name="unlock_failed">O pedido de desbloqueio de rede falhou.</string>
   <!-- Success message displayed on SIM Network Depersonalization panel -->
-  <string name="unlock_success">Network unlock successful.</string>
+  <string name="unlock_success">Desbloqueio de rede bem sucedido.</string>
   <!-- settings strings -->
   <!-- Error message for users that aren't allowed to modify Mobile Network settings [CHAR LIMIT=none] -->
-  <string name="mobile_network_settings_not_available">Cellular network settings are not available for this user</string>
+  <string name="mobile_network_settings_not_available">As configurações de rede móvel não estão disponíveis para este usuário</string>
   <!-- GSM Call settings screen, setting option name. [CHAR LIMIT=40] -->
-  <string name="labelGSMMore">GSM call settings</string>
+  <string name="labelGSMMore">Definições de chamadas GSM</string>
   <!-- GSM Call settings screen, setting option name with label indicating the SIM the settings
          are applied to. [CHAR LIMIT=40] -->
   <string name="labelGsmMore_with_label">Definições de chamadas GSM (<xliff:g id="SUBSCRIPTIONLABEL">%s</xliff:g>)</string>
@@ -123,14 +123,14 @@
   <!-- Label for list item which opens a dialog to select the default outgoing account -->
   <string name="phone_accounts_make_calls_with">Make calls with</string>
   <!-- Label for list item which opens a dialog to select the default outgoing account for SIP calls. -->
-  <string name="phone_accounts_make_sip_calls_with">Make SIP calls with</string>
+  <string name="phone_accounts_make_sip_calls_with">Efetuar chamadas SIP com</string>
   <!-- Entry in dialog to "ask first" for accounts when making a call -->
-  <string name="phone_accounts_ask_every_time">Ask first</string>
+  <string name="phone_accounts_ask_every_time">Perguntar primeiro</string>
   <!-- Label for heading of the per-account settings section in the phone accounts settings
          screen. -->
-  <string name="phone_accounts_settings_header">Settings</string>
+  <string name="phone_accounts_settings_header">Configurações</string>
   <!-- Label for invoking phone account selection screen -->
-  <string name="phone_accounts_choose_accounts">Choose accounts</string>
+  <string name="phone_accounts_choose_accounts">Escolher contas</string>
   <!-- Label for heading in the phone account selection screen -->
   <string name="phone_accounts_selection_header">Phone accounts</string>
   <!-- Title for the button to add a new sip account. [CHAR LIMIT=NONE] -->
@@ -142,11 +142,11 @@
   <string name="phone_accounts_all_calling_accounts">All calling accounts</string>
   <!-- Summary for all-calling-account setting indicating that is where the user goes to enable
          and disable phone accounts. -->
-  <string name="phone_accounts_all_calling_accounts_summary">Select which accounts can make calls</string>
+  <string name="phone_accounts_all_calling_accounts_summary">Selecionar quais contas podem fazer chamadas</string>
   <!-- Title for setting to select Wi-Fi call manager account -->
-  <string name="wifi_calling">Wi-Fi calling</string>
+  <string name="wifi_calling">Chamadas por Wi-Fi</string>
   <!-- Built-in label for the default connection service setting. -->
-  <string name="connection_service_default_label">Built-in connection service</string>
+  <string name="connection_service_default_label">Serviço de ligação incorporado</string>
   <!-- Call settings screen, setting option name -->
   <string name="voicemail">Voicemail</string>
   <!-- Title of the "Voicemail" settings screen, with a text label identifying which SIM the settings are for. -->
