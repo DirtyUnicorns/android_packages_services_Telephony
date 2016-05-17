@@ -117,7 +117,7 @@
   <!-- Mobile network settings screen, setting option name -->
   <string name="apn_settings">Pontos de acesso (Apn)</string>
   <!-- Label for the "Network settings" screen in the Settings UI -->
-  <string name="settings_label">Network settings</string>
+  <string name="settings_label">Configurações da rede</string>
   <!-- Label for settings screen for phone accounts. -->
   <string name="phone_accounts">Calling accounts</string>
   <!-- Label for list item which opens a dialog to select the default outgoing account -->
