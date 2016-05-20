@@ -414,8 +414,8 @@
   <string name="throttle_rate">Política velocidad datos</string>
   <!-- Data usage settings screen option for accessing the carrier website-->
   <string name="throttle_help">Más información</string>
-  <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum\nNext period starts in <xliff:g id="used">%4$d</xliff:g> days (<xliff:g id="used">%5$s</xliff:g>)</string>
-  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum</string>
+  <string name="throttle_status_subtext"><xliff:g id="used">%1$s </xliff:g> (<xliff:g id="used">%2$d </xliff:g> \u066A) de maximum\nNext periodo <xliff:g id="used">%3$s </xliff:g> periodo comienza en días <xliff:g id="used">%4$d </xliff:g> (<xliff:g id="used">%5$s </xliff:g>)</string>
+  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s </xliff:g> (<xliff:g id="used">%2$d </xliff:g> \u066A) <xliff:g id="used">%3$s </xliff:g> período máximo de</string>
   <string name="throttle_data_rate_reduced_subtext">Máx de <xliff:g id="USED_0">%1$s</xliff:g> superado.\nFrec datos reducida a <xliff:g id="USED_1">%2$d</xliff:g> Kb/s</string>
   <string name="throttle_time_frame_subtext"><xliff:g id="USED_0">%1$d</xliff:g>% del ciclo transcurrido.\nPróx período en <xliff:g id="USED_1">%2$d</xliff:g> días (<xliff:g id="USED_2">%3$s</xliff:g>)</string>
   <string name="throttle_rate_subtext">Frec datos se reduce a <xliff:g id="USED">%1$d</xliff:g> Kb/s si se supera límite uso datos</string>
@@ -840,7 +840,7 @@
     <item>TTY desactivado</item>
     <item>Modo TTY completo</item>
     <item>TTY HCO</item>
-    <item>TTY VCO</item>
+    <item>TTY HCO</item>
   </string-array>
   <!-- Do not translate. -->
   <!-- Dtmf tones settings -->
@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Es necesario realizar una llamada especial para activar el servicio telefónico. \n\nTras pulsar \"Activar\", escucha las instrucciones sobre cómo activar el teléfono.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activating\u2026</string>
+  <string name="ota_hfa_activation_title">Activando\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">El teléfono está activando el servicio de datos móviles.\n\nEste proceso puede tardar hasta 5 minutos.</string>
   <!-- Title of skip activation dialog -->

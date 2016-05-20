@@ -119,9 +119,9 @@
   <!-- Label for the "Network settings" screen in the Settings UI -->
   <string name="settings_label">Configurações da rede</string>
   <!-- Label for settings screen for phone accounts. -->
-  <string name="phone_accounts">Calling accounts</string>
+  <string name="phone_accounts">Contas do telefone</string>
   <!-- Label for list item which opens a dialog to select the default outgoing account -->
-  <string name="phone_accounts_make_calls_with">Make calls with</string>
+  <string name="phone_accounts_make_calls_with">Efetuar chamadas com</string>
   <!-- Label for list item which opens a dialog to select the default outgoing account for SIP calls. -->
   <string name="phone_accounts_make_sip_calls_with">Efetuar chamadas SIP com</string>
   <!-- Entry in dialog to "ask first" for accounts when making a call -->
@@ -132,14 +132,14 @@
   <!-- Label for invoking phone account selection screen -->
   <string name="phone_accounts_choose_accounts">Escolher contas</string>
   <!-- Label for heading in the phone account selection screen -->
-  <string name="phone_accounts_selection_header">Phone accounts</string>
+  <string name="phone_accounts_selection_header">Contas do telefone</string>
   <!-- Title for the button to add a new sip account. [CHAR LIMIT=NONE] -->
-  <string name="phone_accounts_add_sip_account">Add SIP account</string>
+  <string name="phone_accounts_add_sip_account">Adicionar conta SIP</string>
   <!-- Description label for icon to configure a phone account's settings. -->
-  <string name="phone_accounts_configure_account_settings">Configure account settings</string>
+  <string name="phone_accounts_configure_account_settings">Configurar as definições da conta</string>
   <!-- Label for heading that takes user to the list of calling accounts where they can enable
          and disable all accounts. -->
-  <string name="phone_accounts_all_calling_accounts">All calling accounts</string>
+  <string name="phone_accounts_all_calling_accounts">Todas as contas de chamadas</string>
   <!-- Summary for all-calling-account setting indicating that is where the user goes to enable
          and disable phone accounts. -->
   <string name="phone_accounts_all_calling_accounts_summary">Selecionar quais contas podem fazer chamadas</string>
@@ -148,57 +148,57 @@
   <!-- Built-in label for the default connection service setting. -->
   <string name="connection_service_default_label">Serviço de ligação incorporado</string>
   <!-- Call settings screen, setting option name -->
-  <string name="voicemail">Voicemail</string>
+  <string name="voicemail">Correios de Voz</string>
   <!-- Title of the "Voicemail" settings screen, with a text label identifying which SIM the settings are for. -->
-  <string name="voicemail_settings_with_label">Voicemail (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
+  <string name="voicemail_settings_with_label">Correio de voz (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
   <!-- Call forwarding dialog box, voicemail number prefix -->
   <string name="voicemail_abbreviated">VM:</string>
   <!-- Mobile network settings screen, setting option name -->
-  <string name="networks">Network operators</string>
+  <string name="networks">Operadores de rede</string>
   <!-- Cell Broadcast settings title.  [CHAR LIMIT=50] -->
-  <string name="cell_broadcast_settings">Emergency broadcasts</string>
+  <string name="cell_broadcast_settings">Transmissões de emergência</string>
   <!-- Call settings screen title -->
-  <string name="call_settings">Call settings</string>
+  <string name="call_settings">Conf. de chamada</string>
   <!-- GSM Call settings screen, setting option name -->
-  <string name="additional_gsm_call_settings">Additional settings</string>
+  <string name="additional_gsm_call_settings">Definições adicionais</string>
   <!-- GSM Call settings screen, setting option name, with label identifying the SIM the settings are for. -->
-  <string name="additional_gsm_call_settings_with_label">Additional settings (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+  <string name="additional_gsm_call_settings_with_label">Configurações adicionais(<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
   <!-- GSM-only Call settings screen, setting option name-->
-  <string name="sum_gsm_call_settings">Additional GSM only call settings</string>
+  <string name="sum_gsm_call_settings">Configurações adicionais somente de chamada GSM</string>
   <!-- CDMA Call settings screen, setting option name -->
-  <string name="additional_cdma_call_settings">Additional CDMA call settings</string>
+  <string name="additional_cdma_call_settings">Configurações adicionais de chamadas CDMA</string>
   <!-- CDMA-only Call settings screen, setting option name-->
-  <string name="sum_cdma_call_settings">Additional CDMA only call settings</string>
+  <string name="sum_cdma_call_settings">Opções adicionais de chamadas apenas CDMA</string>
   <!-- Call setting screen, nework service setting name -->
-  <string name="labelNwService">Network service settings</string>
+  <string name="labelNwService">Definições do serviço de rede</string>
   <!-- Call settings screen, setting option name -->
-  <string name="labelCallerId">Caller ID</string>
+  <string name="labelCallerId">ID do autor da chamada</string>
   <!-- Additional call settings screen, setting summary text when the setting is being loaded [CHAR LIMIT=40] -->
-  <string name="sum_loading_settings">Loading settings\u2026</string>
+  <string name="sum_loading_settings">Carregando configurações\u2026</string>
   <!-- Additional call settings screen, setting summary text when Caller ID is hidden -->
-  <string name="sum_hide_caller_id">Number hidden in outgoing calls</string>
+  <string name="sum_hide_caller_id">Ocultar o número em chamadas efetuadas</string>
   <!-- Additional call settings screen, setting summary text when Caller ID is shown -->
-  <string name="sum_show_caller_id">Number displayed in outgoing calls</string>
+  <string name="sum_show_caller_id">Número apresentado em chamadas efetuadas</string>
   <!-- Additional call settings screen, setting summary text for default Caller ID value -->
-  <string name="sum_default_caller_id">Use default operator settings to display my number in outgoing calls</string>
+  <string name="sum_default_caller_id">Utilizar as configurações padrões da operadora para exibir o meu número nas chamadas efetuadas</string>
   <!-- Additional call settings screen, setting check box name -->
-  <string name="labelCW">Call waiting</string>
+  <string name="labelCW">Chamada em espera</string>
   <!-- Additional call settings screen, setting summary text when call waiting check box is selected -->
-  <string name="sum_cw_enabled">During a call, notify me of incoming calls</string>
+  <string name="sum_cw_enabled">Durante uma chamada, avise-me sobre chamadas recebidas</string>
   <!-- Additional call settings screen, setting summary text when call waiting check box is clear -->
-  <string name="sum_cw_disabled">During a call, notify me of incoming calls</string>
+  <string name="sum_cw_disabled">Durante uma chamada, me avise sobre chamadas recebidas</string>
   <!-- Call forwarding settings screen, section heading -->
-  <string name="call_forwarding_settings">Call forwarding settings</string>
+  <string name="call_forwarding_settings">Configurações de encaminhamento de chamada</string>
   <!-- Call forwarding settings screen, section heading, with a label identifying the SIM the settings are for. -->
-  <string name="call_forwarding_settings_with_label">Call forwarding settings (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+  <string name="call_forwarding_settings_with_label">Definições de encaminhamento de chamadas (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
   <!-- Call settings screen, setting option name -->
-  <string name="labelCF">Call forwarding</string>
+  <string name="labelCF">Encaminhamento de chamada</string>
   <!-- Call forwarding settings screen, setting option name -->
-  <string name="labelCFU">Always forward</string>
+  <string name="labelCFU">Encaminhar sempre</string>
   <!-- Call forwarding dialog box, text field label -->
-  <string name="messageCFU">Always use this number</string>
+  <string name="messageCFU">Utilizar sempre este número</string>
   <!-- Call forwarding settings screen, setting summary text when forwarding all calls -->
-  <string name="sum_cfu_enabled_indicator">Forwarding all calls</string>
+  <string name="sum_cfu_enabled_indicator">Encaminhando todas as chamadas</string>
   <!-- Call forwarding settings screen, setting summary text the Always forward is set -->
   <string name="sum_cfu_enabled">Forwarding all calls to <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
   <!-- Call forwarding settings screen, Always forward is enabled but the number is unavailable -->
@@ -206,35 +206,35 @@
   <!-- Call forwarding settings screen, setting summary text when Always forward is disabled -->
   <string name="sum_cfu_disabled">Off</string>
   <!-- Call forwarding settings screen, setting option name -->
-  <string name="labelCFB">When busy</string>
+  <string name="labelCFB">Quando estiver ocupado(a)</string>
   <!-- Call forwarding dialog box, text field label -->
-  <string name="messageCFB">Number when busy</string>
+  <string name="messageCFB">Encaminhar chamadas para</string>
   <!-- Call forwarding settings screen, setting summary text when forwarding to specific number when busy -->
-  <string name="sum_cfb_enabled">Forwarding to <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+  <string name="sum_cfb_enabled">Encaminhando para <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
   <!-- Call forwarding settings screen, setting summary text when forwarding when busy is disabled -->
-  <string name="sum_cfb_disabled">Off</string>
+  <string name="sum_cfb_disabled">Desligar</string>
   <!-- Error message displayed after failing to disable forwarding calls when the phone is busy -->
-  <string name="disable_cfb_forbidden">Your operator doesn\'t support disabling call forwarding when your phone is busy.</string>
+  <string name="disable_cfb_forbidden">O seu operador não suporta a desativação do reencaminhamento de chamadas quando o telemóvel está ocupado.</string>
   <!-- Call forwarding settings screen, setting option name -->
   <string name="labelCFNRy">When unanswered</string>
   <!-- Call forwarding dialog box, text field label -->
   <string name="messageCFNRy">Number when unanswered</string>
   <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unanswered -->
-  <string name="sum_cfnry_enabled">Forwarding to <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+  <string name="sum_cfnry_enabled">Encaminhando para <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
   <!-- Call forwarding settings screen, setting summary text when Forward when unanswered is disabled -->
-  <string name="sum_cfnry_disabled">Off</string>
+  <string name="sum_cfnry_disabled">Desligar</string>
   <!-- Error message displayed after failing to disable forwarding calls when the phone does not answer -->
   <string name="disable_cfnry_forbidden">Your operator doesn\'t support disabling call forwarding when your phone doesn\'t answer.</string>
   <!-- Call forwarding settings screen, setting option name -->
-  <string name="labelCFNRc">When unreachable</string>
+  <string name="labelCFNRc">Quando estiver inacessível</string>
   <!-- Call forwarding dialog box, text field label -->
-  <string name="messageCFNRc">Number when unreachable</string>
+  <string name="messageCFNRc">Número quando não acessível</string>
   <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unreachable-->
-  <string name="sum_cfnrc_enabled">Forwarding to <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+  <string name="sum_cfnrc_enabled">Encaminhando para <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
   <!-- Call forwarding settings screen, setting summary text when Forward when unreachable is disabled -->
-  <string name="sum_cfnrc_disabled">Disabled</string>
+  <string name="sum_cfnrc_disabled">Desativado</string>
   <!-- Error message displayed after failing to disable forwarding calls when the phone is unreachable -->
-  <string name="disable_cfnrc_forbidden">Your carrier doesn\'t support disabling call forwarding when your phone is unreachable.</string>
+  <string name="disable_cfnrc_forbidden">O seu operador não suporta a desativação do encaminhamento de chamadas quando o telefone não está acessível.</string>
   <!-- Title of the progress dialog displayed while updating Call settings -->
   <string name="updating_title">Call settings</string>
   <!-- Toast in Call settings when asked to launch settings for a secondary user -->
@@ -246,16 +246,16 @@
   <!-- Toast in Call settings dialog while settings are being read -->
   <string name="reading_settings">Reading settings\u2026</string>
   <!-- Toast in Call settings dialog while settings are being saved -->
-  <string name="updating_settings">Updating settings\u2026</string>
+  <string name="updating_settings">Atualizando configurações\u2026</string>
   <!-- Toast in Call settings dialog while settings are being reverted -->
-  <string name="reverting_settings">Reverting settings\u2026</string>
+  <string name="reverting_settings">Revertendo definições\u2026</string>
   <!-- Status message displayed in the "Call settings error" dialog -->
-  <string name="response_error">Unexpected response from network.</string>
+  <string name="response_error">Resposta inesperada da rede.</string>
   <!-- Status message displayed in the "Call settings error" dialog -->
-  <string name="exception_error">Network or SIM card error.</string>
+  <string name="exception_error">Erro do cartão SIM ou da rede.</string>
   <!-- Status message displayed in the "Call settings error" dialog when
          current SS request is modified to a different request by STK CC -->
-  <string name="stk_cc_ss_to_dial_error">SS request modified to DIAL request.</string>
+  <string name="stk_cc_ss_to_dial_error">Pedido SS modificado para um pedido DIAL.</string>
   <string name="stk_cc_ss_to_ussd_error">SS request modified to USSD request.</string>
   <string name="stk_cc_ss_to_ss_error">SS request modified to new SS request.</string>
   <!-- Status message displayed in the "Call settings error" dialog when operation fails due to FDN
@@ -266,12 +266,12 @@
   <!-- Button label used to dismiss the "Call settings error" dialog -->
   <string name="close_dialog">OK</string>
   <!-- Button label used in several settings-related dialogs -->
-  <string name="enable">Turn on</string>
+  <string name="enable">Ativar</string>
   <!-- Button label used in several settings-related dialogs -->
-  <string name="disable">Turn off</string>
+  <string name="disable">Desligar</string>
   <!-- Button label which indicates the user wants to update a stored
          phone number; used in several settings-related dialogs -->
-  <string name="change_num">Update</string>
+  <string name="change_num">Atualizar</string>
   <!-- Phone settings: Caller ID preference values -->
   <string-array name="clir_display_values">
     <!-- Phone settings "Caller ID" preference option: use the default value -->
@@ -284,11 +284,11 @@
   <!-- Phone settings: Internal keys used for Caller ID preference values.  DO NOT TRANSLATE. -->
   <!-- voicemail setting strings -->
   <!-- Call settings screen, Set voicemail number dialog text -->
-  <string name="vm_changed">Voicemail number changed.</string>
+  <string name="vm_changed">O número do correio de voz foi alterado.</string>
   <!-- Call settings screen, Set voicemail number dialog text -->
-  <string name="vm_change_failed">Couldn\'t change the voicemail number.\nContact your carrier if this problem persists.</string>
+  <string name="vm_change_failed">Não foi possível alterar o número de correio de voz. \n Contate sua operadora se este problema persistir.</string>
   <!-- Call settings screen, displayed when vm provider supplied forwarding number change fails-->
-  <string name="fw_change_failed">Couldn\'t change the forwarding number.\nContact your carrier if this problem persists.</string>
+  <string name="fw_change_failed">Não foi possível alterar o número de encaminhamento. \n Contate sua operadora se este problema persistir.</string>
   <!-- Call settings screen, displayed when forwarding number read fails-->
   <string name="fw_get_in_vm_failed">Couldn\'t retrieve and save current forwarding number settings.\nSwitch to the new provider anyway?</string>
   <!-- Call settings screen, Set voicemail number dialog text -->
