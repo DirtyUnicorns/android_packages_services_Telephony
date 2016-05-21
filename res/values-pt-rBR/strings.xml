@@ -200,7 +200,7 @@
   <!-- Call forwarding settings screen, setting summary text when forwarding all calls -->
   <string name="sum_cfu_enabled_indicator">Encaminhando todas as chamadas</string>
   <!-- Call forwarding settings screen, setting summary text the Always forward is set -->
-  <string name="sum_cfu_enabled">Forwarding all calls to <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+  <string name="sum_cfu_enabled">Encaminhando todas as chamadas para <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
   <!-- Call forwarding settings screen, Always forward is enabled but the number is unavailable -->
   <string name="sum_cfu_enabled_no_number">Number is unavailable</string>
   <!-- Call forwarding settings screen, setting summary text when Always forward is disabled -->
