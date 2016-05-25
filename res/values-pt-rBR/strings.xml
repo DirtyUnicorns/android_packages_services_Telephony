@@ -202,9 +202,9 @@
   <!-- Call forwarding settings screen, setting summary text the Always forward is set -->
   <string name="sum_cfu_enabled">Encaminhando todas as chamadas para <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
   <!-- Call forwarding settings screen, Always forward is enabled but the number is unavailable -->
-  <string name="sum_cfu_enabled_no_number">Number is unavailable</string>
+  <string name="sum_cfu_enabled_no_number">O número está indisponível</string>
   <!-- Call forwarding settings screen, setting summary text when Always forward is disabled -->
-  <string name="sum_cfu_disabled">Off</string>
+  <string name="sum_cfu_disabled">Desligado</string>
   <!-- Call forwarding settings screen, setting option name -->
   <string name="labelCFB">Quando estiver ocupado(a)</string>
   <!-- Call forwarding dialog box, text field label -->
@@ -216,15 +216,15 @@
   <!-- Error message displayed after failing to disable forwarding calls when the phone is busy -->
   <string name="disable_cfb_forbidden">O seu operador não suporta a desativação do reencaminhamento de chamadas quando o telemóvel está ocupado.</string>
   <!-- Call forwarding settings screen, setting option name -->
-  <string name="labelCFNRy">When unanswered</string>
+  <string name="labelCFNRy">Quando não tiver atendido</string>
   <!-- Call forwarding dialog box, text field label -->
-  <string name="messageCFNRy">Number when unanswered</string>
+  <string name="messageCFNRy">Número no caso de não atender</string>
   <!-- Call forwarding settings screen, setting summary text when forwarding to a specific number when unanswered -->
   <string name="sum_cfnry_enabled">Encaminhando para <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
   <!-- Call forwarding settings screen, setting summary text when Forward when unanswered is disabled -->
   <string name="sum_cfnry_disabled">Desligar</string>
   <!-- Error message displayed after failing to disable forwarding calls when the phone does not answer -->
-  <string name="disable_cfnry_forbidden">Your operator doesn\'t support disabling call forwarding when your phone doesn\'t answer.</string>
+  <string name="disable_cfnry_forbidden">Sua operadora não suporta a desativação do encaminhamento de chamadas para chamadas não atendidas.</string>
   <!-- Call forwarding settings screen, setting option name -->
   <string name="labelCFNRc">Quando estiver inacessível</string>
   <!-- Call forwarding dialog box, text field label -->
@@ -236,9 +236,9 @@
   <!-- Error message displayed after failing to disable forwarding calls when the phone is unreachable -->
   <string name="disable_cfnrc_forbidden">O seu operador não suporta a desativação do encaminhamento de chamadas quando o telefone não está acessível.</string>
   <!-- Title of the progress dialog displayed while updating Call settings -->
-  <string name="updating_title">Call settings</string>
+  <string name="updating_title">Conf. de chamada</string>
   <!-- Toast in Call settings when asked to launch settings for a secondary user -->
-  <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
+  <string name="call_settings_primary_user_only">Configurações de chamada só podem ser alteradas pelo usuário primário.</string>
   <!-- Title of the "Call settings" settings screen, with a text label identifying which SIM the settings are for. -->
   <string name="call_settings_with_label">Settings (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
   <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
@@ -260,9 +260,9 @@
   <string name="stk_cc_ss_to_ss_error">SS request modified to new SS request.</string>
   <!-- Status message displayed in the "Call settings error" dialog when operation fails due to FDN
          [CHAR LIMIT=NONE] -->
-  <string name="fdn_check_failure">Your Phone app\'s Fixed Dialing Numbers setting is turned on. As a result, some call-related features aren\'t working.</string>
+  <string name="fdn_check_failure">Opção de discagem de números fixos está ativado. Como resultado, algumas características relacionadas à chamada não estão funcionando.</string>
   <!-- Status message displayed in the "Call settings error" dialog -->
-  <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
+  <string name="radio_off_error">Ative o rádio antes de visualizar estas definições.</string>
   <!-- Button label used to dismiss the "Call settings error" dialog -->
   <string name="close_dialog">OK</string>
   <!-- Button label used in several settings-related dialogs -->
@@ -275,11 +275,11 @@
   <!-- Phone settings: Caller ID preference values -->
   <string-array name="clir_display_values">
     <!-- Phone settings "Caller ID" preference option: use the default value -->
-    <item>Network default</item>
+    <item>Padrão de rede</item>
     <!-- Phone settings "Caller ID" preference option: hide outgoing Caller ID info -->
-    <item>Hide number</item>
+    <item>Ocultar número</item>
     <!-- Phone settings "Caller ID" preference option: show outgoing Caller ID info -->
-    <item>Show number</item>
+    <item>Mostrar número</item>
   </string-array>
   <!-- Phone settings: Internal keys used for Caller ID preference values.  DO NOT TRANSLATE. -->
   <!-- voicemail setting strings -->

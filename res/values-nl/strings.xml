@@ -51,7 +51,7 @@
   <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
   <string name="manageConferenceLabel">Telefonische vergadering beheren</string>
   <!-- Positive button label ("OK") used in several dialogs in the phone UI [CHAR LIMIT=10] -->
-  <string name="ok">OK</string>
+  <string name="ok">Oké</string>
   <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
   <string name="audio_mode_speaker">Luidspreker</string>
   <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
@@ -264,7 +264,7 @@
   <!-- Status message displayed in the "Call settings error" dialog -->
   <string name="radio_off_error">Schakel de radio in voordat je deze instellingen bekijkt.</string>
   <!-- Button label used to dismiss the "Call settings error" dialog -->
-  <string name="close_dialog">OK</string>
+  <string name="close_dialog">Oké</string>
   <!-- Button label used in several settings-related dialogs -->
   <string name="enable">Inschakelen</string>
   <!-- Button label used in several settings-related dialogs -->
@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">Je moet een speciale oproep uitvoeren om je telefoonservice te activeren. \n\nNadat je op \'Activeren\' hebt gedrukt, luister je naar de instructies om je telefoon te activeren.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activating\u2026</string>
+  <string name="ota_hfa_activation_title">Activeren\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">De telefoon activeert je mobiele gegevensservice.\n\nDit kan tot vijf minuten duren.</string>
   <!-- Title of skip activation dialog -->
