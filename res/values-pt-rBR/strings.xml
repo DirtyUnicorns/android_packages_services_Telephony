@@ -240,11 +240,11 @@
   <!-- Toast in Call settings when asked to launch settings for a secondary user -->
   <string name="call_settings_primary_user_only">Configurações de chamada só podem ser alteradas pelo usuário primário.</string>
   <!-- Title of the "Call settings" settings screen, with a text label identifying which SIM the settings are for. -->
-  <string name="call_settings_with_label">Settings (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s</xliff:g>)</string>
+  <string name="call_settings_with_label">Configurações (<xliff:g id="subscriptionlabel" example="Mock Carrier">%s </xliff:g>)</string>
   <!-- Title of the alert dialog displayed if an error occurs while updating Call settings -->
-  <string name="error_updating_title">Call settings error</string>
+  <string name="error_updating_title">Erro nas definições de chamada</string>
   <!-- Toast in Call settings dialog while settings are being read -->
-  <string name="reading_settings">Reading settings\u2026</string>
+  <string name="reading_settings">Carregando configurações\u2026</string>
   <!-- Toast in Call settings dialog while settings are being saved -->
   <string name="updating_settings">Atualizando configurações\u2026</string>
   <!-- Toast in Call settings dialog while settings are being reverted -->
@@ -256,8 +256,8 @@
   <!-- Status message displayed in the "Call settings error" dialog when
          current SS request is modified to a different request by STK CC -->
   <string name="stk_cc_ss_to_dial_error">Pedido SS modificado para um pedido DIAL.</string>
-  <string name="stk_cc_ss_to_ussd_error">SS request modified to USSD request.</string>
-  <string name="stk_cc_ss_to_ss_error">SS request modified to new SS request.</string>
+  <string name="stk_cc_ss_to_ussd_error">Solicitação SS foi modificada para a solicitação USSD.</string>
+  <string name="stk_cc_ss_to_ss_error">Solicitação de SS modificado para nova solicitação SS.</string>
   <!-- Status message displayed in the "Call settings error" dialog when operation fails due to FDN
          [CHAR LIMIT=NONE] -->
   <string name="fdn_check_failure">Opção de discagem de números fixos está ativado. Como resultado, algumas características relacionadas à chamada não estão funcionando.</string>
@@ -292,7 +292,7 @@
   <!-- Call settings screen, displayed when forwarding number read fails-->
   <string name="fw_get_in_vm_failed">Couldn\'t retrieve and save current forwarding number settings.\nSwitch to the new provider anyway?</string>
   <!-- Call settings screen, Set voicemail number dialog text -->
-  <string name="no_change">No changes were made.</string>
+  <string name="no_change">Não foram efetuadas alterações.</string>
   <!-- Call settings screen, "Voicemail" provider setting summary text when no provider is selected -->
   <string name="sum_voicemail_choose_provider">Choose voicemail service</string>
   <!-- Call settings screen, "Voicemail" screen, default option - Your Carrier -->
