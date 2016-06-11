@@ -22,8 +22,8 @@
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
   <string name="national_roaming_disable">Ulusal dolaşım sırasında veri hizmetlerine bağlanma</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
+  <string name="display_category_prox_auto_speaker_title">Yakınlık hoparlör ayarları</string>
+  <string name="prox_auto_speaker_title">Otomatik yakınlık hoparlörü</string>
   <string name="prox_auto_speaker_summary">Telefonu yüzünüzden ayırdığınızda hoparlörü etkinleştir</string>
   <string name="prox_auto_speaker_delay_title">Yakınlık hoparlör gecikmesi</string>
   <string name="prox_auto_speaker_delay_summary">Hoparlör etkinleştirilmeden önce gecikme süresi</string>
@@ -33,7 +33,7 @@
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Flip action</string>
   <!-- Dialog title of the flip action setting. -->
-  <string name="flip_action_dialog_title">Flip device to\u2026</string>
+  <string name="flip_action_dialog_title">\u2026 için cihazı ters çevir</string>
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary">Telefonu ters çevirmek şunu yapacak: <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
@@ -41,7 +41,7 @@
   <string name="entry_mute_ringer">Zil sesini sustur</string>
   <string name="entry_dismiss_call">Aramayı reddet</string>
   <string name="summary_do_nothing">do nothing</string>
-  <string name="summary_mute_ringer">mute the ringer</string>
+  <string name="summary_mute_ringer">zil sesini kapat</string>
   <string name="summary_dismiss_call">dismiss the call</string>
   <!-- Advanced Settings -->
   <string name="advanced_setting">Gelişmiş Ayarlar</string>

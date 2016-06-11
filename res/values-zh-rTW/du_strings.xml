@@ -18,13 +18,13 @@
   <!-- Mobile network settings screen, setting check box name -->
   <string name="national_roaming">國內數據漫遊</string>
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
-  <string name="national_roaming_enable">在國內漫遊時連接數據服務</string>
+  <string name="national_roaming_enable">國內漫遊時連接數據服務</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
-  <string name="national_roaming_disable">在國內漫遊時不要連接數據服務</string>
+  <string name="national_roaming_disable">國內漫遊時不要連接數據服務</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">自動擴音設定</string>
   <string name="prox_auto_speaker_title">自動擴音</string>
-  <string name="prox_auto_speaker_summary">在裝置遠離臉部時自動啟用擴音</string>
+  <string name="prox_auto_speaker_summary">裝置遠離臉部時自動啟用擴音</string>
   <string name="prox_auto_speaker_delay_title">自動擴音延遲</string>
   <string name="prox_auto_speaker_delay_summary">啟用擴音前的延遲時間</string>
   <string name="prox_auto_speaker_incall_only_title">僅通話時</string>
@@ -47,7 +47,7 @@
   <string name="advanced_setting">進階設定</string>
   <!-- Blacklist preferences -->
   <string name="blacklist_title">黑名單</string>
-  <string name="blacklist_summary_disabled">停用</string>
+  <string name="blacklist_summary_disabled">已停用</string>
   <string name="blacklist_summary">您將不會收到來自黑名單內電話號碼的電話或訊息</string>
   <!-- Call screen wakeup settings -->
   <string name="screen_wakeup">電話斷線時喚醒螢幕</string>
