@@ -414,10 +414,10 @@
   <string name="throttle_rate">資料傳輸速率政策</string>
   <!-- Data usage settings screen option for accessing the carrier website-->
   <string name="throttle_help">瞭解更多資訊</string>
-  <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum\nNext period starts in <xliff:g id="used">%4$d</xliff:g> days (<xliff:g id="used">%5$s</xliff:g>)</string>
-  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum</string>
+  <string name="throttle_status_subtext"><xliff:g id="used">%1$s </xliff:g>(<xliff:g id="used">%2$d </xliff:g> \u066A) 的 <xliff:g id="used">%3$s </xliff:g> 期 maximum\nNext 期開始在 <xliff:g id="used">%4$d </xliff:g> 天 (<xliff:g id="used">%5$s </xliff:g>)</string>
+  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s </xliff:g>(<xliff:g id="used">%2$d </xliff:g> \u066A) 的 <xliff:g id="used">%3$s </xliff:g> 期最大</string>
   <string name="throttle_data_rate_reduced_subtext">已達 <xliff:g id="USED_0">%1$s</xliff:g> 上限\n資料速率降低至 <xliff:g id="USED_1">%2$d</xliff:g> Kb/s</string>
-  <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A of cycle elapsed\nNext period starts in <xliff:g id="used">%2$d</xliff:g> days (<xliff:g id="used">%3$s</xliff:g>)</string>
+  <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d </xliff:g> \u066A 的週期 elapsed\nNext 期開始在 <xliff:g id="used">%2$d </xliff:g> 天 (<xliff:g id="used">%3$s </xliff:g>)</string>
   <string name="throttle_rate_subtext">若已達數據用量上限，數據傳輸速率會降低至 <xliff:g id="USED">%1$d</xliff:g> Kb/秒</string>
   <string name="throttle_help_subtext">更多有關行動業者行動網路數據使用政策的資訊</string>
   <string name="cell_broadcast_sms">區域廣播簡訊</string>
@@ -529,7 +529,7 @@
   <string name="cdma_subscription_summary">在 RUIM/SIM 和 NV 之間切換</string>
   <string name="cdma_subscription_dialogtitle">訂閱</string>
   <string-array name="cdma_subscription_choices">
-    <item>RUIM/SIM</item>
+    <item>RUIM/SIM 卡</item>
     <item>NV</item>
   </string-array>
   <string-array name="cdma_subscription_values">
@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">如要啟用手機服務，您必須撥打一通特殊電話。\n\n按下 [啟用] 後，請聽取手機啟用說明。</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activating\u2026</string>
+  <string name="ota_hfa_activation_title">正在啟動\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">手機正在啟用行動數據服務。\n\n最多可能需要 5 分鐘。</string>
   <!-- Title of skip activation dialog -->
@@ -903,7 +903,7 @@
   <!-- Button label shown on OTA screens that have a next screen -->
   <string name="ota_next">下一頁</string>
   <!-- Emergency Callback Mode (ECM) -->
-  <string name="ecm_exit_dialog">EcmExitDialog</string>
+  <string name="ecm_exit_dialog">Ecm離開對話</string>
   <!-- ECM: Status bar notification message -->
   <string name="phone_entered_ecm_text">已進入緊急回撥模式</string>
   <!-- ECM: Notification title -->
