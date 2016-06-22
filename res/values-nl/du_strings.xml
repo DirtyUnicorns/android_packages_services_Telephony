@@ -50,7 +50,7 @@
   <string name="blacklist_summary_disabled">Uitgeschakeld</string>
   <string name="blacklist_summary">U ontvangt geen inkomende oproepen of berichten van telefoonnummers in de geblokkeerde bellerslijst</string>
   <!-- Call screen wakeup settings -->
-  <string name="screen_wakeup">Scahkel scherm in wanneer een verbinding wordt verbroken</string>
+  <string name="screen_wakeup">Schakel scherm in wanneer een verbinding wordt verbroken</string>
   <string name="screen_wakeup_enabled_summary">Ingeschakeld</string>
   <string name="screen_wakeup_disabled_summary">Uitgeschakeld</string>
 </resources>
