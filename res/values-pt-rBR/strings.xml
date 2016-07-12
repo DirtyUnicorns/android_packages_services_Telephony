@@ -290,176 +290,177 @@
   <!-- Call settings screen, displayed when vm provider supplied forwarding number change fails-->
   <string name="fw_change_failed">Não foi possível alterar o número de encaminhamento. \n Contate sua operadora se este problema persistir.</string>
   <!-- Call settings screen, displayed when forwarding number read fails-->
-  <string name="fw_get_in_vm_failed">Couldn\'t retrieve and save current forwarding number settings.\nSwitch to the new provider anyway?</string>
+  <string name="fw_get_in_vm_failed">\"Não foi possível obter e salvar as configurações de encaminhamento do atual número.\n
+Mudar para nova operadora mesmo assim?</string>
   <!-- Call settings screen, Set voicemail number dialog text -->
   <string name="no_change">Não foram efetuadas alterações.</string>
   <!-- Call settings screen, "Voicemail" provider setting summary text when no provider is selected -->
-  <string name="sum_voicemail_choose_provider">Choose voicemail service</string>
+  <string name="sum_voicemail_choose_provider">Escolha o serviço de correio de voz</string>
   <!-- Call settings screen, "Voicemail" screen, default option - Your Carrier -->
-  <string name="voicemail_default">Your carrier</string>
+  <string name="voicemail_default">Sua operadora</string>
   <!-- networks setting strings -->
   <!-- Mobile network settings screen title -->
-  <string name="mobile_networks">Cellular network settings</string>
+  <string name="mobile_networks">Configurações de redes móveis</string>
   <!-- Available networks screen title/heading -->
-  <string name="label_available">Available networks</string>
+  <string name="label_available">Redes disponíveis</string>
   <!-- Mobile network settings screen, toast when searching for available networks -->
-  <string name="load_networks_progress">Searching\u2026</string>
+  <string name="load_networks_progress">Pesquisando\u2026</string>
   <!-- Available networks screen, text when no networks are found -->
-  <string name="empty_networks_list">No networks found.</string>
+  <string name="empty_networks_list">Nenhuma rede encontrada.</string>
   <!-- Available networks screen, setting option name -->
-  <string name="search_networks">Search networks</string>
+  <string name="search_networks">Procurar redes</string>
   <!-- Available networks screen, toast when an error is encountered when searching for networks -->
-  <string name="network_query_error">Error while searching for networks.</string>
+  <string name="network_query_error">Erro procurando redes.</string>
   <!-- Available networks screen, toast when registering on a specific network -->
-  <string name="register_on_network">Registering on <xliff:g id="network">%s</xliff:g>\u2026</string>
+  <string name="register_on_network">Registrando em <xliff:g id="network">%s</xliff:g>\u2026</string>
   <!-- Available networks screen, toast when SIM card isn't allowed on a network -->
-  <string name="not_allowed">Your SIM card doesn\'t allow a connection to this network.</string>
+  <string name="not_allowed">Seu cartão SIM não permite uma conexão com esta rede.</string>
   <!-- Available networks screen, toast when unable to connect to a network temporarily -->
-  <string name="connect_later">Can\'t connect to this network right now. Try again later.</string>
+  <string name="connect_later">Não foi possível conectar nesta rede agora. Tente mais tarde.</string>
   <!-- Available networks screen, toast when registered on a specific network -->
-  <string name="registration_done">Registered on network.</string>
+  <string name="registration_done">Registado na rede.</string>
   <!-- Mobile network settings screen setting option summary text -->
-  <string name="sum_carrier_select">Choose a network operator</string>
+  <string name="sum_carrier_select">Selecione uma operadora de rede</string>
   <!-- Available networks screen, setting summary text -->
-  <string name="sum_search_networks">Search for all available networks</string>
+  <string name="sum_search_networks">Procurar todas as redes disponíveis</string>
   <!-- Available networks screen, setting option name -->
-  <string name="select_automatically">Choose automatically</string>
+  <string name="select_automatically">Selecionar automaticamente</string>
   <!-- Available networks screen, setting summary text -->
-  <string name="sum_select_automatically">Automatically choose preferred network</string>
-  <string name="register_automatically">Automatic registration\u2026</string>
-  <string name="preferred_network_mode_title">Preferred network type</string>
-  <string name="preferred_network_mode_summary">Change the network operating mode</string>
-  <string name="preferred_network_mode_dialogtitle">Preferred network type</string>
+  <string name="sum_select_automatically">Selecionar automaticamente a rede preferencial</string>
+  <string name="register_automatically">Registo automático\u2026</string>
+  <string name="preferred_network_mode_title">Tipo de rede preferencial</string>
+  <string name="preferred_network_mode_summary">Alterar o modo de operação de rede</string>
+  <string name="preferred_network_mode_dialogtitle">Tipo de rede preferencial</string>
   <!-- Mobile network settings, summary for preferred network mode WCDMA preferred[CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_wcdma_perf_summary">Preferred network mode: WCDMA preferred</string>
+  <string name="preferred_network_mode_wcdma_perf_summary">Modo de rede: preferencialmente WCDMA</string>
   <!-- Mobile network settings, summary for preferred network mode GSM [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_gsm_only_summary">Preferred network mode: GSM only</string>
+  <string name="preferred_network_mode_gsm_only_summary">Modo de rede: somente GSM</string>
   <!-- Mobile network settings, summary for preferred network mode WCDMA only [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_wcdma_only_summary">Preferred network mode: WCDMA only</string>
+  <string name="preferred_network_mode_wcdma_only_summary">Modo de rede: somente WCDMA</string>
   <!-- Mobile network settings, summary for preferred network mode GSM / UMTS [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_gsm_wcdma_summary">Preferred network mode: GSM / WCDMA</string>
+  <string name="preferred_network_mode_gsm_wcdma_summary">Modo de rede: GSM / WCDMA</string>
   <!-- Mobile network settings, summary for preferred network mode CDMA [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_cdma_summary">Preferred network mode: CDMA</string>
+  <string name="preferred_network_mode_cdma_summary">Modo de rede: CDMA</string>
   <!-- Mobile network settings, summary for preferred network mode CDMA / EvDo [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_cdma_evdo_summary">Preferred network mode: CDMA / EvDo</string>
+  <string name="preferred_network_mode_cdma_evdo_summary">Modo de rede: CDMA / EvDo</string>
   <!-- Mobile network settings, summary for preferred network mode CDMA only [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_cdma_only_summary">Preferred network mode: CDMA only</string>
+  <string name="preferred_network_mode_cdma_only_summary">Modo de rede: somente CDMA</string>
   <!-- Mobile network settings, summary for preferred network mode EvDo only [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_evdo_only_summary">Preferred network mode: EvDo only</string>
+  <string name="preferred_network_mode_evdo_only_summary">Modo de rede: somente EvDo</string>
   <!-- Mobile network settings, summary for preferred network mode CDMA/EvDo/GSM/WCDMA[CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Preferred network mode: CDMA/EvDo/GSM/WCDMA</string>
+  <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Modo de rede: CDMA / EvDo / GSM / WCDMA</string>
   <!-- Mobile network settings, summary for preferred network mode LTE [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_lte_summary">Preferred network mode: LTE </string>
+  <string name="preferred_network_mode_lte_summary">Modo de rede: LTE </string>
   <!-- Mobile network settings, summary for preferred network mode GSM/WCDMA/LTE [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_lte_gsm_wcdma_summary">Preferred network mode: GSM/WCDMA/LTE</string>
+  <string name="preferred_network_mode_lte_gsm_wcdma_summary">Modo de rede: GSM / WCDMA / LTE</string>
   <!-- Mobile network settings, summary for preferred network mode CDMA+LTE/EVDO[CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_lte_cdma_evdo_summary">Preferred network mode: CDMA+LTE/EVDO</string>
+  <string name="preferred_network_mode_lte_cdma_evdo_summary">Modo de rede: CDMA + LTE / EvDo</string>
   <!-- Mobile network settings, summary for preferred network mode Global[CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_global_summary">Preferred network mode: Global</string>
+  <string name="preferred_network_mode_global_summary">Modo de rede: Global</string>
   <!-- Mobile network settings, summary for preferred network mode LTE / WCDMA[CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_lte_wcdma_summary">Preferred network mode: LTE / WCDMA</string>
+  <string name="preferred_network_mode_lte_wcdma_summary">Modo de rede: LTE / WCDMA</string>
   <!-- Mobile network settings, summary for preferred network mode LTE / GSM / UMTS [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
+  <string name="preferred_network_mode_lte_gsm_umts_summary">Modo de rede: LTE / GSM / UTMS</string>
   <!-- Mobile network settings, summary for preferred network mode LTE / CDMA [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_lte_cdma_summary">Preferred network mode: LTE / CDMA</string>
+  <string name="preferred_network_mode_lte_cdma_summary">Modo de rede: LTE / CDMA</string>
   <!-- Mobile network settings, summary for preferred network mode TDSCDMTA [CHAR LIMIT=100] -->
-  <string name="preferred_network_mode_tdscdma_summary">Preferred network mode: TDSCDMA</string>
+  <string name="preferred_network_mode_tdscdma_summary">Modo de rede: TDSCDMA</string>
   <string-array name="preferred_network_mode_choices">
     <item>LTE / WCDMA</item>
     <item>LTE</item>
     <item>Global</item>
-    <item>GSM/WCDMA/LTE</item>
-    <item>CDMA + LTE/EvDo</item>
-    <item>CDMA/EvDo/GSM/WCDMA</item>
-    <item>EvDo only</item>
-    <item>CDMA w/o EvDo</item>
-    <item>CDMA/EvDo auto</item>
-    <item>GSM/WCDMA auto</item>
-    <item>WCDMA only</item>
-    <item>GSM only</item>
-    <item>GSM/WCDMA preferred</item>
+    <item>GSM / WCDMA / LTE</item>
+    <item>CDMA + LTE / EvDo</item>
+    <item>CDMA / EvDo / GSM / WCDMA</item>
+    <item>Somente EvDo</item>
+    <item>CDMA sem EvDo</item>
+    <item>CDMA / EvDo automático</item>
+    <item>GSM / WCDMA automático</item>
+    <item>Somente WCDMA</item>
+    <item>Somente GSM</item>
+    <item>Preferencialmente GSM / WCDMA</item>
   </string-array>
   <!-- Cellular network 4G title [CHAR LIMIT=30] -->
-  <string name="enhanced_4g_lte_mode_title">Enhanced 4G LTE Mode</string>
+  <string name="enhanced_4g_lte_mode_title">Modo 4G LTE avançado</string>
   <!-- Cellular network 4G summary [CHAR LIMIT=80] -->
-  <string name="enhanced_4g_lte_mode_summary">Use LTE services to improve voice and other communications (recommended)</string>
+  <string name="enhanced_4g_lte_mode_summary">Usar serviços LTE para melhorar a voz e outras comunicações (recomendado)</string>
   <!-- Mobile network settings screen, data enabling checkbox name -->
-  <string name="data_enabled">Data enabled</string>
+  <string name="data_enabled">Dados ativados</string>
   <!-- Mobile network settings screen, setting summary text when check box is not selected (explains what selecting it would do) [CHAR LIMITS=40] -->
-  <string name="data_enable_summary">Allow data usage</string>
+  <string name="data_enable_summary">Permitir a utilização de dados</string>
   <!-- Mobile network settings screen, setting check box name -->
-  <string name="roaming">Data roaming</string>
+  <string name="roaming">Dados em Roaming</string>
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
-  <string name="roaming_enable">Connect to data services when roaming</string>
+  <string name="roaming_enable">Conectar aos serviços de dados quando estiver em roaming</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
-  <string name="roaming_disable">Connect to data services when roaming</string>
+  <string name="roaming_disable">Conectar aos serviços de dados quando estiver em roaming</string>
   <!-- Mobile network settings UI: notification message shown when you
          lose data connectivity because you're roaming and you have the
          "data roaming" feature turned off. -->
-  <string name="roaming_reenable_message">You\'ve lost data connectivity because you left your home network with data roaming turned off.</string>
+  <string name="roaming_reenable_message">A conectividade de dados foi perdida porque você saiu do alcance da sua operadora e o roaming de dados estava desativado.</string>
   <!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
-  <string name="roaming_warning">You may incur significant charges.</string>
+  <string name="roaming_warning">Isto pode gerar cobranças significativas.</string>
   <!-- Mobile network settings screen, dialog message title when user selects the Data roaming check box -->
-  <string name="roaming_alert_title">Allow data roaming?</string>
+  <string name="roaming_alert_title">Permitir roaming de dados?</string>
   <!-- USSD aggregation dialog box: separator strings between messages (new-lines will be added before and after) -->
-  <string name="gsm_umts_options">GSM/UMTS Options</string>
-  <string name="cdma_options">CDMA Options</string>
+  <string name="gsm_umts_options">Opções GSM / UMTS</string>
+  <string name="cdma_options">Opções CDMA</string>
   <!-- Screen option on the mobile network settings to go into data usage settings -->
-  <string name="throttle_data_usage">Data usage</string>
+  <string name="throttle_data_usage">Uso de dados</string>
   <!-- Data usage settings screen option for checking the current usage -->
-  <string name="throttle_current_usage">Data used in current period</string>
+  <string name="throttle_current_usage">Uso de dados nesse período</string>
   <!-- Data usage settings screen option for time frame-->
-  <string name="throttle_time_frame">Data use period</string>
+  <string name="throttle_time_frame">Período de utilização de dados</string>
   <!-- Data usage settings screen option for throttling rate-->
-  <string name="throttle_rate">Data rate policy</string>
+  <string name="throttle_rate">Política de cobrança de dados</string>
   <!-- Data usage settings screen option for accessing the carrier website-->
-  <string name="throttle_help">Learn more</string>
-  <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum\nNext period starts in <xliff:g id="used">%4$d</xliff:g> days (<xliff:g id="used">%5$s</xliff:g>)</string>
-  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) of <xliff:g id="used">%3$s</xliff:g> period maximum</string>
-  <string name="throttle_data_rate_reduced_subtext"><xliff:g id="used">%1$s</xliff:g> maximum exceeded\nData rate reduced to <xliff:g id="used">%2$d</xliff:g> Kb/s</string>
-  <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A of cycle elapsed\nNext period starts in <xliff:g id="used">%2$d</xliff:g> days (<xliff:g id="used">%3$s</xliff:g>)</string>
-  <string name="throttle_rate_subtext">Data rate reduced to <xliff:g id="used">%1$d</xliff:g> Kb/s if data use limit is exceeded</string>
-  <string name="throttle_help_subtext">More information about your carrier\'s cellular network data use policy</string>
-  <string name="cell_broadcast_sms">Cell Broadcast SMS</string>
-  <string name="enable_disable_cell_bc_sms">Cell Broadcast SMS</string>
-  <string name="cell_bc_sms_enable">Cell Broadcast SMS enabled</string>
-  <string name="cell_bc_sms_disable">Cell Broadcast SMS disabled</string>
-  <string name="cb_sms_settings">Cell Broadcast SMS settings</string>
-  <string name="enable_disable_emergency_broadcast">Emergency Broadcast</string>
-  <string name="emergency_broadcast_enable">Emergency Broadcast enabled</string>
-  <string name="emergency_broadcast_disable">Emergency Broadcast disabled</string>
-  <string name="enable_disable_administrative">Administrative</string>
-  <string name="administrative_enable">Administrative enabled</string>
-  <string name="administrative_disable">Administrative disabled</string>
-  <string name="enable_disable_maintenance">Maintenance</string>
-  <string name="maintenance_enable">Maintenance enabled</string>
-  <string name="maintenance_disable">Maintenance disabled</string>
-  <string name="general_news_settings">General News</string>
-  <string name="bf_news_settings">Business and Financial News</string>
-  <string name="sports_news_settings">Sports News</string>
-  <string name="entertainment_news_settings">Entertainment News</string>
+  <string name="throttle_help">Saiba mais</string>
+  <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) de <xliff:g id="used">%3$s</xliff:g> período máximo\nO próximo ciclo se inicia em <xliff:g id="used">%4$d</xliff:g> days (<xliff:g id="used">%5$s</xliff:g>)</string>
+  <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) de <xliff:g id="used">%3$s</xliff:g> período máximo</string>
+  <string name="throttle_data_rate_reduced_subtext"><xliff:g id="used">%1$s</xliff:g> máximo excedido\nVelocidade de transmissão de dados reduzida para <xliff:g id="used">%2$d</xliff:g> Kb/s</string>
+  <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A usados desse ciclo\nO próximo ciclo se inicia em <xliff:g id="used">%2$d</xliff:g> days (<xliff:g id="used">%3$s</xliff:g>)</string>
+  <string name="throttle_rate_subtext">Velocidade de dados reduzida para <xliff:g id="used">%1$d</xliff:g> Kb/s se o limite de utilização de dados for excedido</string>
+  <string name="throttle_help_subtext">Mais informações sobre a política de uso de dados da rede celular de sua operadora</string>
+  <string name="cell_broadcast_sms">Mensagens broadcast</string>
+  <string name="enable_disable_cell_bc_sms">Mensagens broadcast</string>
+  <string name="cell_bc_sms_enable">Mensagens broadcast habilitadas</string>
+  <string name="cell_bc_sms_disable">Mensagens broadcast desabilitadas</string>
+  <string name="cb_sms_settings">Configurações de mensagens broadcast</string>
+  <string name="enable_disable_emergency_broadcast">Broadcast de emergência</string>
+  <string name="emergency_broadcast_enable">Broadcast de emergência habilitado</string>
+  <string name="emergency_broadcast_disable">Broadcast de emergência desabilitado</string>
+  <string name="enable_disable_administrative">Administrativo</string>
+  <string name="administrative_enable">Modo administrativo ativado</string>
+  <string name="administrative_disable">Modo administrativo desativado</string>
+  <string name="enable_disable_maintenance">Manutenção</string>
+  <string name="maintenance_enable">Manutenção ativada</string>
+  <string name="maintenance_disable">Manutenção desativada</string>
+  <string name="general_news_settings">Notícias Gerais</string>
+  <string name="bf_news_settings">Notícias de Negócios e Finanças</string>
+  <string name="sports_news_settings">Notícias Esportivas</string>
+  <string name="entertainment_news_settings">Notícias de Entretenimento</string>
   <string name="enable_disable_local">Local</string>
-  <string name="local_enable">Local news enabled</string>
-  <string name="local_disable">Local news disabled</string>
+  <string name="local_enable">Notícias locais ativadas</string>
+  <string name="local_disable">Notícias locais desativadas</string>
   <string name="enable_disable_regional">Regional</string>
-  <string name="regional_enable">Regional news enabled</string>
-  <string name="regional_disable">Regional news disabled</string>
-  <string name="enable_disable_national">National</string>
-  <string name="national_enable">National news enabled</string>
-  <string name="national_disable">National news disabled</string>
-  <string name="enable_disable_international">International</string>
-  <string name="international_enable">International news enabled</string>
-  <string name="international_disable">International news disabled</string>
-  <string name="list_language_title">Language</string>
-  <string name="list_language_summary">Select the news language</string>
+  <string name="regional_enable">Notícias regionais ativadas</string>
+  <string name="regional_disable">Notícias regionais desativadas</string>
+  <string name="enable_disable_national">Nacional</string>
+  <string name="national_enable">Notícias nacionais ativadas</string>
+  <string name="national_disable">Notícias nacionais desativadas</string>
+  <string name="enable_disable_international">Internacional</string>
+  <string name="international_enable">Notícias internacionais ativadas</string>
+  <string name="international_disable">Notícias internacionais desativadas</string>
+  <string name="list_language_title">Idioma</string>
+  <string name="list_language_summary">Seleccionar o idioma das notícias</string>
   <string-array name="list_language_entries">
-    <item>English</item>
-    <item>French</item>
-    <item>Spanish</item>
-    <item>Japanese</item>
-    <item>Korean</item>
-    <item>Chinese</item>
-    <item>Hebrew</item>
+    <item>Inglês</item>
+    <item>Francês</item>
+    <item>Espanhol</item>
+    <item>Japonês</item>
+    <item>Coreano</item>
+    <item>Chinês</item>
+    <item>Hebraico</item>
   </string-array>
   <string-array name="list_language_values">
     <item>"1"</item>
@@ -470,64 +471,64 @@
     <item>"6"</item>
     <item>"7"</item>
   </string-array>
-  <string name="list_language_dtitle">Languages</string>
-  <string name="enable_disable_local_weather">Local Weather</string>
-  <string name="local_weather_enable">Local Weather enabled</string>
-  <string name="local_weather_disable">Local Weather disabled</string>
-  <string name="enable_disable_atr">Area Traffic Reports</string>
-  <string name="atr_enable">Area Traffic Reports enabled</string>
-  <string name="atr_disable">Area Traffic Reports disabled</string>
-  <string name="enable_disable_lafs">Local Airport Flight Schedules</string>
-  <string name="lafs_enable">Local Airport Flight Schedules enabled</string>
-  <string name="lafs_disable">Local Airport Flight Schedules disabled</string>
-  <string name="enable_disable_restaurants">Restaurants</string>
-  <string name="restaurants_enable">Restaurants enabled</string>
-  <string name="restaurants_disable">Restaurants disabled</string>
-  <string name="enable_disable_lodgings">Lodgings</string>
-  <string name="lodgings_enable">Lodgings enabled</string>
-  <string name="lodgings_disable">Lodgings disabled</string>
-  <string name="enable_disable_retail_directory">Retail Directory</string>
-  <string name="retail_directory_enable">Retail Directory enabled</string>
-  <string name="retail_directory_disable">Retail Directory disabled</string>
-  <string name="enable_disable_advertisements">Advertisements</string>
-  <string name="advertisements_enable">Advertisements enabled</string>
-  <string name="advertisements_disable">Advertisements disabled</string>
-  <string name="enable_disable_stock_quotes">Stock Quotes</string>
-  <string name="stock_quotes_enable">Stock Quotes enabled</string>
-  <string name="stock_quotes_disable">Stock Quotes disabled</string>
-  <string name="enable_disable_eo">Employment Opportunities</string>
-  <string name="eo_enable">Employment Opportunities enabled</string>
-  <string name="eo_disable">Employment Opportunities disabled</string>
-  <string name="enable_disable_mhh">Medical, Health, and Hospital</string>
-  <string name="mhh_enable">Medical, Health, and Hospital enabled</string>
-  <string name="mhh_disable">Medical, Health, and Hospital disabled</string>
-  <string name="enable_disable_technology_news">Technology News</string>
-  <string name="technology_news_enable">Technology News enabled</string>
-  <string name="technology_news_disable">Technology News disabled</string>
-  <string name="enable_disable_multi_category">Multi-category</string>
-  <string name="multi_category_enable">Multi-category enabled</string>
-  <string name="multi_category_disable">Multi-category disabled</string>
-  <string name="network_lte">LTE (recommended)</string>
-  <string name="network_4G">4G (recommended)</string>
+  <string name="list_language_dtitle">Idiomas</string>
+  <string name="enable_disable_local_weather">Previsão do Tempo</string>
+  <string name="local_weather_enable">Previsão do Tempo ativada</string>
+  <string name="local_weather_disable">Previsão do Tempo desativada</string>
+  <string name="enable_disable_atr">Informações de Trânsito</string>
+  <string name="atr_enable">Informações de Trânsito ativadas</string>
+  <string name="atr_disable">Informações de Trânsito desativadas</string>
+  <string name="enable_disable_lafs">Informações sobre voos</string>
+  <string name="lafs_enable">Informações sobre voos ativadas</string>
+  <string name="lafs_disable">Informações sobre voos desativadas</string>
+  <string name="enable_disable_restaurants">Restaurantes</string>
+  <string name="restaurants_enable">Restaurantes ativados</string>
+  <string name="restaurants_disable">Restaurantes desativados</string>
+  <string name="enable_disable_lodgings">Hospedagem</string>
+  <string name="lodgings_enable">Hospedagem ativadas</string>
+  <string name="lodgings_disable">Hospedagem desativadas</string>
+  <string name="enable_disable_retail_directory">Diretório de varejo</string>
+  <string name="retail_directory_enable">Diretório de varejo ativado</string>
+  <string name="retail_directory_disable">Diretório de varejo desativado</string>
+  <string name="enable_disable_advertisements">Anúncios</string>
+  <string name="advertisements_enable">Anúncios ativados</string>
+  <string name="advertisements_disable">Anúncios desativados</string>
+  <string name="enable_disable_stock_quotes">Cotações de Ações</string>
+  <string name="stock_quotes_enable">Cotações de Ações ativadas</string>
+  <string name="stock_quotes_disable">Cotações de Ações desativadas</string>
+  <string name="enable_disable_eo">Oportunidades de Emprego</string>
+  <string name="eo_enable">Oportunidades de Emprego ativadas</string>
+  <string name="eo_disable">Oportunidades de Emprego desativadas</string>
+  <string name="enable_disable_mhh">Clínica, Saúde e Hospital</string>
+  <string name="mhh_enable">Clínica, Saúde e Hospital ativado</string>
+  <string name="mhh_disable">Clínica, Saúde e Hospital desativado</string>
+  <string name="enable_disable_technology_news">Notícias de Tecnologia</string>
+  <string name="technology_news_enable">Notícias de Tecnologia ativadas</string>
+  <string name="technology_news_disable">Notícias de Tecnologia desativadas</string>
+  <string name="enable_disable_multi_category">Categoria múltipla</string>
+  <string name="multi_category_enable">Categoria múltipla ativada</string>
+  <string name="multi_category_disable">Categoria múltipla desativada</string>
+  <string name="network_lte">LTE (recomendado)</string>
+  <string name="network_4G">4G (recomendado)</string>
   <string name="network_global">Global</string>
   <!-- CDMA System select strings -->
   <!-- Mobile network settings screen, setting option name -->
-  <string name="cdma_system_select_title">System select</string>
+  <string name="cdma_system_select_title">Seleção de sistema</string>
   <!-- Mobile network settings screen, setting summary text -->
-  <string name="cdma_system_select_summary">Change the CDMA roaming mode</string>
+  <string name="cdma_system_select_summary">Alterar o modo de roaming CDMA</string>
   <!-- System select settings screen title -->
-  <string name="cdma_system_select_dialogtitle">System select</string>
+  <string name="cdma_system_select_dialogtitle">Seleção de sistema</string>
   <string-array name="cdma_system_select_choices">
     <!-- System select dialog screen, setting option name -->
-    <item>Home only</item>
+    <item>Apenas redes domésticas</item>
     <!-- Remove the following option "Affiliated Networks" from the option list -->
     <!-- <item>Affiliated Networks</item> -->
     <!-- System select dialog screen, setting option name -->
-    <item>Automatic</item>
+    <item>Automática</item>
   </string-array>
-  <string name="cdma_subscription_title">CDMA subscription</string>
-  <string name="cdma_subscription_summary">Change between RUIM/SIM and NV</string>
-  <string name="cdma_subscription_dialogtitle">subscription</string>
+  <string name="cdma_subscription_title">Inscrição CDMA</string>
+  <string name="cdma_subscription_summary">Alternar entre RUIM/SIM e NV</string>
+  <string name="cdma_subscription_dialogtitle">inscrição</string>
   <string-array name="cdma_subscription_choices">
     <item>RUIM/SIM</item>
     <item>NV</item>
@@ -537,500 +538,501 @@
     <item>"1"</item>
   </string-array>
   <!-- Preference title with which users can activate CDMA network [CHAR LIMIT=30] -->
-  <string name="cdma_activate_device">Activate device</string>
+  <string name="cdma_activate_device">Ativar dispositivo</string>
   <!-- Preference title for launching an account manager page for prepaid LTE [CHAR LIMIT=30] -->
-  <string name="cdma_lte_data_service">Set up data service</string>
+  <string name="cdma_lte_data_service">Configurar serviço de dados</string>
   <!-- A menu item in "Mobile network settings" that allows the user to update the phone
          with mobile operator specific settings. [CHAR LIMIT=25] -->
-  <string name="carrier_settings_title">Carrier settings</string>
+  <string name="carrier_settings_title">Configurações de operadora</string>
   <!-- FDN settings strings -->
   <!-- Label for "Fixed Dialing Number" settings in call settings. -->
-  <string name="fdn">Fixed Dialing Numbers</string>
+  <string name="fdn">Números de discagem fixa (FDN)</string>
   <!-- Title for "Fixed Dialing Number" settings, with a label to identify the SIM the settings
         apply to. -->
-  <string name="fdn_with_label">Fixed Dialing Numbers (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+  <string name="fdn_with_label">Números de discagem fixa (<xliff:g id="subscriptionlabel" example="Verizon">%s </xliff:g>)</string>
   <!-- Call settings screen, button label that takes you to the Fixed Dialing Number management screen -->
-  <string name="manage_fdn_list">FDN list</string>
+  <string name="manage_fdn_list">Lista de discagem fixa (FDN)</string>
   <!-- Title for settings screen to manage Fixed Dialing Number contacts, with a label to identify
          the SIM the settings apply to. -->
-  <string name="fdn_list_with_label">FDN list (<xliff:g id="subscriptionlabel" example="Verizon">%s</xliff:g>)</string>
+  <string name="fdn_list_with_label">Lista FDN (<xliff:g id="subscriptionlabel" example="Verizon">%s </xliff:g>)</string>
   <!-- Call settings screen, preference item label -->
-  <string name="fdn_activation">FDN activation</string>
+  <string name="fdn_activation">Activação de FDN</string>
   <!-- Call settings setting option name when FDN is enabled -->
-  <string name="fdn_enabled">Fixed Dialing Numbers are enabled</string>
+  <string name="fdn_enabled">Números de discagem fixa (FDN) ativados</string>
   <!-- Call settings setting option name  when FDN is disabled-->
-  <string name="fdn_disabled">Fixed Dialing Numbers are disabled</string>
+  <string name="fdn_disabled">Números de discagem fixa (FDN) desativados</string>
   <!-- Call settings screen, setting option name -->
-  <string name="enable_fdn">Enable FDN</string>
+  <string name="enable_fdn">Ativar FDN</string>
   <!-- Call settings screen, setting option name -->
-  <string name="disable_fdn">Disable FDN</string>
+  <string name="disable_fdn">Desativar FDN</string>
   <!-- Call settings screen, setting option name -->
-  <string name="change_pin2">Change PIN2</string>
+  <string name="change_pin2">Alterar PIN2</string>
   <!-- Call settings screen, setting option name when FDN is enabled -->
-  <string name="enable_fdn_ok">Disable FDN</string>
+  <string name="enable_fdn_ok">Desativar FDN</string>
   <!-- Call settings screen, setting option name when FDN is disabled -->
-  <string name="disable_fdn_ok">Enable FDN</string>
+  <string name="disable_fdn_ok">Ativar FDN</string>
   <!-- Call settings screen, setting summary text -->
-  <string name="sum_fdn">Manage Fixed Dialing Numbers</string>
+  <string name="sum_fdn">Gerenciar os números de discagem autorizada</string>
   <!-- Call settings, FDN screen, setting option name -->
-  <string name="sum_fdn_change_pin">Change PIN for FDN access</string>
+  <string name="sum_fdn_change_pin">Alterar PIN para acesso FDN</string>
   <!-- Call settings, FDN screen, setting option name -->
-  <string name="sum_fdn_manage_list">Manage phone number list</string>
+  <string name="sum_fdn_manage_list">Gerenciar a lista telefônica</string>
   <!-- Voice privacy on CDMA is an added layer of voice encryption. Theoretically, it would be harder to break in to a phone call with this feature enabled. -->
-  <string name="voice_privacy">Voice privacy</string>
-  <string name="voice_privacy_summary">Enable enhanced privacy mode</string>
-  <string name="tty_mode_option_title">TTY mode</string>
-  <string name="tty_mode_option_summary">Set TTY mode</string>
-  <string name="auto_retry_mode_title">Auto-retry</string>
-  <string name="auto_retry_mode_summary">Enable Auto-retry mode</string>
+  <string name="voice_privacy">Privacidade de voz</string>
+  <string name="voice_privacy_summary">Ativar modo de privacidade otimizado</string>
+  <string name="tty_mode_option_title">Modo TTY</string>
+  <string name="tty_mode_option_summary">Definir modo TTY</string>
+  <string name="auto_retry_mode_title">Rediscagem automática</string>
+  <string name="auto_retry_mode_summary">Ativar rediscagem automática</string>
   <!-- TTY Mode change is NOT allowed during a video call -->
-  <string name="tty_mode_not_allowed_video_call">TTY Mode change is not allowed during a video call</string>
+  <string name="tty_mode_not_allowed_video_call">Alteração do Modo TTY não é permitida durante uma chamada de vídeo</string>
   <!-- FDN list screen: menu item label -->
-  <string name="menu_add">Add contact</string>
+  <string name="menu_add">Adicionar contato</string>
   <!-- FDN list screen: menu item label -->
-  <string name="menu_edit">Edit contact</string>
+  <string name="menu_edit">Editar contato</string>
   <!-- FDN list screen: menu item label -->
-  <string name="menu_delete">Delete contact</string>
+  <string name="menu_delete">Apagar contato</string>
   <!-- FDN related strings -->
   <!-- Label for PIN2 entry screen -->
-  <string name="get_pin2">Type PIN2</string>
+  <string name="get_pin2">Introduzir PIN2</string>
   <!-- "Edit FDN Contact" screen: Label for the "name" text field -->
-  <string name="name">Name</string>
+  <string name="name">Nome</string>
   <!-- "Edit FDN Contact" screen: Label for the "number" text field -->
-  <string name="number">Number</string>
+  <string name="number">Número</string>
   <!-- "Edit FDN Contact" screen: Button label for "save" action -->
-  <string name="save">Save</string>
+  <string name="save">Salvar</string>
   <!-- Title of "Edit FDN Contact" screen for a new contact -->
-  <string name="add_fdn_contact">Add fixed dialing number</string>
+  <string name="add_fdn_contact">Adicionar números autorizados</string>
   <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="adding_fdn_contact">Adding fixed dialing number\u2026</string>
+  <string name="adding_fdn_contact">A adicionar números autorizados\u2026</string>
   <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="fdn_contact_added">Fixed dialing number added.</string>
+  <string name="fdn_contact_added">Números autorizados adicionados.</string>
   <!-- Title of "Edit FDN Contact" screen when editing an already-existing contact -->
-  <string name="edit_fdn_contact">Edit fixed dialing number</string>
+  <string name="edit_fdn_contact">Editar números autorizados</string>
   <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="updating_fdn_contact">Updating fixed dialing number\u2026</string>
+  <string name="updating_fdn_contact">Atualizando números fixos de discagem\u2026</string>
   <!-- "Edit FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="fdn_contact_updated">Fixed dialing number updated.</string>
+  <string name="fdn_contact_updated">Números autorizados atualizados.</string>
   <!-- Title of "Delete FDN Contact" screen -->
-  <string name="delete_fdn_contact">Delete fixed dialing number</string>
+  <string name="delete_fdn_contact">Excluir números autorizados</string>
   <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="deleting_fdn_contact">Deleting fixed dialing number\u2026</string>
+  <string name="deleting_fdn_contact">A eliminar números autorizados\u2026</string>
   <!-- "Delete FDN Contact" screen: status message displayed in a popup (toast) -->
-  <string name="fdn_contact_deleted">Fixed dialing number deleted.</string>
+  <string name="fdn_contact_deleted">Números autorizados eliminados.</string>
   <!-- FDN settings: error message displayed in a popup (toast) -->
-  <string name="pin2_invalid">FDN wasn\'t updated because you typed an incorrect PIN.</string>
+  <string name="pin2_invalid">O FDN não foi atualizado porque você digitou um PIN incorreto.</string>
   <!-- FDN settings: error message displayed in a popup (toast) -->
-  <string name="fdn_invalid_number">FDN wasn\'t updated because the number can\'t exceed 20 digits.</string>
+  <string name="fdn_invalid_number">O FDN não foi atualizado porque o número não pode exceder 20 dígitos.</string>
   <!-- FDN settings: error message displayed in a popup (toast), when the entered
          FDN number was inappropriate, OR, PIN2 the user entered was incorrect.
          Because of API restriction, there's no way to determine which is the exact
          cause of the failure.
          [CHAR LIMIT=NONE] -->
-  <string name="pin2_or_fdn_invalid">FDN wasn\'t updated. The PIN2 was incorrect, or the phone number was rejected.</string>
+  <string name="pin2_or_fdn_invalid">O FDN não foi atualizado. O PIN2 estava incorreto, ou o número do telefone foi rejeitado.</string>
   <!-- FDN settings: error message displayed in a popup (toast) -->
-  <string name="fdn_failed">FDN operation failed.</string>
+  <string name="fdn_failed">Falha na operação de FDN.</string>
   <!-- ADN related strings -->
   <!-- Placeholder text displayed while loading the list of SIM contacts -->
-  <string name="simContacts_emptyLoading">Reading from SIM card\u2026</string>
+  <string name="simContacts_emptyLoading">Lendo do cartão SIM\u2026</string>
   <!-- Call settings, string that appears on FDN contact list when there are no contacts on the SIM. -->
-  <string name="simContacts_empty">No contacts on your SIM card.</string>
+  <string name="simContacts_empty">Não há contatos no seu cartão SIM.</string>
   <!-- Call settings: title of the dialog that lets you select contacts from the SIM. -->
-  <string name="simContacts_title">Select contacts to import</string>
+  <string name="simContacts_title">Selecione os contatos para importar</string>
   <!-- Appears when user tries to import contacts in SIM during airplane mode [CHAR LIMIT=NONE] -->
-  <string name="simContacts_airplaneMode">Turn off airplane mode to import contacts from the SIM card.</string>
+  <string name="simContacts_airplaneMode">Desative o modo de avião para importar contactos do cartão SIM.</string>
   <!-- SIM PIN strings -->
   <!-- Title of "Enable/disable SIM PIN" screen -->
-  <string name="enable_pin">Enable/disable SIM PIN</string>
+  <string name="enable_pin">Ativar/desativar o PIN do cartão SIM</string>
   <!-- Title of "Change SIM PIN" screen -->
-  <string name="change_pin">Change SIM PIN</string>
+  <string name="change_pin">Alterar PIN do SIM</string>
   <!-- SIM PIN screen: label for PIN entry widget -->
-  <string name="enter_pin_text">SIM PIN:</string>
+  <string name="enter_pin_text">PIN do SIM:</string>
   <!-- SIM PIN screen: label for PIN entry widget -->
-  <string name="oldPinLabel">Old PIN</string>
+  <string name="oldPinLabel">PIN antigo</string>
   <!-- SIM PIN screen: label for PIN entry widget -->
-  <string name="newPinLabel">New PIN</string>
+  <string name="newPinLabel">Novo PIN</string>
   <!-- SIM PIN screen: label for PIN entry widget -->
-  <string name="confirmPinLabel">Confirm new PIN</string>
+  <string name="confirmPinLabel">Confirme o novo PIN</string>
   <!-- SIM PIN screen: error message -->
-  <string name="badPin">The old PIN you typed isn\'t correct. Try again.</string>
+  <string name="badPin">O PIN antigo digitado não está correto. Tente novamente.</string>
   <!-- SIM PIN screen: error message -->
-  <string name="mismatchPin">The PINs you typed don\'t match. Try again.</string>
+  <string name="mismatchPin">Os PINs digitados não coincidem. Tente novamente.</string>
   <!-- SIM PIN screen: error message when PIN is too short or too long -->
-  <string name="invalidPin">Type a PIN that is 4 to 8 numbers.</string>
+  <string name="invalidPin">Digite um PIN com quatro a oito números.</string>
   <!-- Title of "Disable SIM PIN" screen -->
-  <string name="disable_sim_pin">Clear SIM PIN</string>
+  <string name="disable_sim_pin">Limpar PIN do SIM</string>
   <!-- Title of "Enable SIM PIN" screen -->
-  <string name="enable_sim_pin">Set SIM PIN</string>
+  <string name="enable_sim_pin">Definir PIN do SIM</string>
   <!-- SIM PIN screen: progress message displayed while enabling -->
-  <string name="enable_in_progress">Setting PIN\u2026</string>
+  <string name="enable_in_progress">Definindo o PIN\u2026</string>
   <!-- SIM PIN screen: status message displayed in a popup (toast) -->
-  <string name="enable_pin_ok">PIN set</string>
+  <string name="enable_pin_ok">PIN definido</string>
   <!-- SIM PIN screen: status message displayed in a popup (toast) -->
-  <string name="disable_pin_ok">PIN cleared</string>
+  <string name="disable_pin_ok">PIN limpo</string>
   <!-- SIM PIN screen: error message displayed in a popup (toast) -->
-  <string name="pin_failed">PIN incorrect</string>
+  <string name="pin_failed">PIN incorreto</string>
   <!-- SIM PIN screen: status message displayed in a popup (toast) -->
-  <string name="pin_changed">PIN updated</string>
+  <string name="pin_changed">PIN atualizado</string>
   <!-- SIM PIN screen: error message displayed in a dialog -->
-  <string name="puk_requested">Password incorrect. PIN now blocked. PUK requested.</string>
+  <string name="puk_requested">A senha digitada está incorreta, e o PIN foi bloqueado. PUK solicitado.</string>
   <!-- SIM PIN2 strings -->
   <!-- SIM PIN2 screen: label for PIN entry widget -->
   <string name="enter_pin2_text">PIN2</string>
   <!-- SIM PIN2 screen: label for PIN entry widget -->
-  <string name="oldPin2Label">Old PIN2</string>
+  <string name="oldPin2Label">PIN2 antigo</string>
   <!-- SIM PIN2 screen: label for PIN entry widget -->
-  <string name="newPin2Label">New PIN2</string>
+  <string name="newPin2Label">Novo PIN2</string>
   <!-- SIM PIN2 screen: label for PIN entry widget -->
-  <string name="confirmPin2Label">Confirm new PIN2</string>
+  <string name="confirmPin2Label">Confirme o novo PIN2</string>
   <!-- SIM PIN2 screen: error message -->
-  <string name="badPuk2">PUK2 incorrect. Try again.</string>
+  <string name="badPuk2">PUK2 incorreto. Tente novamente.</string>
   <!-- SIM PIN2 screen: error message -->
-  <string name="badPin2">Old PIN2 incorrect. Try again.</string>
+  <string name="badPin2">PIN2 antigo incorreto. Tente novamente.</string>
   <!-- SIM PIN2 screen: error message -->
-  <string name="mismatchPin2">PIN2s don\'t match. Try again.</string>
+  <string name="mismatchPin2">Os PIN2s não coincidem. Tente novamente.</string>
   <!-- SIM PIN2 screen: error message -->
-  <string name="invalidPin2">Enter a PIN2 that is 4 to 8 numbers.</string>
+  <string name="invalidPin2">Digite um PIN2 que tenha entre 4 a 8 números.</string>
   <!-- SIM PIN2 screen: error message -->
-  <string name="invalidPuk2">Enter a PUK2 that is 8 numbers.</string>
+  <string name="invalidPuk2">Digite um PUK2 que tenha 8 números.</string>
   <!-- SIM PIN2 screen: status message displayed in a popup (toast) -->
-  <string name="pin2_changed">PIN2 updated</string>
+  <string name="pin2_changed">PIN2 atualizado</string>
   <!-- SIM PIN2 screen: label for PUK2 entry widget -->
-  <string name="label_puk2_code">Enter PUK2 code</string>
+  <string name="label_puk2_code">Digitar código PUK2</string>
   <!-- SIM PIN2 screen: error message displayed in a dialog -->
-  <string name="fdn_enable_puk2_requested">Password incorrect. PIN2 now Blocked. To try again, change PIN 2.</string>
+  <string name="fdn_enable_puk2_requested">Senha incorreta. PIN2 bloqueado agora. Para tentar de novo, altere PIN 2.</string>
   <!-- SIM PIN2 screen: error message displayed in a dialog -->
-  <string name="puk2_requested">Password incorrect. SIM now locked. Enter PUK2.</string>
+  <string name="puk2_requested">Senha incorreta. SIM agora está bloqueado. Insira o PUK2.</string>
   <!-- SIM PIN2 screen: error message -->
-  <string name="puk2_blocked">PUK2 is permanently blocked.</string>
+  <string name="puk2_blocked">PUK2 permanentemente bloqueado.</string>
   <!-- SIM PIN2 screen: error message -->
-  <string name="pin2_attempts">\nYou have <xliff:g id="number">%d</xliff:g> remaining attempts.</string>
+  <string name="pin2_attempts">\nVocê tem mais <xliff:g id="number">%d</xliff:g> tentativas.</string>
   <!-- SIM PIN screen: status message displayed in a popup (toast) -->
-  <string name="pin2_unblocked">PIN2 no longer blocked</string>
+  <string name="pin2_unblocked">O PIN2 não está mais bloqueado</string>
   <!-- SIM PIN screen: error message shown in dialog when there is a network or sim error.
          [CHAR LIMIT=NONE] -->
-  <string name="pin2_error_exception">Network or SIM card error</string>
+  <string name="pin2_error_exception">Erro de rede ou do cartão SIM</string>
   <!-- SIM PIN screen: button label -->
-  <string name="doneButton">Done</string>
+  <string name="doneButton">Concluído</string>
   <!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
   <!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
   <!-- Used in FakePhoneActivity test code.  DO NOT TRANSLATE. -->
   <!-- Call settings screen, Set voicemail dialog title -->
-  <string name="voicemail_settings_number_label">Voicemail number</string>
+  <string name="voicemail_settings_number_label">Número do correio de voz</string>
   <!-- Card titles -->
   <!-- In-call screen: status label for a call in the "dialing" state -->
-  <string name="card_title_dialing">Dialing</string>
+  <string name="card_title_dialing">Chamando</string>
   <!-- In-call screen: status label for a re-dialing call -->
-  <string name="card_title_redialing">Redialing</string>
+  <string name="card_title_redialing">Rediscando</string>
   <!-- In-call screen: status label for a conference call -->
-  <string name="card_title_conf_call">Conference call</string>
+  <string name="card_title_conf_call">Chamada em conferência</string>
   <!-- In-call screen: status label for an incoming call -->
-  <string name="card_title_incoming_call">Incoming call</string>
+  <string name="card_title_incoming_call">Recebendo chamada</string>
   <!-- In-call screen: status label displayed briefly after a call ends -->
-  <string name="card_title_call_ended">Call ended</string>
+  <string name="card_title_call_ended">Chamada encerrada</string>
   <!-- In-call screen: status label for call that's on hold -->
-  <string name="card_title_on_hold">On hold</string>
+  <string name="card_title_on_hold">Em espera</string>
   <!-- In-call screen: status label for a call that's in the process of hanging up -->
-  <string name="card_title_hanging_up">Hanging up</string>
+  <string name="card_title_hanging_up">Desligando</string>
   <!-- In-call screen: status label for a call that's in CDMA flash mode -->
-  <string name="card_title_in_call">In call</string>
+  <string name="card_title_in_call">Em chamada</string>
   <!-- Notification strings -->
   <!-- Label for the "Voicemail" notification item, when expanded. -->
-  <string name="notification_voicemail_title">New voicemail</string>
+  <string name="notification_voicemail_title">Novo correio de voz</string>
   <!-- Label for the expanded "Voicemail" notification item,
          including a count of messages. -->
-  <string name="notification_voicemail_title_count">New voicemail (<xliff:g id="count">%d</xliff:g>)</string>
+  <string name="notification_voicemail_title_count">Nova correio de voz (<xliff:g id="count">%d</xliff:g>)</string>
   <!-- Message displayed in the "Voicemail" notification item, allowing the user
          to dial the indicated number. -->
-  <string name="notification_voicemail_text_format">Dial <xliff:g id="voicemail_number">%s</xliff:g></string>
+  <string name="notification_voicemail_text_format">Disque <xliff:g id="voicemail_number">%s</xliff:g></string>
   <!-- Message displayed in the "Voicemail" notification item,
          indicating that there's no voicemail number available -->
-  <string name="notification_voicemail_no_vm_number">Voicemail number unknown</string>
+  <string name="notification_voicemail_no_vm_number">Número do correio de voz desconhecido</string>
   <!-- Label for the "No service" notification item, when expanded. -->
-  <string name="notification_network_selection_title">No service</string>
+  <string name="notification_network_selection_title">Sem serviço</string>
   <!-- Label for the expanded "No service" notification item, including the
          operator name set by user -->
-  <string name="notification_network_selection_text">Selected network (<xliff:g id="operator_name">%s</xliff:g>) unavailable</string>
+  <string name="notification_network_selection_text">Rede selecionada (<xliff:g id="operator_name">%s</xliff:g>) indisponível</string>
   <!-- In-call screen: call failure message displayed in an error dialog. [CHAR_LIMIT=NONE] -->
-  <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
+  <string name="incall_error_power_off">Desative o modo de avião para realizar uma chamada.</string>
   <!-- In-call screen: call failure message displayed in an error dialog when in airplane mode, WFC is enabled, not wifi-only, and not connected to wireless networks. [CHAR_LIMIT=NONE] -->
-  <string name="incall_error_power_off_wfc">Turn off airplane mode or connect to a wireless network to make a call.</string>
+  <string name="incall_error_power_off_wfc">Desative o Modo avião ou conecte-se a uma rede móvel para fazer uma chamada.</string>
   <!-- In-call screen: call failure message displayed when the user attempts to make a non-emergency call while the phone is in emergency callback mode. -->
-  <string name="incall_error_ecm_emergency_only">Exit emergency callback mode to make a non-emergency call.</string>
+  <string name="incall_error_ecm_emergency_only">Saia do modo de chamada de emergência para efetuar uma chamada que não é de emergência.</string>
   <!-- In-call screen: call failure message displayed in an error dialog.
          This string is currently unused (see comments in InCallScreen.java.) -->
-  <string name="incall_error_emergency_only">Not registered on network.</string>
+  <string name="incall_error_emergency_only">Não registrado na rede.</string>
   <!-- In-call screen: call failure message displayed in an error dialog -->
-  <string name="incall_error_out_of_service">Cellular network not available.</string>
+  <string name="incall_error_out_of_service">Rede móvel não disponível.</string>
   <!-- In-call screen: call failure message displayed in an error dialog -->
-  <string name="incall_error_out_of_service_wfc">Cellular network is not available. Connect to a wireless network to make a call.</string>
+  <string name="incall_error_out_of_service_wfc">A rede móvel não está disponível. Conecte-se a uma rede sem fios para fazer uma chamada.</string>
   <!-- In-call screen: call failure message displayed in an error dialog -->
-  <string name="incall_error_no_phone_number_supplied">To place a call, enter a valid number.</string>
+  <string name="incall_error_no_phone_number_supplied">Para fazer uma chamada, insira um número válido.</string>
   <!-- In-call screen: call failure message displayed in an error dialog -->
-  <string name="incall_error_call_failed">Can\'t call.</string>
+  <string name="incall_error_call_failed">Não foi possível realizar chamada.</string>
   <!-- In-call screen: status message displayed in a dialog when starting an MMI -->
-  <string name="incall_status_dialed_mmi">Starting MMI sequence\u2026</string>
+  <string name="incall_status_dialed_mmi">A iniciar sequência de MMI\u2026</string>
   <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_supp_service_unknown">Service not supported</string>
+  <string name="incall_error_supp_service_unknown">Serviço não suportado</string>
   <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_supp_service_switch">Can\'t switch calls.</string>
+  <string name="incall_error_supp_service_switch">Não é possível alternar chamadas.</string>
   <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_supp_service_separate">Can\'t separate call.</string>
+  <string name="incall_error_supp_service_separate">Não é possível separar a chamada.</string>
   <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_supp_service_transfer">Can\'t transfer.</string>
+  <string name="incall_error_supp_service_transfer">Não é possível transferir.</string>
   <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_supp_service_conference">Unable to conference calls.</string>
+  <string name="incall_error_supp_service_conference">Não é possível efetuar chamadas de conferência.</string>
   <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_supp_service_reject">Can\'t reject call.</string>
+  <string name="incall_error_supp_service_reject">Não é possível rejeitar a chamada.</string>
   <!-- In-call screen: message displayed in an error dialog -->
-  <string name="incall_error_supp_service_hangup">Can\'t release call(s).</string>
+  <string name="incall_error_supp_service_hangup">Não é possível liberar a(s) chamada(s).</string>
   <!-- In-call screen: call failure message displayed in an error dialog when WFC is enabled, is wifi-only, and not connected to a wireless network. [CHAR_LIMIT=NONE] -->
-  <string name="incall_error_wfc_only_no_wireless_network">Connect to a wireless network to make a call.</string>
+  <string name="incall_error_wfc_only_no_wireless_network">Conecte-se a uma rede sem fio para fazer a chamada.</string>
   <!-- Dialog title for the "radio enable" UI for emergency calls -->
-  <string name="emergency_enable_radio_dialog_title">Emergency call</string>
+  <string name="emergency_enable_radio_dialog_title">Chamada de emergência</string>
   <!-- Status message for the "radio enable" UI for emergency calls -->
-  <string name="emergency_enable_radio_dialog_message">Turning on radio\u2026</string>
+  <string name="emergency_enable_radio_dialog_message">Ligando o rádio\u2026</string>
   <!-- Status message for the "radio enable" UI for emergency calls -->
-  <string name="emergency_enable_radio_dialog_retry">No service. Trying again\u2026</string>
+  <string name="emergency_enable_radio_dialog_retry">Sem serviço. Tentando novamente\u2026</string>
   <!-- Dialer text on Emergency Dialer -->
   <!-- Emergency dialer: message displayed in an error dialog -->
-  <string name="dial_emergency_error">Can\'t call. <xliff:g id="non_emergency_number">%s</xliff:g> is not an emergency number.</string>
+  <string name="dial_emergency_error">Não é possível chamar. <xliff:g id="non_emergency_number">%s</xliff:g> não é um número de emergência.</string>
   <!-- Emergency dialer: message displayed in an error dialog -->
-  <string name="dial_emergency_empty_error">Can\'t call. Dial an emergency number.</string>
+  <string name="dial_emergency_empty_error">Não pode chamar. Discar um número de emergência.</string>
   <!-- Displayed in the text entry box in the dialer when in landscape mode to guide the user
          to dial using the physical keyboard -->
-  <string name="dialerKeyboardHintText">Use keyboard to dial</string>
+  <string name="dialerKeyboardHintText">Use o teclado para discar</string>
   <!-- Text for the onscreen "Hold" button -->
-  <string name="onscreenHoldText">Hold</string>
+  <string name="onscreenHoldText">Em espera</string>
   <!-- Text for the onscreen "End call" button -->
-  <string name="onscreenEndCallText">End</string>
+  <string name="onscreenEndCallText">Fim</string>
   <!-- Text for the onscreen "Show Dialpad" button -->
-  <string name="onscreenShowDialpadText">Dialpad</string>
+  <string name="onscreenShowDialpadText">Teclado de discagem</string>
   <!-- Text for the onscreen "Mute" button -->
-  <string name="onscreenMuteText">Mute</string>
+  <string name="onscreenMuteText">Mudo</string>
   <!-- Text for the onscreen "Add call" button -->
-  <string name="onscreenAddCallText">Add call</string>
+  <string name="onscreenAddCallText">Adicionar chamada</string>
   <!-- Text for the onscreen "Merge calls" button -->
-  <string name="onscreenMergeCallsText">Merge calls</string>
+  <string name="onscreenMergeCallsText">Mesclar chamadas</string>
   <!-- Text for the onscreen "Swap calls" button -->
-  <string name="onscreenSwapCallsText">Swap</string>
+  <string name="onscreenSwapCallsText">Alternar</string>
   <!-- Text for the onscreen "Manage calls" button -->
-  <string name="onscreenManageCallsText">Manage calls</string>
+  <string name="onscreenManageCallsText">Gerenciar chamadas</string>
   <!-- Text for the onscreen "Manage conference" button [CHAR LIMIT=20] -->
-  <string name="onscreenManageConferenceText">Manage conference</string>
+  <string name="onscreenManageConferenceText">Gerenciar conferência</string>
   <!-- Text for the onscreen "Audio" button that lets you switch
          between speaker / bluetooth / earpiece [CHAR LIMIT=10] -->
-  <string name="onscreenAudioText">Audio</string>
+  <string name="onscreenAudioText">Áudio</string>
   <!-- Text for the onscreen "Video call" button used to change a voice call
          to a video call. [CHAR LIMIT=10] -->
-  <string name="onscreenVideoCallText">Video call</string>
+  <string name="onscreenVideoCallText">Vídeo chamada</string>
   <!-- Menu item label in SIM Contacts: Import a single contact entry from the SIM card -->
-  <string name="importSimEntry">Import</string>
+  <string name="importSimEntry">Importar</string>
   <!-- Menu item label in SIM Contacts: Import all contact entries from the SIM card -->
-  <string name="importAllSimEntries">Import all</string>
+  <string name="importAllSimEntries">Importar todos</string>
   <!-- SIM Contacts: status message displayed while importing card -->
-  <string name="importingSimContacts">Importing SIM contacts</string>
+  <string name="importingSimContacts">Importando contatos do SIM</string>
   <!-- Import a single contact entry from contacts to the SIM card -->
-  <string name="importToFDNfromContacts">Import from contacts</string>
+  <string name="importToFDNfromContacts">Importar a partir dos contatos</string>
   <!-- Hearing aid settings -->
-  <string name="hac_mode_title">Hearing aids</string>
-  <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
+  <string name="hac_mode_title">Aparelhos auditivos</string>
+  <string name="hac_mode_summary">Ativar compatibilidade com aparelhos auditivos</string>
   <!-- Service option entries.  -->
   <string-array name="tty_mode_entries">
-    <item>TTY Off</item>
-    <item>TTY Full</item>
+    <item>TTY desativado</item>
+    <item>TTY total</item>
     <item>TTY HCO</item>
     <item>TTY VCO</item>
   </string-array>
   <!-- Do not translate. -->
   <!-- Dtmf tones settings -->
   <!-- Title for the DTMF Tones options displayed in Call Settings -->
-  <string name="dtmf_tones_title">DTMF tones</string>
+  <string name="dtmf_tones_title">Tons DTMF</string>
   <!-- Summary for the DTMF Tones options displayed in Call Settings -->
-  <string name="dtmf_tones_summary">Set the length of DTMF tones</string>
+  <string name="dtmf_tones_summary">Definir duração dos tons DTMF</string>
   <!-- Options displayed as part of DTMF Tones in Call Settings -->
   <string-array name="dtmf_tone_entries">
     <item>Normal</item>
-    <item>Long</item>
+    <item>Longo</item>
   </string-array>
   <!-- Do not translate. -->
   <!-- Title for the dialog used to display CDMA DisplayInfo -->
-  <string name="network_info_message">Network message</string>
+  <string name="network_info_message">Mensagem de rede</string>
   <!-- Title for the dialog used to display a network error message to the user -->
-  <string name="network_error_message">Error message</string>
+  <string name="network_error_message">Mensagem de erro</string>
   <!-- OTA-specific strings -->
   <!-- Title shown on OTA screen -->
-  <string name="ota_title_activate">Activate your phone</string>
+  <string name="ota_title_activate">Ativar o seu telefone</string>
   <!-- Message displayed on the OTA activation screen. -->
-  <string name="ota_touch_activate">A special call needs to be made to activate your phone service.
-    \n\nAfter pressing \u201CActivate\u201D, listen to the instructions provided to activate your phone.</string>
+  <string name="ota_touch_activate">É necessário efetuar uma chamada especial para ativar o seu serviço telefônico. \n\nDepois de pressionar “Ativar”, ouça as instruções fornecidas para ativar o telefone.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activating\u2026</string>
+  <string name="ota_hfa_activation_title">Ativando\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
-  <string name="ota_hfa_activation_dialog_message">The phone is activating your mobile data service.\n\nThis can take up to 5 minutes.</string>
+  <string name="ota_hfa_activation_dialog_message">O telefone está ativando seu serviço móvel.\n\nIsso pode levar até 5 minutos.</string>
   <!-- Title of skip activation dialog -->
-  <string name="ota_skip_activation_dialog_title">Skip activation\?</string>
+  <string name="ota_skip_activation_dialog_title">Ignorar ativação?</string>
   <!-- Message displayed in skip activation dialog  -->
-  <string name="ota_skip_activation_dialog_message">If you skip activation, you can\'t place calls or connect to mobile data networks (though you can connect to Wi-Fi networks). Until you activate your phone, you are asked to activate it each time you turn it on.</string>
+  <string name="ota_skip_activation_dialog_message">Se você pular a ativação, não poderá fazer chamadas ou conectar-se a redes móveis de dados (embora possa conectar-se a redes Wi-Fi), até ativar seu telefone. Você será solicitado a ativar cada vez que ligá-lo.</string>
   <!-- Label shown on dialog button that allows the user to skip activation -->
-  <string name="ota_skip_activation_dialog_skip_label">Skip</string>
+  <string name="ota_skip_activation_dialog_skip_label">Pular</string>
   <!-- Button label within the OTA activation screen -->
-  <string name="ota_activate">Activate</string>
+  <string name="ota_activate">Ativar</string>
   <!-- Title text shown when phone activation is successful -->
-  <string name="ota_title_activate_success">Phone is activated.</string>
+  <string name="ota_title_activate_success">Telefone ativado com sucesso.</string>
   <!-- Title text shown on screen where activation fails -->
-  <string name="ota_title_problem_with_activation">Problem with activation</string>
+  <string name="ota_title_problem_with_activation">Problema com a ativação</string>
   <!-- Message displayed on the OTA "listening" screen. This message
          needs to be kept at 2 lines or less to be sure that there's
          enough room for the dialpad. [CHAR LIMIT=80] -->
-  <string name="ota_listen">Follow the spoken instructions until you hear that activation is complete.</string>
+  <string name="ota_listen">Siga as instruções de voz até ser informado que a ativação está concluída.</string>
   <!-- Button label within the OTA listen screen -->
-  <string name="ota_speaker">Speaker</string>
+  <string name="ota_speaker">Viva-voz</string>
   <!-- String to be displayed on OTA listen screen once user has selected the
          correct option to begin provisioning -->
-  <string name="ota_progress">Programming your phone\u2026</string>
+  <string name="ota_progress">A programar o telefone\u2026</string>
   <!-- String to display within the OTA Fail Notice dialog -->
-  <string name="ota_failure">Couldn\'t program your phone</string>
+  <string name="ota_failure">Não foi possível programar o telefone</string>
   <!-- String to be displayed on the OTA Fail/Success screen upon successful provisioning -->
-  <string name="ota_successful">Your phone is now activated.  It may take up to 15 minutes for service to start.</string>
+  <string name="ota_successful">O seu telefone já está ativado. O início do serviço pode demorar até 15 minutos.</string>
   <!-- String to be displayed on the OTA Fail/Success screen upon unsuccessful provisioning -->
-  <string name="ota_unsuccessful">Your phone didn\'t activate.
-    \nYou may need to find an area with better coverage (near a window, or outside).
-    \n\nTry again or call customer service for more options.</string>
+  <string name="ota_unsuccessful">O seu telefone não foi ativado. \nPode ser necessário procurar uma área com melhor cobertura (junto a uma janela ou no exterior). \n\nTente novamente ou ligue para o serviço de apoio ao cliente para obter mais opções.</string>
   <!-- String to display within the OTA SPC Fail Notice dialog -->
-  <string name="ota_spc_failure">EXCESS SPC FAILURES</string>
+  <string name="ota_spc_failure">Excesso de falhas SPC</string>
   <!-- Button label in OTA listen screen that cancels activation and goes to the previous screen -->
-  <string name="ota_call_end">Back</string>
+  <string name="ota_call_end">Voltar</string>
   <!-- Button label shown on OTA error screen to allow the user to try again -->
-  <string name="ota_try_again">Try again</string>
+  <string name="ota_try_again">Tente novamente</string>
   <!-- Button label shown on OTA screens that have a next screen -->
-  <string name="ota_next">Next</string>
+  <string name="ota_next">Avançar</string>
   <!-- Emergency Callback Mode (ECM) -->
   <string name="ecm_exit_dialog">EcmExitDialog</string>
   <!-- ECM: Status bar notification message -->
-  <string name="phone_entered_ecm_text">Entered Emergency Callback Mode</string>
+  <string name="phone_entered_ecm_text">Modo de chamada de emergência acessado</string>
   <!-- ECM: Notification title -->
-  <string name="phone_in_ecm_notification_title">Emergency Callback Mode</string>
+  <string name="phone_in_ecm_notification_title">Modo de Chamada de Emergência</string>
   <!-- ECM: Notification body -->
-  <string name="phone_in_ecm_call_notification_text">Data connection disabled</string>
+  <string name="phone_in_ecm_call_notification_text">Conexão de dados desativada</string>
   <plurals name="phone_in_ecm_notification_time">
     <!-- number of minutes is one -->
-    <item quantity="one">No data connection for <xliff:g id="count">%s</xliff:g> minute</item>
+    <item quantity="one">Nenhuma conexão de dados por <xliff:g id="count">%s</xliff:g> minuto
+
+</item>
     <!-- number of minutes is not equal to one -->
-    <item quantity="other">No data connection for <xliff:g id="count">%s</xliff:g> minutes</item>
+    <item quantity="other">Nenhuma conexão de dados por <xliff:g id="count">%s</xliff:g> minutos
+
+</item>
   </plurals>
   <!-- ECM: Dialog box message for exiting from the notifications screen -->
   <plurals name="alert_dialog_exit_ecm">
     <!-- number of minutes is one -->
-    <item quantity="one">The phone will be in Emergency Callback mode for <xliff:g id="count">%s</xliff:g> minute. While in this mode no apps using a data connection can be used. Do you want to exit now?</item>
+    <item quantity="one">O telefone ficará no modo de emergência por <xliff:g id="count">%s</xliff:g> minuto. Neste modo, nenhum app poderá usar uma conexão de dados. Deseja sair agora?</item>
     <!-- number of minutes is not equal to one -->
-    <item quantity="other">The phone will be in Emergency Callback mode for <xliff:g id="count">%s</xliff:g> minutes. While in this mode no applications using a data connection can be used. Do you want to exit now?</item>
+    <item quantity="other">O telefone ficará no modo de emergência por <xliff:g id="count">%s</xliff:g> minutos. Neste modo, nenhum app poderá usar uma conexão de dados. Deseja sair agora?</item>
   </plurals>
   <!-- ECM: Dialog box message for exiting from any other app -->
   <plurals name="alert_dialog_not_avaialble_in_ecm">
     <!-- number of minutes is one -->
-    <item quantity="one">The selected action isn\'t available while in the Emergency Callback mode. The phone will be in this mode for <xliff:g id="count">%s</xliff:g> minute. Do you want to exit now?</item>
+    <item quantity="one">A ação selecionada não está disponível no modo de chamada de emergência. O telefone ficará neste modo durante <xliff:g id="count">%s</xliff:g> minuto. Deseja sair agora?</item>
     <!-- number of minutes is not equal to one -->
-    <item quantity="other">The selected action isn\'t available while in the Emergency Callback mode. The phone will be in this mode for <xliff:g id="count">%s</xliff:g> minutes. Do you want to exit now?</item>
+    <item quantity="other">A ação selecionada não está disponível no modo de chamada de emergência. O telefone ficará neste modo durante <xliff:g id="count">%s</xliff:g> minutos. Deseja sair agora?</item>
   </plurals>
   <!-- ECM: Dialog box message while in emergency call -->
-  <string name="alert_dialog_in_ecm_call">The selected action isn\'t available while in an emergency call.</string>
+  <string name="alert_dialog_in_ecm_call">A ação selecionada não está disponível durante uma chamada de emergência.</string>
   <!-- ECM: Progress text -->
-  <string name="progress_dialog_exiting_ecm">Exiting Emergency Callback mode</string>
+  <string name="progress_dialog_exiting_ecm">Saindo do modo de chamada de emergência</string>
   <!-- ECM: ECM exit dialog choice -->
-  <string name="alert_dialog_yes">Yes</string>
+  <string name="alert_dialog_yes">Sim</string>
   <!-- ECM: ECM exit dialog choice -->
-  <string name="alert_dialog_no">No</string>
+  <string name="alert_dialog_no">Não</string>
   <!-- ECM: ECM exit dialog choice -->
-  <string name="alert_dialog_dismiss">Dismiss</string>
+  <string name="alert_dialog_dismiss">Recusar</string>
   <!-- For incoming calls, this is a string we can get from a CDMA network instead of
          the actual phone number, to indicate there's no number present.  DO NOT TRANSLATE. -->
   <!-- Preference for Voicemail service provider under "Voicemail" settings.
          [CHAR LIMIT=40] -->
-  <string name="voicemail_provider">Service</string>
+  <string name="voicemail_provider">Serviço de correio de voz</string>
   <!-- Preference for Voicemail setting of each provider.
          [CHAR LIMIT=40] -->
-  <string name="voicemail_settings">Setup</string>
+  <string name="voicemail_settings">Opções do correio de voz</string>
   <!-- String to display in voicemail number summary when no voicemail num is set -->
-  <string name="voicemail_number_not_set">&lt;Not set&gt;</string>
+  <string name="voicemail_number_not_set">&lt;Não definido&gt;</string>
   <!-- Title displayed above settings coming after voicemail in the call features screen -->
-  <string name="other_settings">Other call settings</string>
+  <string name="other_settings">Outras configurações de chamada</string>
   <!-- Title displayed in the overlay when a call is placed using a 3rd party provider.
          [CHAR LIMIT=40] -->
-  <string name="calling_via_template">Calling via <xliff:g id="provider_name">%s</xliff:g></string>
+  <string name="calling_via_template">Chamando através de <xliff:g id="provider_name">%s</xliff:g></string>
   <!-- Use this as a default to describe the contact photo; currently for screen readers through accessibility. -->
-  <string name="contactPhoto">contact photo</string>
+  <string name="contactPhoto">Foto do contato</string>
   <!-- Use this to describe the separate conference call button; currently for screen readers through accessibility. -->
-  <string name="goPrivate">go private</string>
+  <string name="goPrivate">Tornar privado</string>
   <!--  Use this to describe the select contact button in EditPhoneNumberPreference; currently for screen readers through accessibility. -->
-  <string name="selectContact">select contact</string>
+  <string name="selectContact">Selecionar contato</string>
   <!-- Dialog title to notify user that Voice calling is not supported
          on this device. [CHAR LIMIT=40] -->
-  <string name="not_voice_capable">Voice calling not supported</string>
+  <string name="not_voice_capable">Chamada de voz não suportada</string>
   <!-- String describing the Dial ImageButton
 
          Used by AccessibilityService to announce the purpose of the button.
          [CHAR LIMIT=NONE]
     -->
-  <string name="description_dial_button">dial</string>
+  <string name="description_dial_button">Discar</string>
   <!-- Title for the vibration settings for voicemail notifications [CHAR LIMIT=40] -->
-  <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">Vibrate</string>
+  <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">Vibrar</string>
   <!-- Dialog title for the vibration settings for voice mail notifications [CHAR LIMIT=40]-->
-  <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">Vibrate</string>
+  <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">Vibrar</string>
   <!-- Visual voicemail on/off title [CHAR LIMIT=40] -->
-  <string name="voicemail_visual_voicemail_switch_title">Visual Voicemail</string>
+  <string name="voicemail_visual_voicemail_switch_title">Correio de voz visual</string>
   <!-- Voicemail ringtone title. The user clicks on this preference to select
          which sound to play when a voicemail notification is received.
          [CHAR LIMIT=30] -->
-  <string name="voicemail_notification_ringtone_title">Sound</string>
+  <string name="voicemail_notification_ringtone_title">Som</string>
   <!-- The default value value for voicemail notification. -->
   <!-- Actual values used in our code for voicemail notifications. DO NOT TRANSLATE -->
   <!-- Title for the category "ringtone", which is shown above ringtone and vibration
          related settings.
          [CHAR LIMIT=30] -->
-  <string name="preference_category_ringtone">Ringtone &amp; Vibrate</string>
+  <string name="preference_category_ringtone">Toque &amp; Vibrar</string>
   <!-- String resource for the font-family to use for the call setting activity's title
          Do not translate. -->
   <!-- Label for PSTN connection service. -->
-  <string name="pstn_connection_service_label">Built-in SIM cards</string>
+  <string name="pstn_connection_service_label">Cartões SIM incorporados</string>
   <!-- Label for enabling video calling. -->
-  <string name="enable_video_calling_title">Turn on video calling</string>
+  <string name="enable_video_calling_title">Ativar videochamada</string>
   <!-- Message for dialog shown when the user tries to turn on video calling but enhanced 4G LTE
          is disabled. They have to turn on Enhanced 4G LTE capability in network settings first. -->
   <string name="enable_video_calling_dialog_msg">
-        To turn on video calling, you need to enable Enhanced 4G LTE Mode in network settings.
+        Para ativar as videochamadas, você deve ativar o modo 4G LTE avançado nas definições da rede.
     </string>
   <!-- Label for action button in dialog which opens mobile network settings, for video calling
          setting. -->
-  <string name="enable_video_calling_dialog_settings">Network settings</string>
+  <string name="enable_video_calling_dialog_settings">Configurações da rede</string>
   <!-- Label for close button in dialog, for video calling setting. -->
-  <string name="enable_video_calling_dialog_close">Close</string>
+  <string name="enable_video_calling_dialog_close">Fechar</string>
   <!-- Strings used in Settings->Sim cards for each installed Sim. -->
-  <string name="sim_label_emergency_calls">Emergency calls</string>
-  <string name="sim_description_emergency_calls">Emergency calling only</string>
-  <string name="sim_description_default">SIM card, slot: <xliff:g id="slot_id">%s</xliff:g></string>
+  <string name="sim_label_emergency_calls">Chamadas de emergência</string>
+  <string name="sim_description_emergency_calls">Somente chamadas de emergência</string>
+  <string name="sim_description_default">Cartão SIM, abertura: <xliff:g id="slot_id">%s</xliff:g></string>
   <!-- Title for activity to control accessibility settings such as TTY mode and hearing aid
          compatability. [CHAR LIMIT=40] -->
-  <string name="accessibility_settings_activity_title">Accessibility</string>
+  <string name="accessibility_settings_activity_title">Acessibilidade</string>
   <!-- Configuration setting for world mode Format is <true;GID if any to be checked>-->
   <!-- Status hint label for an incoming call over a wifi network which has not been accepted yet.
          [CHAR LIMIT=25] -->
-  <string name="status_hint_label_incoming_wifi_call">Incoming Wi-Fi call</string>
+  <string name="status_hint_label_incoming_wifi_call">Recebendo chamada Wi-Fi</string>
   <!-- Status hint label for a call being made over a wifi network. [CHAR LIMIT=25] -->
-  <string name="status_hint_label_wifi_call">Wi-Fi call</string>
+  <string name="status_hint_label_wifi_call">Chamada Wi-Fi</string>
   <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
   <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
   <!-- DO NOT TRANSLATE. Internal key for a visual voicemail preference. -->
   <!-- DO NOT TRANSLATE. Internal key for tty mode preference. -->
   <!-- DO NOT TRANSLATE. Internal key for a voicemail notification preference. -->
   <!-- Hint appearing below a selected action on the emergency dialer telling user to tap again to execute the action [CHAR LIMIT=NONE] -->
-  <string name="emergency_action_launch_hint">Touch again to open</string>
+  <string name="emergency_action_launch_hint">Toque novamente para abrir</string>
   <!-- Strings for IMAP -->
   <!-- String used in place of a message that could not be properly decoded (e.g. bad base64
        data was received.) [CHAR LIMIT=none] -->
-  <string name="message_decode_error">There was an error while decoding the message.</string>
+  <string name="message_decode_error">Ocorreu um erro durante a descodificação da mensagem.</string>
   <!-- Call failure reason: SIM card and roaming capabilities have already been activated. [CHAR LIMIT=NONE]-->
   <string name="callFailed_cdma_activation">
-        A SIM card has activated your service and updated your phone\'s roaming capabilities.
+        Um cartão SIM ativou o seu serviço e atualizou as capacidades de roaming do seu telefone.
     </string>
 </resources>

@@ -22,16 +22,16 @@
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
   <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
+  <string name="display_category_prox_auto_speaker_title">Налаштування розмовного динаміка</string>
+  <string name="prox_auto_speaker_title">Автовключення гучного зв\'язку</string>
   <string name="prox_auto_speaker_summary">Enable speakerphone when the device is removed from your face</string>
   <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
   <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
+  <string name="prox_auto_speaker_incall_only_title">Тільки під час дзвінка</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">При вихідних дзвінках функція активується тільки після відповіді на виклик</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Flip action</string>
+  <string name="flip_action_title">Дії при перевороті пристою</string>
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">Flip device to\u2026</string>
   <!-- Setting summary for the flip action setting. -->
@@ -39,18 +39,18 @@
   <!-- Values for flip action array entries -->
   <string name="entry_do_nothing">Do nothing</string>
   <string name="entry_mute_ringer">Mute ringer</string>
-  <string name="entry_dismiss_call">Dismiss call</string>
-  <string name="summary_do_nothing">do nothing</string>
+  <string name="entry_dismiss_call">Відхилити дзвінок</string>
+  <string name="summary_do_nothing">нічого не робити</string>
   <string name="summary_mute_ringer">mute the ringer</string>
   <string name="summary_dismiss_call">dismiss the call</string>
   <!-- Advanced Settings -->
   <string name="advanced_setting">Advanced Settings</string>
   <!-- Blacklist preferences -->
   <string name="blacklist_title">Blocked caller list</string>
-  <string name="blacklist_summary_disabled">Disabled</string>
+  <string name="blacklist_summary_disabled">Вимкнено</string>
   <string name="blacklist_summary">You will not receive incoming calls or messages from phone numbers on the blocked caller list</string>
   <!-- Call screen wakeup settings -->
   <string name="screen_wakeup">Wake up screen when a call is disconnected</string>
-  <string name="screen_wakeup_enabled_summary">Enabled</string>
+  <string name="screen_wakeup_enabled_summary">Увімкнено</string>
   <string name="screen_wakeup_disabled_summary">Disabled</string>
 </resources>

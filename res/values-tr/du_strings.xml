@@ -28,10 +28,10 @@
   <string name="prox_auto_speaker_delay_title">Yakınlık hoparlör gecikmesi</string>
   <string name="prox_auto_speaker_delay_summary">Hoparlör etkinleştirilmeden önce gecikme süresi</string>
   <string name="prox_auto_speaker_incall_only_title">Sadece arama sırasında</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Giden aramalarda dinleyici sadece alıcı taraf cevapladıktan sonra aktif hale gelecektir</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Dinleyici tüm offhook çağrı durumlarında etkin olacak (varsayılan)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Flip action</string>
+  <string name="flip_action_title">Çevirme eylemi</string>
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">\u2026 için cihazı ters çevir</string>
   <!-- Setting summary for the flip action setting. -->
@@ -40,9 +40,9 @@
   <string name="entry_do_nothing">Hiçbir şey yapma</string>
   <string name="entry_mute_ringer">Zil sesini sustur</string>
   <string name="entry_dismiss_call">Aramayı reddet</string>
-  <string name="summary_do_nothing">do nothing</string>
+  <string name="summary_do_nothing">hiçbir şey yapma</string>
   <string name="summary_mute_ringer">zil sesini kapat</string>
-  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="summary_dismiss_call">aramayı reddet</string>
   <!-- Advanced Settings -->
   <string name="advanced_setting">Gelişmiş Ayarlar</string>
   <!-- Blacklist preferences -->
@@ -50,7 +50,7 @@
   <string name="blacklist_summary_disabled">Disabled (Devre dışı)</string>
   <string name="blacklist_summary">Engellenen arayan listesindeki telefon numaralarından gelen arama veya mesajı almazsınız</string>
   <!-- Call screen wakeup settings -->
-  <string name="screen_wakeup">Wake up screen when a call is disconnected</string>
-  <string name="screen_wakeup_enabled_summary">Enabled</string>
-  <string name="screen_wakeup_disabled_summary">Disabled</string>
+  <string name="screen_wakeup">Bir telefon bağlantısı kesildiğinde ekranı uyandır</string>
+  <string name="screen_wakeup_enabled_summary">Etkinleştirildi</string>
+  <string name="screen_wakeup_disabled_summary">Devre dışı</string>
 </resources>

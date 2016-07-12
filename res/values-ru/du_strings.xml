@@ -33,7 +33,7 @@
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Действие при повороте</string>
   <!-- Dialog title of the flip action setting. -->
-  <string name="flip_action_dialog_title">Переверните телефон для\u2026</string>
+  <string name="flip_action_dialog_title">Выбор действия\u2026</string>
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary">При переворачивании телефона <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
@@ -41,12 +41,12 @@
   <string name="entry_mute_ringer">Выключить звонок</string>
   <string name="entry_dismiss_call">Отклонить вызов</string>
   <string name="summary_do_nothing">ничего не делать</string>
-  <string name="summary_mute_ringer">отключить звонок</string>
-  <string name="summary_dismiss_call">cбросить вызов</string>
+  <string name="summary_mute_ringer">выключить звонок</string>
+  <string name="summary_dismiss_call">отклонить вызов</string>
   <!-- Advanced Settings -->
   <string name="advanced_setting">Дополнительные настройки</string>
   <!-- Blacklist preferences -->
-  <string name="blacklist_title">Список заблокированных абонентов</string>
+  <string name="blacklist_title">Чёрный список</string>
   <string name="blacklist_summary_disabled">Отключен</string>
   <string name="blacklist_summary">Никакие звонки или сообщения не будут получены от номеров, указанных в \"черном\" списке</string>
   <!-- Call screen wakeup settings -->
