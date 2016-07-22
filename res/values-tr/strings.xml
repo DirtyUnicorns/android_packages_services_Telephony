@@ -839,7 +839,7 @@
   <string-array name="tty_mode_entries">
     <item>TTY Kapalı</item>
     <item>TTY Tam</item>
-    <item>TTY HCO</item>
+    <item>TTY VCO</item>
     <item>TTY VCO</item>
   </string-array>
   <!-- Do not translate. -->
