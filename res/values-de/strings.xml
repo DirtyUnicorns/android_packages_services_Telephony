@@ -396,7 +396,7 @@
   <!-- Mobile network settings UI: notification message shown when you
          lose data connectivity because you're roaming and you have the
          "data roaming" feature turned off. -->
-  <string name="roaming_reenable_message">Die Datenverbindung wurde unterbrochen, weil Sie Ihr privates Netzwerk verlassen haben und Daten-Roaming nicht aktiviert ist.</string>
+  <string name="roaming_reenable_message">Die Datenverbindung wurde unterbrochen, weil Sie das Netzwerk Ihres Heimatlandes verlassen haben und Daten-Roaming nicht aktiviert ist.</string>
   <!-- Mobile network settings screen, dialog message when user selects the Data roaming check box -->
   <string name="roaming_warning">Es können hohe Gebühren anfallen.</string>
   <!-- Mobile network settings screen, dialog message title when user selects the Data roaming check box -->
