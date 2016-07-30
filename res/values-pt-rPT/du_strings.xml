@@ -16,20 +16,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Mobile network settings screen, setting check box name -->
-  <string name="national_roaming">National data roaming</string>
+  <string name="national_roaming">Dados de roaming nacional</string>
   <!-- Mobile network settings screen, setting summary text when check box is selected -->
-  <string name="national_roaming_enable">Connect to data services when nationally roaming</string>
+  <string name="national_roaming_enable">Ligar aos dados quando em roaming nacional</string>
   <!-- Mobile network settings screen, setting summary text when check box is clear -->
-  <string name="national_roaming_disable">Do not connect to data services when nationally roaming</string>
+  <string name="national_roaming_disable">Não ligar aos dados quando em roaming nacional</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">Proximity speaker settings</string>
   <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
   <string name="prox_auto_speaker_summary">Enable speakerphone when the device is removed from your face</string>
-  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
-  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_delay_title">Atraso do altifalante de proximidade</string>
+  <string name="prox_auto_speaker_delay_summary">Tempo de atraso antes do altifalante estar ativo</string>
+  <string name="prox_auto_speaker_incall_only_title">Só durante a chamada</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Em chamadas realizadas, só se ouvirá som no auricular quando a outra parte atender</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">O altifalante estará ativo durante todos os estados da chamada (padrão)</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Flip action</string>
   <!-- Dialog title of the flip action setting. -->
