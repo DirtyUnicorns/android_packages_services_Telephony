@@ -51,7 +51,7 @@
   <!-- Label for "Manage conference call" panel [CHAR LIMIT=40] -->
   <string name="manageConferenceLabel">Gerir chamada de conferência</string>
   <!-- Positive button label ("OK") used in several dialogs in the phone UI [CHAR LIMIT=10] -->
-  <string name="ok">OK</string>
+  <string name="ok">Ok</string>
   <!-- "Audio mode" popup menu: Item label to select the speakerphone [CHAR LIMIT=25] -->
   <string name="audio_mode_speaker">Altifalante</string>
   <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
@@ -264,7 +264,7 @@
   <!-- Status message displayed in the "Call settings error" dialog -->
   <string name="radio_off_error">Ative o rádio antes de visualizar estas definições.</string>
   <!-- Button label used to dismiss the "Call settings error" dialog -->
-  <string name="close_dialog">OK</string>
+  <string name="close_dialog">Ok</string>
   <!-- Button label used in several settings-related dialogs -->
   <string name="enable">Ativar</string>
   <!-- Button label used in several settings-related dialogs -->
@@ -864,7 +864,7 @@
   <!-- Message displayed on the OTA activation screen. -->
   <string name="ota_touch_activate">É necessário efectuar uma chamada especial para ativar o seu serviço telefónico. \n\nDepois de premir “Ativar”, ouça as instruções fornecidas para activar o telefone.</string>
   <!-- Title shown during Hands Free Activation -->
-  <string name="ota_hfa_activation_title">Activating\u2026</string>
+  <string name="ota_hfa_activation_title">A ativar\u2026</string>
   <!-- Message shown during the hands free activation screen of the setup wizard. -->
   <string name="ota_hfa_activation_dialog_message">O telemóvel está a ativar o serviço de dados móveis.\n\nEste processo poderá demorar até 5 minutos.</string>
   <!-- Title of skip activation dialog -->
