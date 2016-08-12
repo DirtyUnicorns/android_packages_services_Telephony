@@ -36,7 +36,7 @@ import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
-import android.preference.SlimSeekBarPreference;
+import android.preference.CustomSeekBarPreference;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.telecom.PhoneAccountHandle;
@@ -127,7 +127,7 @@ public class CallFeaturesSetting extends PreferenceActivity
 
     private ListPreference mFlipAction;
     private SwitchPreference mProxSpeaker;
-    private SlimSeekBarPreference mProxSpeakerDelay;
+    private CustomSeekBarPreference mProxSpeakerDelay;
     private SwitchPreference mProxSpeakerIncallOnly;
     private SwitchPreference mCallScreenWakeup;
 
@@ -189,9 +189,9 @@ public class CallFeaturesSetting extends PreferenceActivity
                 return false;
             }
         } else if (preference == mProxSpeakerDelay) {
-            int delay = Integer.valueOf((String) objValue);
+            int delay = (Integer) objValue;
             Settings.System.putInt(getContentResolver(),
-                    Settings.System.PROXIMITY_AUTO_SPEAKER_DELAY, delay);
+                    Settings.System.PROXIMITY_AUTO_SPEAKER_DELAY, delay * 1);
         } else if (preference == mFlipAction) {
             int index = mFlipAction.findIndexOfValue((String) objValue);
             Settings.System.putInt(getContentResolver(),
@@ -283,13 +283,8 @@ public class CallFeaturesSetting extends PreferenceActivity
 
         mProxSpeaker = (SwitchPreference) findPreference(PROX_AUTO_SPEAKER);
         mProxSpeakerIncallOnly = (SwitchPreference) findPreference(PROX_AUTO_SPEAKER_INCALL_ONLY);
-        mProxSpeakerDelay = (SlimSeekBarPreference) findPreference(PROX_AUTO_SPEAKER_DELAY);
+        mProxSpeakerDelay = (CustomSeekBarPreference) findPreference(PROX_AUTO_SPEAKER_DELAY);
         if (mProxSpeakerDelay != null) {
-            mProxSpeakerDelay.setDefault(100);
-            mProxSpeakerDelay.isMilliseconds(true);
-            mProxSpeakerDelay.setInterval(1);
-            mProxSpeakerDelay.minimumValue(100);
-            mProxSpeakerDelay.multiplyValue(100);
             mProxSpeakerDelay.setOnPreferenceChangeListener(this);
         }
 
@@ -325,8 +320,7 @@ public class CallFeaturesSetting extends PreferenceActivity
                 if (mProxSpeakerDelay != null) {
                     final int proxDelay = Settings.System.getInt(getContentResolver(),
                             Settings.System.PROXIMITY_AUTO_SPEAKER_DELAY, 100);
-                    // minimum 100 is 1 interval of the 100 multiplier
-                    mProxSpeakerDelay.setInitValue((proxDelay / 100) - 1);
+                    mProxSpeakerDelay.setValue(proxDelay);
                 }
             } else {
                 prefSet.removePreference(mProxSpeaker);

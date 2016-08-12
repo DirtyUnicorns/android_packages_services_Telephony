@@ -103,11 +103,17 @@
             android:persistent="false"
             android:defaultValue="false" />
 
-        <SlimSeekBarPreference
+        <CustomSeekBarPreference
             android:key="prox_auto_speaker_delay"
             android:title="@string/prox_auto_speaker_delay_title"
             android:summary="@string/prox_auto_speaker_delay_summary"
             android:persistent="false"
+            android:defaultValue="100"
+            android:max="10000"
+            android:min="100"
+            android:interval="100"
+            android:unitsLeft=""
+            android:unitsRight="ms"
             android:dependency="prox_auto_speaker" />
 
         <SwitchPreference
