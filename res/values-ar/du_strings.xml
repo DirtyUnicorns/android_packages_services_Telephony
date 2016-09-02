@@ -37,16 +37,16 @@
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Do nothing</string>
-  <string name="entry_mute_ringer">Mute ringer</string>
-  <string name="entry_dismiss_call">Dismiss call</string>
-  <string name="summary_do_nothing">do nothing</string>
-  <string name="summary_mute_ringer">mute the ringer</string>
-  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="entry_do_nothing">لا تفعل شيئا</string>
+  <string name="entry_mute_ringer">كتم صوت الرنين</string>
+  <string name="entry_dismiss_call">تجاهل المكالمة</string>
+  <string name="summary_do_nothing">لا تفعل شيئا</string>
+  <string name="summary_mute_ringer">كتم صوت الرنين</string>
+  <string name="summary_dismiss_call">تجاهل المكالمة</string>
   <!-- Advanced Settings -->
-  <string name="advanced_setting">Advanced Settings</string>
+  <string name="advanced_setting">الإعدادات المتقدمة</string>
   <!-- Blacklist preferences -->
-  <string name="blacklist_title">Blocked caller list</string>
+  <string name="blacklist_title">قائمة المتصلين المحظورين</string>
   <string name="blacklist_summary_disabled">معطّل</string>
   <string name="blacklist_summary">You will not receive incoming calls or messages from phone numbers on the blocked caller list</string>
   <!-- Call screen wakeup settings -->

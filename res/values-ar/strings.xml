@@ -903,7 +903,7 @@
   <!-- Button label shown on OTA screens that have a next screen -->
   <string name="ota_next">التالي</string>
   <!-- Emergency Callback Mode (ECM) -->
-  <string name="ecm_exit_dialog">EcmExitDialog</string>
+  <string name="ecm_exit_dialog">إطار الخروج لوضع معاودة الاتصال بالطوارئ</string>
   <!-- ECM: Status bar notification message -->
   <string name="phone_entered_ecm_text">تم الدخول إلى وضع هاتف معاودة الاتصال بالطوارئ</string>
   <!-- ECM: Notification title -->

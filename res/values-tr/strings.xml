@@ -19,7 +19,7 @@
          and other settings UIs.  This is the version of the label for
          tablet devices, where the phone app handles mobile data but not
          actual phone calls. -->
-  <string name="phoneAppLabel" product="tablet">Hücresel Veriler</string>
+  <string name="phoneAppLabel" product="tablet">Hücresel Veri</string>
   <!-- Official label of the phone app, as seen in "Manage Applications"
          and other settings UIs. -->
   <string name="phoneAppLabel" product="default">Telefon Hizmetleri</string>
