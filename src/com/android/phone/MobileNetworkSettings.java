@@ -423,7 +423,6 @@ public class MobileNetworkSettings extends PreferenceActivity
     @Override
     protected void onCreate(Bundle icicle) {
         if (DBG) log("onCreate:+");
-        setTheme(R.style.Theme_Material_Settings);
         super.onCreate(icicle);
 
         mHandler = new MyHandler();
@@ -740,6 +739,11 @@ public class MobileNetworkSettings extends PreferenceActivity
         boolean canChange4glte = (tm.getCallState() == TelephonyManager.CALL_STATE_IDLE) &&
                 ImsManager.isNonTtyOrTtyOnVolteEnabled(getApplicationContext()) &&
                 carrierConfig.getBoolean(CarrierConfigManager.KEY_EDITABLE_ENHANCED_4G_LTE_BOOL);
+        boolean useVariant4glteTitle = carrierConfig.getBoolean(
+                CarrierConfigManager.KEY_ENHANCED_4G_LTE_TITLE_VARIANT_BOOL);
+        int enhanced4glteModeTitleId = useVariant4glteTitle ?
+                R.string.enhanced_4g_lte_mode_title_variant :
+                R.string.enhanced_4g_lte_mode_title;
         mButtonDataRoam.setDisabledByAdmin(false);
         mButtonDataRoam.setEnabled(hasActiveSubscriptions);
         if (mButtonDataRoam.isEnabled()) {
@@ -752,6 +756,7 @@ public class MobileNetworkSettings extends PreferenceActivity
         }
         mButtonPreferredNetworkMode.setEnabled(hasActiveSubscriptions);
         mButtonEnabledNetworks.setEnabled(hasActiveSubscriptions);
+        mButton4glte.setTitle(enhanced4glteModeTitleId);
         mButton4glte.setEnabled(hasActiveSubscriptions && canChange4glte);
         mLteDataServicePref.setEnabled(hasActiveSubscriptions);
         Preference ps;
