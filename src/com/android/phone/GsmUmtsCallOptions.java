@@ -31,7 +31,6 @@ public class GsmUmtsCallOptions extends PreferenceActivity {
     private final boolean DBG = (PhoneGlobals.DBG_LEVEL >= 2);
 
     private static final String CALL_FORWARDING_KEY = "call_forwarding_key";
-    private static final String CALL_BARRING_KEY = "call_barring_key";
     private static final String ADDITIONAL_GSM_SETTINGS_KEY = "additional_gsm_call_settings_key";
 
     @Override
@@ -91,15 +90,6 @@ public class GsmUmtsCallOptions extends PreferenceActivity {
                         subInfoHelper.getIntent(GsmUmtsAdditionalCallOptions.class));
             } else {
                 prefScreen.removePreference(additionalGsmSettingsPref);
-            }
-        }
-
-        Preference callBarringPref = prefScreen.findPreference(CALL_BARRING_KEY);
-        if (callBarringPref != null) {
-            if (b != null && b.getBoolean(CarrierConfigManager.KEY_CALL_BARRING_VISIBILITY_BOOL)) {
-                callBarringPref.setIntent(subInfoHelper.getIntent(GsmUmtsCallBarringOptions.class));
-            } else {
-                prefScreen.removePreference(callBarringPref);
             }
         }
     }
