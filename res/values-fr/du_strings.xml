@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="vm_change_pin_old_pin">"Ancien code"</string>
+    <string name="vm_change_pin_new_pin">"Nouveau code"</string>
+    <string name="vm_change_pin_progress_message">"Veuillez patienter."</string>
+    <string name="vm_change_pin_error_too_short">"Le nouveau code est trop court."</string>
+    <string name="vm_change_pin_error_too_long">"Le nouveau code est trop long."</string>
+    <string name="vm_change_pin_error_too_weak">"Le nouveau code n\'est pas suffisamment sécurisé. Pour qu\'un mot de passe soit sûr, il ne doit pas contenir de chiffres qui se suivent ou qui se répètent."</string>
+    <string name="vm_change_pin_error_mismatch">"L\'ancien code est erroné."</string>
+    <string name="vm_change_pin_error_invalid">"Le nouveau code contient des caractères incorrects."</string>
+    <string name="vm_change_pin_error_system_error">"Impossible de modifier le code"</string>
+    <string name="vvm_unsupported_message_format">"Type de message incompatible, composez le <xliff:g id="NUMBER">%s</xliff:g> pour l\'écouter."</string>
+    <string name="enhanced_4g_lte_mode_title_variant">"Appel avancé"</string>
+    <string name="incall_error_cannot_add_call">"Impossible d\'ajouter un appel pour le moment."</string>
+    <string name="incall_error_promote_wfc">"Pour passer un appel, veuillez activer les appels Wi-Fi."</string>
+    <string name="voicemail_change_pin_dialog_title">"Modifier le code"</string>
+    <string name="change_pin_title">"Modifier le code de la boîte vocale"</string>
+    <string name="change_pin_continue_label">"Continuer"</string>
+    <string name="change_pin_cancel_label">"Annuler"</string>
+    <string name="change_pin_ok_label">"OK"</string>
+    <string name="change_pin_enter_old_pin_header">"Confirmer votre ancien code"</string>
+    <string name="change_pin_enter_old_pin_hint">"Pour continuer, saisissez le code de votre boîte vocale."</string>
+    <string name="change_pin_enter_new_pin_header">"Définir un nouveau code"</string>
+    <string name="change_pin_enter_new_pin_hint">"Le code ne peut être composé que de chiffres de <xliff:g id="MIN">%1$d</xliff:g> à <xliff:g id="MAX">%2$d</xliff:g>."</string>
+    <string name="change_pin_confirm_pin_header">"Confirmer votre code"</string>
+    <string name="change_pin_confirm_pins_dont_match">"Les codes ne correspondent pas."</string>
+    <string name="change_pin_succeeded">"Le code de votre boîte vocale a été mis à jour."</string>
+    <string name="change_pin_system_error">"Impossible de définir le code"</string>
+    <string name="voicemail_set_pin_dialog_title">"Définir un code"</string>
+</resources>
