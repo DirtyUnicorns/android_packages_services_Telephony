@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017, The Linux Foundation. All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are
+  ~ met:
+  ~      Redistributions of source code must retain the above copyright
+  ~       notice, this list of conditions and the following disclaimer.
+  ~      Redistributions in binary form must reproduce the above
+  ~       copyright notice, this list of conditions and the following
+  ~       disclaimer in the documentation and/or other materials provided
+  ~       with the distribution.
+  ~      Neither the name of The Linux Foundation nor the names of its
+  ~       contributors may be used to endorse or promote products derived
+  ~       from this software without specific prior written permission.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+  ~ WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+  ~ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+  ~ ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+  ~ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  ~ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  ~ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+  ~ BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+  ~ OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+  ~ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  ~
+  -->
+
+<!-- The xml contains Qti specific resource strings neede for any value added features. -->
+<resources>
+    <string name="ims_settings">Paramètres IMS</string>
+
+    <!-- Label text for PIN entry widget on SIM Network Subset Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_ENTRY">Code PIN de déblocage sous-réseau SIM</string>
+    <!-- Label text for PIN entry widget on SIM Corporate Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_ENTRY">Code PIN de déblocage entreprise SIM</string>
+    <!-- Label text for PIN entry widget on SIM Service Provider Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_ENTRY">Code PIN de déblocage opérateur SIM</string>
+    <!-- Label text for PIN entry widget on SIM SIM Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SIM_ENTRY">Code PIN de déblocage carte SIM</string>
+    <!-- Label text for PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for Subset PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for Corporate PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for SIM service provider PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for SIM PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SIM_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for PIN entry widget on RUIM Network1 Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_ENTRY">Code PIN de déblocage réseau 1 RUIM</string>
+    <!-- Label text for PIN entry widget on RUIM Network2 Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_ENTRY">Code PIN de déblocage réseau 2 RUIM</string>
+    <!-- Label text for PIN entry widget on RUIM Hrpd Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_HRPD_ENTRY">Code PIN de déblocage réseau RUIM HRPD</string>
+    <!-- Label text for PIN entry widget on RUIM Corporate Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_ENTRY">Code PIN de déblocage entreprise RUIM</string>
+    <!-- Label text for PIN entry widget on RUIM Service Provider Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_ENTRY">Code PIN de déblocage opérateur RUIM</string>
+    <!-- Label text for PIN entry widget on RUIM RUIM Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_RUIM_ENTRY">Code PIN de déblocage RUIM</string>
+    <!-- Label text for PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_ENTRY">Saisir le code PUK</string>
+    <!-- Label text for PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_ENTRY">Saisir le code PUK</string>
+
+    <!-- Label text for PIN entry widget on SIM SPN Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SPN_ENTRY">Code PIN de déblocage SPN</string>
+    <!-- Label text for PIN entry widget on SIM SP EHPLMN Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_ENTRY">Code PIN de déblocage SP EHPLMN</string>
+    <!-- Label text for PIN entry widget on SIM ICCID Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_ICCID_ENTRY">Code PIN de déblocage ICCID</string>
+
+    <!-- Status message displayed on SIM Network Subset Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_IN_PROGRESS">Demande de déblocage sous-réseau SIM\u2026</string>
+    <!-- Status message displayed on SIM Service Provider Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_IN_PROGRESS">Demande de déblocage opérateur SIM\u2026</string>
+    <!-- Status message displayed on SIM Corporate Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_IN_PROGRESS">Demande de déblocage entreprise SIM\u2026</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on Corporate PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on SIM Service provider PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on SIM PUK entry widget on Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SIM_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on SIM SIM Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SIM_IN_PROGRESS">Demande de déblocage SIM\u2026</string>
+    <!-- Status message displayed on RUIM Network1 Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_IN_PROGRESS">Demande de déblocage réseau 1 RUIM\u2026</string>
+    <!-- Status message displayed on RUIM Network2 Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_IN_PROGRESS">Demande de déblocage réseau 2 RUIM\u2026</string>
+    <!-- Status message displayed on RUIM Hrpd Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_HRPD_IN_PROGRESS">Demande de déblocage réseau RUIM HRPD\u2026</string>
+    <!-- Status message displayed on RUIM Service Provider Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_IN_PROGRESS">Demande de déblocage opérateur RUIM\u2026</string>
+    <!-- Status message displayed on RUIM Corporate Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_IN_PROGRESS">Demande de déblocage entreprise RUIM\u2026</string>
+
+    <!-- Status message displayed on SIM SPN Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SPN_IN_PROGRESS">Demande de déblocage SPN\u2026</string>
+    <!-- Status message displayed on SIM SP EHPLMN Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_IN_PROGRESS">Demande de déblocage SP EHPLMN\u2026</string>
+    <!-- Status message displayed on SIM ICCID Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_ICCID_IN_PROGRESS">Demande de déblocage ICCID\u2026</string>
+
+    <!-- Status message displayed on RUIM RUIM Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_RUIM_IN_PROGRESS">Demande de déblocage RUIM\u2026</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Status message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_IN_PROGRESS">Demande de déblocage PUK\u2026</string>
+    <!-- Error message displayed on SIM Network Subset Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_ERROR">Échec de la demande de déblocage sous-réseau SIM.</string>
+    <!-- Error message displayed on SIM Service Provider Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_ERROR">Échec de la demande de déblocage opérateur SIM.</string>
+    <!-- Error message displayed on SIM Corporate Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_ERROR">Échec de la demande de déblocage entreprise SIM.</string>
+    <!-- Error message displayed on SIM SIM Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SIM_ERROR">Échec de la demande de déblocage SIM.</string>
+    <!-- Error message displayed on RUIM Network1 Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_ERROR">Échec de la demande de déblocage réseau 1 RUIM.</string>
+    <!-- Error message displayed on RUIM Network2 Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_ERROR">Échec de la demande de déblocage réseau 2 RUIM.</string>
+    <!-- Error message displayed on RUIM Hrpd Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_HRPD_ERROR">Échec de la demande de déblocage réseau RUIM HRPD.</string>
+    <!-- Error message displayed on RUIM Corporate Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_ERROR">Échec de la demande de déblocage entreprise RUIM.</string>
+    <!-- Error message displayed on RUIM Service Provider Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_ERROR">Échec de la demande de déblocage opérateur RUIM.</string>
+    <!-- Error message displayed on RUIM RUIM Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_RUIM_ERROR">Échec de la demande de déblocage RUIM.</string>
+    <!-- Error message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_SIM_SIM_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_ERROR">Échec de la demande de déblocage PUK.</string>
+
+    <!--  Error message displayed on SIM SPN Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SPN_ERROR">Échec de la demande de déblocage SPN.</string>
+    <!--  Error message displayed on SIM SP EHPLMN Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_ERROR">Échec de la demande de déblocage SP EHPLMN.</string>
+    <!--  Error message displayed on SIM ICCID Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_ICCID_ERROR">Échec de la demande de déblocage ICCID.</string>
+
+    <!-- Success message displayed on SIM Network Subset Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_SUCCESS">Sous-réseau SIM débloqué.</string>
+    <!-- Success message displayed on SIM Service Provider Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_SUCCESS">Opérateur SIM débloqué.</string>
+    <!-- Success message displayed on SIM Corporate Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_SUCCESS">Entreprise SIM débloquée.</string>
+    <!-- Success message displayed on SIM SIM Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SIM_SUCCESS">SIM débloquée.</string>
+    <!-- Success message displayed on RUIM Network1 Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_SUCCESS">Réseau 1 RUIM débloqué.</string>
+    <!-- Success message displayed on RUIM Network2 Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_SUCCESS">Réseau 2 RUIM débloqué.</string>
+    <!-- Success message displayed on RUIM Hrpd Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_HRPD_SUCCESS">Réseau RUIM HRPD débloqué.</string>
+    <!-- Success message displayed on RUIM Service Provider Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_SUCCESS">Opérateur RUIM débloqué.</string>
+    <!-- Success message displayed on RUIM Corporate Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_SUCCESS">Entreprise RUIM débloqué.</string>
+    <!-- Success message displayed on RUIM RUIM Depersonalization panel -->
+    <string name="PERSOSUBSTATE_RUIM_RUIM_SUCCESS">RUIM débloqué.</string>
+    <!-- Success message displayed on PUK Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUBSET_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_SIM_CORPORATE_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_SIM_SERVICE_PROVIDER_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_SIM_SIM_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK1_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_RUIM_NETWORK2_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_RUIM_HRPD_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_RUIM_CORPORATE_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_RUIM_SERVICE_PROVIDER_PUK_SUCCESS">PUK débloqué.</string>
+    <string name="PERSOSUBSTATE_RUIM_RUIM_PUK_SUCCESS">PUK débloqué.</string>
+
+    <!-- Success message displayed on SIM SPN Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SPN_SUCCESS">SPN débloqué.</string>
+    <!-- Success message displayed on SIM SP EHPLMN Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_SP_EHPLMN_SUCCESS">SP EHPLMN débloqué.</string>
+    <!-- Success message displayed on SIM ICCID Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_ICCID_SUCCESS">ICCID débloqué.</string>
+
+    <string name="srvcc_video_message">L\'appel vidéo est modifié en appel vocal 2G/3G en raison de l\'indisponibilité du réseau 4G.</string>
+    <string name="srvcc_message">L\'appel vocal 4G est modifié en appel vocal 2G/3G en raison de l\'indisponibilité du réseau 4G.</string>
+    <string name="preferred_duration_title">Afficher la durée</string>
+    <string name="duration_enable_summary">Affichage de la durée activé</string>
+    <string name="duration_disable_summary">Affichage de la durée désactivé</string>
+    <!-- Setting option name to enable or disable vibration after connected -->
+    <string name="vibrate_after_connected_title">Vibrer à la connexion</string>
+    <string name="vibrate_after_connected_summary">Vibrer en cas de réponse</string>
+
+    <string name="cf_setting_mobile_data_alert">Veuillez activer les données mobiles et assurez-vous que WLAN est désactivé</string>
+    <string name="cf_setting_mobile_data_roaming_alert">Veuillez activer l\'itinérance des données</string>
+    <string name="no_mobile_data">Données mobiles non disponibles</string>
+    <string name="mobile_data">Données mobiles</string>
+    <string name="no_mobile_data_roaming">Itinérance des données non disponible</string>
+
+    <!--alert user to switch DDS when user is making UT supplementary service on non-DDS sub -->
+    <string name="switch_dds_to_sub_alert">Veuillez activer les données mobiles sur la carte SIM</string>
+    <string name="mobile_data_alert">Les données mobiles peuvent transiter par la carte secondaire</string>
+</resources>

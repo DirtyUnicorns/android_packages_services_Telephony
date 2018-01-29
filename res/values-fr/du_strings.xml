@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="labelCFType">Paramètres de transfert d\'appel</string>
+    <string name="labelCFVoice">Voix</string>
+    <string name="labelCFVideo">Vidéo</string>
+    <!-- network depersonalization -->
+    <!-- Label text for PIN entry widget on SIM Network Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_ENTRY">Code PIN de déblocage du réseau</string>
+    <!-- Status message displayed on SIM Network Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_IN_PROGRESS">Demande de déblocage du réseau\u2026</string>
+    <!-- Error message displayed on SIM Network Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_ERROR">Échec de la demande de déblocage du réseau</string>
+    <!-- Success message displayed on SIM Network Depersonalization panel -->
+    <string name="PERSOSUBSTATE_SIM_NETWORK_SUCCESS">Le réseau a bien été débloqué</string>
+
+    <!-- Call forwarding settings screen, setting timer info for cfut case -->
+    <string name="set_time_period">Définir la période</string>
+    <string name="all_day">\u0020Toute la journée\u0020</string>
+    <string name="time_interval_char"> : </string>
+    <string name="time_start">\u0020De\u0020</string>
+    <string name="time_start_hour">heure de début</string>
+    <string name="time_start_minute">minute de début</string>
+    <string name="time_end">\u0020Jusqu\'à\u0020</string>
+    <string name="time_next_day">\u0020next day\u0020</string>
+    <string name="time_end_hour">heure de fin</string>
+    <string name="time_end_minute">minute de fin</string>
+    <string name="time_formate_am">AM</string>
+    <string name="time_formate_pm">PM</string>
+
+    <!-- Status message displayed in the "Call settings error" dialog when
+         current SS request is modified to a different request by STK CC -->
+    <string name="stk_cc_ss_to_dial_video_error">La requête SS a été remplacée par une requête DIAL Vidéo.</string>
+
+    <!-- In-call screen: call failure reason (call denied because call barring
+            is ON on MT side ) -->
+    <string name="callFailed_incoming_cb_enabled">Le groupe a interdit tous les appels entrants.</string>
+    <!-- In-call screen: status label for an incoming call that is not answered and forwarded  -->
+    <string name="callUnanswered_forwarded">Aucune réponse : appel transféré</string>
+
+    <!-- USSD aggregation dialog box: separator strings between messages (new-lines will be added before and after) -->
+    <string name="call_forward_option">Options de transfert d\'appel</string>
+
+    <!-- Card titles -->
+    <!-- In-call screen: status label for Unconditional Call Forwarding enabled  -->
+    <string name="card_title_unconditionalCF">Le renvoi d\'appel inconditionnel est activé</string>
+    <!-- In-call screen: status label for Conditional Call Forwarding enabled  -->
+    <string name="card_title_conditionalCF">Le renvoi d\'appel conditionnel est activé</string>
+    <!-- In-call screen: status label for a forwarded MO call  -->
+    <string name="card_title_MOcall_forwarding">Appel sortant transféré</string>
+    <!-- In-call screen: status label when Call waiting is enabled on remote party  -->
+    <string name="card_title_calliswaiting">Appel en attente</string>
+    <!-- In-call screen: status label for MO call, when the caller & callee both
+            belng to a CUG group -->
+    <string name="card_title_cugcall">Appel de groupe d\'utilisateurs fermé</string>
+    <!-- In-call screen: status label when MO calls are barred -->
+    <string name="card_title_outgoing_barred">Appels sortants interdits</string>
+    <!-- In-call screen: status label for MO calls, when incoming calls are barred
+            at remote party -->
+    <string name="card_title_incoming_barred">Appels entrants interdits</string>
+    <!-- In-call screen: status label for MO calls when CLIR Suppression is rejected -->
+    <string name="card_title_clir_suppression_rejected">Suppression de l\'identification de l\'appelant rejetée</string>
+    <!-- In-call screen: status label when MO call gets deflected to another party -->
+    <string name="card_title_call_deflected">Appel dévié</string>
+    <!-- In-call screen: status label for incoming call being forwarded to other remote party  -->
+    <string name="card_title_MTcall_forwarding">Appel entrant transféré</string>
+    <!-- In-call screen: status label for incoming call forwarded from other remote party -->
+    <string name="card_title_forwarded_MTcall">Appel entrant transféré</string>
+    <!-- In-call screen: status label for incoming call which is answered & then put on hold  -->
+    <string name="card_title_callonhold">Mettre en attente</string>
+    <!-- In-call screen: status label for incoming call put on hold & then retreived back -->
+    <string name="card_title_callretrieved">Appel récupéré</string>
+    <!-- In-call screen: status label for incoming call which is part of MultiParty Call -->
+    <string name="card_title_multipartycall">Conférence téléphonique</string>
+    <!-- In-call screen: status label for incoming call which is answered,
+            put on hold & then released -->
+    <string name="card_title_callonhold_released">Appel démarré</string>
+    <!-- In-call screen: status label for incoming call forward check received -->
+    <string name="card_title_forwardcheckreceived">Vérification de transfert reçu</string>
+    <!-- In-call screen: status label for incoming call connecting through ECT -->
+    <string name="card_title_callconnectingect">Appel via le transfert d\'appel explicite en cours de connexion</string>
+    <!-- In-call screen: status label for incoming call connected through ECT -->
+    <string name="card_title_callconnectedect">Appel via le transfert d\'appel explicite connecté</string>
+    <!-- In-call screen: status label for incoming call is a deflected call -->
+    <string name="card_title_deflectedcall">Appel dévié</string>
+
+    <!-- The error message to show if the server reported an error while attempting to change the voicemail PIN -->
+    <string name="ut_not_support">UT non disponible</string>
+    <string name="ct_ut_not_support_close_4glte">L\'UT n\'est pas disponible, veuillez désactiver le mode 4G LTE amélioré dans les paramètres</string>
+
+</resources>
