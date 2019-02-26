@@ -335,4 +335,11 @@
     <style name="ShortcutsHintTextAppearance" parent="@style/HeadlineTextAppearance">
         <item name="android:textSize">16sp</item>
     </style>
+
+    <style name="cfut_value">
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:singleLine">true</item>
+    </style>
 </resources>

@@ -74,12 +74,14 @@ public class ConferenceParticipantConnection extends Connection {
             address = getParticipantAddress(participant.getHandle(), countryIso);
         }
         setAddress(address, presentation);
+        setVideoState(parentConnection.getVideoState());
         setCallerDisplayName(participant.getDisplayName(), presentation);
 
         mUserEntity = participant.getHandle();
         mEndpoint = participant.getEndpoint();
 
         setCapabilities();
+        updateState(participant.getState());
     }
 
     /**

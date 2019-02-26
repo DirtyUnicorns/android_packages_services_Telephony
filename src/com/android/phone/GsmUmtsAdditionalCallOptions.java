@@ -1,6 +1,8 @@
 package com.android.phone;
 
 import android.app.ActionBar;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.preference.Preference;
@@ -81,6 +83,12 @@ public class GsmUmtsAdditionalCallOptions extends TimeConsumingPreferenceActivit
             if (icicle == null) {
                 if (DBG) Log.d(LOG_TAG, "start to init ");
                 doPreferenceInit(mInitIndex);
+                if (isUtEnabledToDisableClir()) {
+                    mCLIRButton.setSummary(R.string.sum_default_caller_id);
+                    mCWButton.init(this, false, mPhone);
+                } else {
+                    mCLIRButton.init(this, false, mPhone);
+                }
             } else {
                 if (DBG) Log.d(LOG_TAG, "restore stored states");
                 mInitIndex = mPreferences.size();
@@ -88,7 +96,11 @@ public class GsmUmtsAdditionalCallOptions extends TimeConsumingPreferenceActivit
                     mCWButton.init(this, true, mPhone);
                 }
                 if (mShowCLIRButton) {
-                    mCLIRButton.init(this, true, mPhone);
+                    if (isUtEnabledToDisableClir()) {
+                        mCLIRButton.setSummary(R.string.sum_default_caller_id);
+                    } else {
+                        mCLIRButton.init(this, true, mPhone);
+                    }
                     int[] clirArray = icicle.getIntArray(mCLIRButton.getKey());
                     if (clirArray != null) {
                         if (DBG) {
@@ -110,6 +122,16 @@ public class GsmUmtsAdditionalCallOptions extends TimeConsumingPreferenceActivit
         }
     }
 
+    private boolean isUtEnabledToDisableClir() {
+        boolean skipClir = false;
+        CarrierConfigManager configManager = (CarrierConfigManager)
+            getSystemService(Context.CARRIER_CONFIG_SERVICE);
+        PersistableBundle pb = configManager.getConfigForSubId(mPhone.getSubId());
+        if (pb != null) {
+            skipClir = pb.getBoolean("config_disable_clir_over_ut");
+        }
+        return mPhone.isUtEnabled() && skipClir;
+    }
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);

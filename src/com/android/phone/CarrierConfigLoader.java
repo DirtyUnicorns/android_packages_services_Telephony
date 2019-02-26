@@ -538,10 +538,7 @@ public class CarrierConfigLoader extends ICarrierConfigLoader.Stub {
         intent.addFlags(Intent.FLAG_RECEIVER_REGISTERED_ONLY_BEFORE_BOOT |
                 Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND);
         // Include subId extra only if SIM records are loaded
-        TelephonyManager telephonyManager = TelephonyManager.from(mContext);
-        int simApplicationState = telephonyManager.getSimApplicationState();
-        if (addSubIdExtra && (simApplicationState != TelephonyManager.SIM_STATE_UNKNOWN
-                && simApplicationState != TelephonyManager.SIM_STATE_NOT_READY)) {
+        if (addSubIdExtra) {
             SubscriptionManager.putPhoneIdAndSubIdExtra(intent, phoneId);
         }
         intent.putExtra(CarrierConfigManager.EXTRA_SLOT_INDEX, phoneId);
@@ -569,6 +566,7 @@ public class CarrierConfigLoader extends ICarrierConfigLoader.Stub {
         String imsi = "";
         String gid1 = "";
         String gid2 = "";
+        String iccid = "";
         String spn = TelephonyManager.from(mContext).getSimOperatorNameForPhone(phoneId);
         String simOperator = TelephonyManager.from(mContext).getSimOperatorNumericForPhone(phoneId);
         // A valid simOperator should be 5 or 6 digits, depending on the length of the MNC.
@@ -581,9 +579,10 @@ public class CarrierConfigLoader extends ICarrierConfigLoader.Stub {
             imsi = phone.getSubscriberId();
             gid1 = phone.getGroupIdLevel1();
             gid2 = phone.getGroupIdLevel2();
+            iccid = phone.getIccSerialNumber();
         }
 
-        return new CarrierIdentifier(mcc, mnc, spn, imsi, gid1, gid2);
+        return new CarrierIdentifier(mcc, mnc, spn, imsi, gid1, gid2, iccid);
     }
 
     /** Returns the package name of a priveleged carrier app, or null if there is none. */
