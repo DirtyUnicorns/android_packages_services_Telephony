@@ -96,6 +96,9 @@
     <!-- For Vendor Debugging in Telephony -->
     <protected-broadcast android:name="android.telephony.action.ANOMALY_REPORTED" />
 
+    <!-- Codeaurora -->
+    <protected-broadcast android:name="org.codeaurora.intent.action.ACTION_RADIO_CAPABILITY_UPDATED" />
+
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
