@@ -430,7 +430,7 @@ public class MobileNetworkSettings extends Activity  {
         CdmaOptions mCdmaOptions;
 
         private Preference mClickedPreference;
-        private boolean mShow4GForLTE = false;
+        private boolean mShow4GForLTE;
         private boolean mIsGlobalCdma;
         private boolean mOnlyAutoSelectInHomeNW;
         private boolean mUnavailable;
@@ -1249,8 +1249,8 @@ public class MobileNetworkSettings extends Activity  {
         void updateEnabledNetworksEntries() {
             final int phoneType = mTelephonyManager.getPhoneType();
             final PersistableBundle carrierConfig = mCarrierConfigManager.getConfigForSubId(mSubId);
-            mShow4GForLTE = carrierConfig != null ? carrierConfig.getBoolean(
-                    CarrierConfigManager.KEY_SHOW_4G_FOR_LTE_DATA_ICON_BOOL) : false;
+            mShow4GForLTE = Settings.System.getIntForUser(getContext().getContentResolver(),
+                                Settings.System.SHOW_LTE_FOURGEE, 0, UserHandle.USER_CURRENT) == 1;
             if (phoneType == PhoneConstants.PHONE_TYPE_CDMA) {
                 final int lteForced = android.provider.Settings.Global.getInt(
                         getContext().getContentResolver(),
